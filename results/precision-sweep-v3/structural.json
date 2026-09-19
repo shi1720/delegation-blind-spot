@@ -1,0 +1,1658 @@
+[
+  {
+    "analytic_width": 0.1,
+    "calibration_per_class": 40,
+    "cohort": "positive",
+    "eta": 0,
+    "lower": -0.04,
+    "lower_population": [
+      0.0,
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "max_constraint_residual": 0.0,
+    "true_contrast": 0.033,
+    "upper": 0.06,
+    "upper_population": [
+      1.0,
+      -0.0,
+      0.0,
+      -0.0
+    ],
+    "width": 0.1
+  },
+  {
+    "analytic_width": 0.1,
+    "calibration_per_class": 40,
+    "cohort": "negative",
+    "eta": 0,
+    "lower": -0.04,
+    "lower_population": [
+      0.0,
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "max_constraint_residual": 0.0,
+    "true_contrast": -0.017,
+    "upper": 0.06,
+    "upper_population": [
+      1.0,
+      -0.0,
+      0.0,
+      -0.0
+    ],
+    "width": 0.1
+  },
+  {
+    "analytic_width": 0.1,
+    "calibration_per_class": 40,
+    "cohort": "near",
+    "eta": 0,
+    "lower": -0.04,
+    "lower_population": [
+      0.0,
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "max_constraint_residual": 0.0,
+    "true_contrast": 0.015399999999999995,
+    "upper": 0.06,
+    "upper_population": [
+      1.0,
+      -0.0,
+      0.0,
+      -0.0
+    ],
+    "width": 0.1
+  },
+  {
+    "analytic_width": 0.1,
+    "calibration_per_class": 160,
+    "cohort": "positive",
+    "eta": 0,
+    "lower": -0.04,
+    "lower_population": [
+      0.0,
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "max_constraint_residual": 0.0,
+    "true_contrast": 0.033,
+    "upper": 0.06,
+    "upper_population": [
+      1.0,
+      -0.0,
+      0.0,
+      -0.0
+    ],
+    "width": 0.1
+  },
+  {
+    "analytic_width": 0.1,
+    "calibration_per_class": 160,
+    "cohort": "negative",
+    "eta": 0,
+    "lower": -0.04,
+    "lower_population": [
+      0.0,
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "max_constraint_residual": 0.0,
+    "true_contrast": -0.017,
+    "upper": 0.06,
+    "upper_population": [
+      1.0,
+      -0.0,
+      0.0,
+      -0.0
+    ],
+    "width": 0.1
+  },
+  {
+    "analytic_width": 0.1,
+    "calibration_per_class": 160,
+    "cohort": "near",
+    "eta": 0,
+    "lower": -0.04,
+    "lower_population": [
+      0.0,
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "max_constraint_residual": 0.0,
+    "true_contrast": 0.015399999999999995,
+    "upper": 0.06,
+    "upper_population": [
+      1.0,
+      -0.0,
+      0.0,
+      -0.0
+    ],
+    "width": 0.1
+  },
+  {
+    "analytic_width": 0.1,
+    "calibration_per_class": 640,
+    "cohort": "positive",
+    "eta": 0,
+    "lower": -0.04,
+    "lower_population": [
+      0.0,
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "max_constraint_residual": 0.0,
+    "true_contrast": 0.033,
+    "upper": 0.06,
+    "upper_population": [
+      1.0,
+      -0.0,
+      0.0,
+      -0.0
+    ],
+    "width": 0.1
+  },
+  {
+    "analytic_width": 0.1,
+    "calibration_per_class": 640,
+    "cohort": "negative",
+    "eta": 0,
+    "lower": -0.04,
+    "lower_population": [
+      0.0,
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "max_constraint_residual": 0.0,
+    "true_contrast": -0.017,
+    "upper": 0.06,
+    "upper_population": [
+      1.0,
+      -0.0,
+      0.0,
+      -0.0
+    ],
+    "width": 0.1
+  },
+  {
+    "analytic_width": 0.1,
+    "calibration_per_class": 640,
+    "cohort": "near",
+    "eta": 0,
+    "lower": -0.04,
+    "lower_population": [
+      0.0,
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "max_constraint_residual": 0.0,
+    "true_contrast": 0.015399999999999995,
+    "upper": 0.06,
+    "upper_population": [
+      1.0,
+      -0.0,
+      0.0,
+      -0.0
+    ],
+    "width": 0.1
+  },
+  {
+    "analytic_width": 0.1,
+    "calibration_per_class": 2560,
+    "cohort": "positive",
+    "eta": 0,
+    "lower": -0.04,
+    "lower_population": [
+      0.0,
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "max_constraint_residual": 0.0,
+    "true_contrast": 0.033,
+    "upper": 0.06,
+    "upper_population": [
+      1.0,
+      -0.0,
+      0.0,
+      -0.0
+    ],
+    "width": 0.1
+  },
+  {
+    "analytic_width": 0.1,
+    "calibration_per_class": 2560,
+    "cohort": "negative",
+    "eta": 0,
+    "lower": -0.04,
+    "lower_population": [
+      0.0,
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "max_constraint_residual": 0.0,
+    "true_contrast": -0.017,
+    "upper": 0.06,
+    "upper_population": [
+      1.0,
+      -0.0,
+      0.0,
+      -0.0
+    ],
+    "width": 0.1
+  },
+  {
+    "analytic_width": 0.1,
+    "calibration_per_class": 2560,
+    "cohort": "near",
+    "eta": 0,
+    "lower": -0.04,
+    "lower_population": [
+      0.0,
+      -0.0,
+      1.0,
+      -0.0
+    ],
+    "max_constraint_residual": 0.0,
+    "true_contrast": 0.015399999999999995,
+    "upper": 0.06,
+    "upper_population": [
+      1.0,
+      -0.0,
+      0.0,
+      -0.0
+    ],
+    "width": 0.1
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 40,
+    "cohort": "positive",
+    "eta": 0.01,
+    "lower": 0.03299999999999973,
+    "lower_population": [
+      0.6499999999999964,
+      0.1000000000000012,
+      0.1500000000000012,
+      0.10000000000000123
+    ],
+    "max_constraint_residual": 5.551115123125783e-17,
+    "true_contrast": 0.033,
+    "upper": 0.03299999999999973,
+    "upper_population": [
+      0.6499999999999964,
+      0.1000000000000012,
+      0.1500000000000012,
+      0.10000000000000123
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 40,
+    "cohort": "negative",
+    "eta": 0.01,
+    "lower": -0.017000000000000116,
+    "lower_population": [
+      0.14999999999999844,
+      0.10000000000000048,
+      0.6500000000000005,
+      0.1000000000000006
+    ],
+    "max_constraint_residual": 5.551115123125783e-17,
+    "true_contrast": -0.017,
+    "upper": -0.017000000000000116,
+    "upper_population": [
+      0.14999999999999844,
+      0.10000000000000048,
+      0.6500000000000005,
+      0.1000000000000006
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 40,
+    "cohort": "near",
+    "eta": 0.01,
+    "lower": 0.015399999999999171,
+    "lower_population": [
+      0.4199999999999891,
+      0.18000000000000324,
+      0.27000000000000435,
+      0.13000000000000325
+    ],
+    "max_constraint_residual": 1.6653345369377348e-16,
+    "true_contrast": 0.015399999999999995,
+    "upper": 0.015399999999999171,
+    "upper_population": [
+      0.4199999999999891,
+      0.18000000000000324,
+      0.27000000000000435,
+      0.13000000000000325
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 160,
+    "cohort": "positive",
+    "eta": 0.01,
+    "lower": 0.03299999999999973,
+    "lower_population": [
+      0.6499999999999964,
+      0.1000000000000012,
+      0.1500000000000012,
+      0.10000000000000123
+    ],
+    "max_constraint_residual": 5.551115123125783e-17,
+    "true_contrast": 0.033,
+    "upper": 0.03299999999999973,
+    "upper_population": [
+      0.6499999999999964,
+      0.1000000000000012,
+      0.1500000000000012,
+      0.10000000000000123
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 160,
+    "cohort": "negative",
+    "eta": 0.01,
+    "lower": -0.017000000000000116,
+    "lower_population": [
+      0.14999999999999844,
+      0.10000000000000048,
+      0.6500000000000005,
+      0.1000000000000006
+    ],
+    "max_constraint_residual": 5.551115123125783e-17,
+    "true_contrast": -0.017,
+    "upper": -0.017000000000000116,
+    "upper_population": [
+      0.14999999999999844,
+      0.10000000000000048,
+      0.6500000000000005,
+      0.1000000000000006
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 160,
+    "cohort": "near",
+    "eta": 0.01,
+    "lower": 0.015399999999999171,
+    "lower_population": [
+      0.4199999999999891,
+      0.18000000000000324,
+      0.27000000000000435,
+      0.13000000000000325
+    ],
+    "max_constraint_residual": 1.6653345369377348e-16,
+    "true_contrast": 0.015399999999999995,
+    "upper": 0.015399999999999171,
+    "upper_population": [
+      0.4199999999999891,
+      0.18000000000000324,
+      0.27000000000000435,
+      0.13000000000000325
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 640,
+    "cohort": "positive",
+    "eta": 0.01,
+    "lower": 0.03299999999999973,
+    "lower_population": [
+      0.6499999999999964,
+      0.1000000000000012,
+      0.1500000000000012,
+      0.10000000000000123
+    ],
+    "max_constraint_residual": 5.551115123125783e-17,
+    "true_contrast": 0.033,
+    "upper": 0.03299999999999973,
+    "upper_population": [
+      0.6499999999999964,
+      0.1000000000000012,
+      0.1500000000000012,
+      0.10000000000000123
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 640,
+    "cohort": "negative",
+    "eta": 0.01,
+    "lower": -0.017000000000000116,
+    "lower_population": [
+      0.14999999999999844,
+      0.10000000000000048,
+      0.6500000000000005,
+      0.1000000000000006
+    ],
+    "max_constraint_residual": 5.551115123125783e-17,
+    "true_contrast": -0.017,
+    "upper": -0.017000000000000116,
+    "upper_population": [
+      0.14999999999999844,
+      0.10000000000000048,
+      0.6500000000000005,
+      0.1000000000000006
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 640,
+    "cohort": "near",
+    "eta": 0.01,
+    "lower": 0.015399999999999171,
+    "lower_population": [
+      0.4199999999999891,
+      0.18000000000000324,
+      0.27000000000000435,
+      0.13000000000000325
+    ],
+    "max_constraint_residual": 1.6653345369377348e-16,
+    "true_contrast": 0.015399999999999995,
+    "upper": 0.015399999999999171,
+    "upper_population": [
+      0.4199999999999891,
+      0.18000000000000324,
+      0.27000000000000435,
+      0.13000000000000325
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 2560,
+    "cohort": "positive",
+    "eta": 0.01,
+    "lower": 0.03299999999999973,
+    "lower_population": [
+      0.6499999999999964,
+      0.1000000000000012,
+      0.1500000000000012,
+      0.10000000000000123
+    ],
+    "max_constraint_residual": 5.551115123125783e-17,
+    "true_contrast": 0.033,
+    "upper": 0.03299999999999973,
+    "upper_population": [
+      0.6499999999999964,
+      0.1000000000000012,
+      0.1500000000000012,
+      0.10000000000000123
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 2560,
+    "cohort": "negative",
+    "eta": 0.01,
+    "lower": -0.017000000000000116,
+    "lower_population": [
+      0.14999999999999844,
+      0.10000000000000048,
+      0.6500000000000005,
+      0.1000000000000006
+    ],
+    "max_constraint_residual": 5.551115123125783e-17,
+    "true_contrast": -0.017,
+    "upper": -0.017000000000000116,
+    "upper_population": [
+      0.14999999999999844,
+      0.10000000000000048,
+      0.6500000000000005,
+      0.1000000000000006
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 2560,
+    "cohort": "near",
+    "eta": 0.01,
+    "lower": 0.015399999999999171,
+    "lower_population": [
+      0.4199999999999891,
+      0.18000000000000324,
+      0.27000000000000435,
+      0.13000000000000325
+    ],
+    "max_constraint_residual": 1.6653345369377348e-16,
+    "true_contrast": 0.015399999999999995,
+    "upper": 0.015399999999999171,
+    "upper_population": [
+      0.4199999999999891,
+      0.18000000000000324,
+      0.27000000000000435,
+      0.13000000000000325
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 40,
+    "cohort": "positive",
+    "eta": 0.03,
+    "lower": 0.03299999999999992,
+    "lower_population": [
+      0.6499999999999992,
+      0.09999999999999984,
+      0.15000000000000085,
+      0.1
+    ],
+    "max_constraint_residual": 1.1102230246251565e-16,
+    "true_contrast": 0.033,
+    "upper": 0.03299999999999992,
+    "upper_population": [
+      0.6499999999999992,
+      0.09999999999999984,
+      0.15000000000000085,
+      0.1
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 40,
+    "cohort": "negative",
+    "eta": 0.03,
+    "lower": -0.017000000000000026,
+    "lower_population": [
+      0.14999999999999936,
+      0.10000000000000042,
+      0.6499999999999996,
+      0.10000000000000059
+    ],
+    "max_constraint_residual": 5.551115123125783e-17,
+    "true_contrast": -0.017,
+    "upper": -0.017000000000000026,
+    "upper_population": [
+      0.14999999999999936,
+      0.10000000000000042,
+      0.6499999999999996,
+      0.10000000000000059
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 40,
+    "cohort": "near",
+    "eta": 0.03,
+    "lower": 0.015399999999999794,
+    "lower_population": [
+      0.419999999999997,
+      0.18000000000000113,
+      0.2700000000000006,
+      0.13000000000000128
+    ],
+    "max_constraint_residual": 1.1102230246251565e-16,
+    "true_contrast": 0.015399999999999995,
+    "upper": 0.015399999999999794,
+    "upper_population": [
+      0.419999999999997,
+      0.18000000000000113,
+      0.2700000000000006,
+      0.13000000000000128
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 160,
+    "cohort": "positive",
+    "eta": 0.03,
+    "lower": 0.03299999999999992,
+    "lower_population": [
+      0.6499999999999992,
+      0.09999999999999984,
+      0.15000000000000085,
+      0.1
+    ],
+    "max_constraint_residual": 1.1102230246251565e-16,
+    "true_contrast": 0.033,
+    "upper": 0.03299999999999992,
+    "upper_population": [
+      0.6499999999999992,
+      0.09999999999999984,
+      0.15000000000000085,
+      0.1
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 160,
+    "cohort": "negative",
+    "eta": 0.03,
+    "lower": -0.017000000000000026,
+    "lower_population": [
+      0.14999999999999936,
+      0.10000000000000042,
+      0.6499999999999996,
+      0.10000000000000059
+    ],
+    "max_constraint_residual": 5.551115123125783e-17,
+    "true_contrast": -0.017,
+    "upper": -0.017000000000000026,
+    "upper_population": [
+      0.14999999999999936,
+      0.10000000000000042,
+      0.6499999999999996,
+      0.10000000000000059
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 160,
+    "cohort": "near",
+    "eta": 0.03,
+    "lower": 0.015399999999999794,
+    "lower_population": [
+      0.419999999999997,
+      0.18000000000000113,
+      0.2700000000000006,
+      0.13000000000000128
+    ],
+    "max_constraint_residual": 1.1102230246251565e-16,
+    "true_contrast": 0.015399999999999995,
+    "upper": 0.015399999999999794,
+    "upper_population": [
+      0.419999999999997,
+      0.18000000000000113,
+      0.2700000000000006,
+      0.13000000000000128
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 640,
+    "cohort": "positive",
+    "eta": 0.03,
+    "lower": 0.03299999999999992,
+    "lower_population": [
+      0.6499999999999992,
+      0.09999999999999984,
+      0.15000000000000085,
+      0.1
+    ],
+    "max_constraint_residual": 1.1102230246251565e-16,
+    "true_contrast": 0.033,
+    "upper": 0.03299999999999992,
+    "upper_population": [
+      0.6499999999999992,
+      0.09999999999999984,
+      0.15000000000000085,
+      0.1
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 640,
+    "cohort": "negative",
+    "eta": 0.03,
+    "lower": -0.017000000000000026,
+    "lower_population": [
+      0.14999999999999936,
+      0.10000000000000042,
+      0.6499999999999996,
+      0.10000000000000059
+    ],
+    "max_constraint_residual": 5.551115123125783e-17,
+    "true_contrast": -0.017,
+    "upper": -0.017000000000000026,
+    "upper_population": [
+      0.14999999999999936,
+      0.10000000000000042,
+      0.6499999999999996,
+      0.10000000000000059
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 640,
+    "cohort": "near",
+    "eta": 0.03,
+    "lower": 0.015399999999999794,
+    "lower_population": [
+      0.419999999999997,
+      0.18000000000000113,
+      0.2700000000000006,
+      0.13000000000000128
+    ],
+    "max_constraint_residual": 1.1102230246251565e-16,
+    "true_contrast": 0.015399999999999995,
+    "upper": 0.015399999999999794,
+    "upper_population": [
+      0.419999999999997,
+      0.18000000000000113,
+      0.2700000000000006,
+      0.13000000000000128
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 2560,
+    "cohort": "positive",
+    "eta": 0.03,
+    "lower": 0.03299999999999992,
+    "lower_population": [
+      0.6499999999999992,
+      0.09999999999999984,
+      0.15000000000000085,
+      0.1
+    ],
+    "max_constraint_residual": 1.1102230246251565e-16,
+    "true_contrast": 0.033,
+    "upper": 0.03299999999999992,
+    "upper_population": [
+      0.6499999999999992,
+      0.09999999999999984,
+      0.15000000000000085,
+      0.1
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 2560,
+    "cohort": "negative",
+    "eta": 0.03,
+    "lower": -0.017000000000000026,
+    "lower_population": [
+      0.14999999999999936,
+      0.10000000000000042,
+      0.6499999999999996,
+      0.10000000000000059
+    ],
+    "max_constraint_residual": 5.551115123125783e-17,
+    "true_contrast": -0.017,
+    "upper": -0.017000000000000026,
+    "upper_population": [
+      0.14999999999999936,
+      0.10000000000000042,
+      0.6499999999999996,
+      0.10000000000000059
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 2560,
+    "cohort": "near",
+    "eta": 0.03,
+    "lower": 0.015399999999999794,
+    "lower_population": [
+      0.419999999999997,
+      0.18000000000000113,
+      0.2700000000000006,
+      0.13000000000000128
+    ],
+    "max_constraint_residual": 1.1102230246251565e-16,
+    "true_contrast": 0.015399999999999995,
+    "upper": 0.015399999999999794,
+    "upper_population": [
+      0.419999999999997,
+      0.18000000000000113,
+      0.2700000000000006,
+      0.13000000000000128
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 40,
+    "cohort": "positive",
+    "eta": 0.1,
+    "lower": 0.03299999999999998,
+    "lower_population": [
+      0.6499999999999998,
+      0.10000000000000007,
+      0.15000000000000008,
+      0.10000000000000009
+    ],
+    "max_constraint_residual": 5.551115123125783e-17,
+    "true_contrast": 0.033,
+    "upper": 0.03299999999999998,
+    "upper_population": [
+      0.6499999999999998,
+      0.10000000000000007,
+      0.15000000000000008,
+      0.10000000000000009
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 40,
+    "cohort": "negative",
+    "eta": 0.1,
+    "lower": -0.017000000000000005,
+    "lower_population": [
+      0.14999999999999997,
+      0.10000000000000006,
+      0.6500000000000002,
+      0.0999999999999997
+    ],
+    "max_constraint_residual": 8.326672684688674e-17,
+    "true_contrast": -0.017,
+    "upper": -0.017000000000000005,
+    "upper_population": [
+      0.14999999999999997,
+      0.10000000000000006,
+      0.6500000000000002,
+      0.0999999999999997
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 40,
+    "cohort": "near",
+    "eta": 0.1,
+    "lower": 0.015399999999999973,
+    "lower_population": [
+      0.4199999999999997,
+      0.17999999999999988,
+      0.2699999999999999,
+      0.13000000000000053
+    ],
+    "max_constraint_residual": 8.326672684688674e-17,
+    "true_contrast": 0.015399999999999995,
+    "upper": 0.015399999999999973,
+    "upper_population": [
+      0.4199999999999997,
+      0.17999999999999988,
+      0.2699999999999999,
+      0.13000000000000053
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 160,
+    "cohort": "positive",
+    "eta": 0.1,
+    "lower": 0.03299999999999998,
+    "lower_population": [
+      0.6499999999999998,
+      0.10000000000000007,
+      0.15000000000000008,
+      0.10000000000000009
+    ],
+    "max_constraint_residual": 5.551115123125783e-17,
+    "true_contrast": 0.033,
+    "upper": 0.03299999999999998,
+    "upper_population": [
+      0.6499999999999998,
+      0.10000000000000007,
+      0.15000000000000008,
+      0.10000000000000009
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 160,
+    "cohort": "negative",
+    "eta": 0.1,
+    "lower": -0.017000000000000005,
+    "lower_population": [
+      0.14999999999999997,
+      0.10000000000000006,
+      0.6500000000000002,
+      0.0999999999999997
+    ],
+    "max_constraint_residual": 8.326672684688674e-17,
+    "true_contrast": -0.017,
+    "upper": -0.017000000000000005,
+    "upper_population": [
+      0.14999999999999997,
+      0.10000000000000006,
+      0.6500000000000002,
+      0.0999999999999997
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 160,
+    "cohort": "near",
+    "eta": 0.1,
+    "lower": 0.015399999999999973,
+    "lower_population": [
+      0.4199999999999997,
+      0.17999999999999988,
+      0.2699999999999999,
+      0.13000000000000053
+    ],
+    "max_constraint_residual": 8.326672684688674e-17,
+    "true_contrast": 0.015399999999999995,
+    "upper": 0.015399999999999973,
+    "upper_population": [
+      0.4199999999999997,
+      0.17999999999999988,
+      0.2699999999999999,
+      0.13000000000000053
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 640,
+    "cohort": "positive",
+    "eta": 0.1,
+    "lower": 0.03299999999999998,
+    "lower_population": [
+      0.6499999999999998,
+      0.10000000000000007,
+      0.15000000000000008,
+      0.10000000000000009
+    ],
+    "max_constraint_residual": 5.551115123125783e-17,
+    "true_contrast": 0.033,
+    "upper": 0.03299999999999998,
+    "upper_population": [
+      0.6499999999999998,
+      0.10000000000000007,
+      0.15000000000000008,
+      0.10000000000000009
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 640,
+    "cohort": "negative",
+    "eta": 0.1,
+    "lower": -0.017000000000000005,
+    "lower_population": [
+      0.14999999999999997,
+      0.10000000000000006,
+      0.6500000000000002,
+      0.0999999999999997
+    ],
+    "max_constraint_residual": 8.326672684688674e-17,
+    "true_contrast": -0.017,
+    "upper": -0.017000000000000005,
+    "upper_population": [
+      0.14999999999999997,
+      0.10000000000000006,
+      0.6500000000000002,
+      0.0999999999999997
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 640,
+    "cohort": "near",
+    "eta": 0.1,
+    "lower": 0.015399999999999973,
+    "lower_population": [
+      0.4199999999999997,
+      0.17999999999999988,
+      0.2699999999999999,
+      0.13000000000000053
+    ],
+    "max_constraint_residual": 8.326672684688674e-17,
+    "true_contrast": 0.015399999999999995,
+    "upper": 0.015399999999999973,
+    "upper_population": [
+      0.4199999999999997,
+      0.17999999999999988,
+      0.2699999999999999,
+      0.13000000000000053
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 2560,
+    "cohort": "positive",
+    "eta": 0.1,
+    "lower": 0.03299999999999998,
+    "lower_population": [
+      0.6499999999999998,
+      0.10000000000000007,
+      0.15000000000000008,
+      0.10000000000000009
+    ],
+    "max_constraint_residual": 5.551115123125783e-17,
+    "true_contrast": 0.033,
+    "upper": 0.03299999999999998,
+    "upper_population": [
+      0.6499999999999998,
+      0.10000000000000007,
+      0.15000000000000008,
+      0.10000000000000009
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 2560,
+    "cohort": "negative",
+    "eta": 0.1,
+    "lower": -0.017000000000000005,
+    "lower_population": [
+      0.14999999999999997,
+      0.10000000000000006,
+      0.6500000000000002,
+      0.0999999999999997
+    ],
+    "max_constraint_residual": 8.326672684688674e-17,
+    "true_contrast": -0.017,
+    "upper": -0.017000000000000005,
+    "upper_population": [
+      0.14999999999999997,
+      0.10000000000000006,
+      0.6500000000000002,
+      0.0999999999999997
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 2560,
+    "cohort": "near",
+    "eta": 0.1,
+    "lower": 0.015399999999999973,
+    "lower_population": [
+      0.4199999999999997,
+      0.17999999999999988,
+      0.2699999999999999,
+      0.13000000000000053
+    ],
+    "max_constraint_residual": 8.326672684688674e-17,
+    "true_contrast": 0.015399999999999995,
+    "upper": 0.015399999999999973,
+    "upper_population": [
+      0.4199999999999997,
+      0.17999999999999988,
+      0.2699999999999999,
+      0.13000000000000053
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 40,
+    "cohort": "positive",
+    "eta": 0.3,
+    "lower": 0.033,
+    "lower_population": [
+      0.65,
+      0.10000000000000003,
+      0.1500000000000001,
+      0.09999999999999984
+    ],
+    "max_constraint_residual": 8.326672684688674e-17,
+    "true_contrast": 0.033,
+    "upper": 0.033,
+    "upper_population": [
+      0.65,
+      0.10000000000000003,
+      0.1500000000000001,
+      0.09999999999999984
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 40,
+    "cohort": "negative",
+    "eta": 0.3,
+    "lower": -0.016999999999999994,
+    "lower_population": [
+      0.1500000000000001,
+      0.10000000000000005,
+      0.6500000000000001,
+      0.09999999999999969
+    ],
+    "max_constraint_residual": 8.326672684688674e-17,
+    "true_contrast": -0.017,
+    "upper": -0.016999999999999994,
+    "upper_population": [
+      0.1500000000000001,
+      0.10000000000000005,
+      0.6500000000000001,
+      0.09999999999999969
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 40,
+    "cohort": "near",
+    "eta": 0.3,
+    "lower": 0.015400000000000006,
+    "lower_population": [
+      0.42000000000000015,
+      0.18,
+      0.27000000000000013,
+      0.12999999999999975
+    ],
+    "max_constraint_residual": 5.551115123125783e-17,
+    "true_contrast": 0.015399999999999995,
+    "upper": 0.015400000000000006,
+    "upper_population": [
+      0.42000000000000015,
+      0.18,
+      0.27000000000000013,
+      0.12999999999999975
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 160,
+    "cohort": "positive",
+    "eta": 0.3,
+    "lower": 0.033,
+    "lower_population": [
+      0.65,
+      0.10000000000000003,
+      0.1500000000000001,
+      0.09999999999999984
+    ],
+    "max_constraint_residual": 8.326672684688674e-17,
+    "true_contrast": 0.033,
+    "upper": 0.033,
+    "upper_population": [
+      0.65,
+      0.10000000000000003,
+      0.1500000000000001,
+      0.09999999999999984
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 160,
+    "cohort": "negative",
+    "eta": 0.3,
+    "lower": -0.016999999999999994,
+    "lower_population": [
+      0.1500000000000001,
+      0.10000000000000005,
+      0.6500000000000001,
+      0.09999999999999969
+    ],
+    "max_constraint_residual": 8.326672684688674e-17,
+    "true_contrast": -0.017,
+    "upper": -0.016999999999999994,
+    "upper_population": [
+      0.1500000000000001,
+      0.10000000000000005,
+      0.6500000000000001,
+      0.09999999999999969
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 160,
+    "cohort": "near",
+    "eta": 0.3,
+    "lower": 0.015400000000000006,
+    "lower_population": [
+      0.42000000000000015,
+      0.18,
+      0.27000000000000013,
+      0.12999999999999975
+    ],
+    "max_constraint_residual": 5.551115123125783e-17,
+    "true_contrast": 0.015399999999999995,
+    "upper": 0.015400000000000006,
+    "upper_population": [
+      0.42000000000000015,
+      0.18,
+      0.27000000000000013,
+      0.12999999999999975
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 640,
+    "cohort": "positive",
+    "eta": 0.3,
+    "lower": 0.033,
+    "lower_population": [
+      0.65,
+      0.10000000000000003,
+      0.1500000000000001,
+      0.09999999999999984
+    ],
+    "max_constraint_residual": 8.326672684688674e-17,
+    "true_contrast": 0.033,
+    "upper": 0.033,
+    "upper_population": [
+      0.65,
+      0.10000000000000003,
+      0.1500000000000001,
+      0.09999999999999984
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 640,
+    "cohort": "negative",
+    "eta": 0.3,
+    "lower": -0.016999999999999994,
+    "lower_population": [
+      0.1500000000000001,
+      0.10000000000000005,
+      0.6500000000000001,
+      0.09999999999999969
+    ],
+    "max_constraint_residual": 8.326672684688674e-17,
+    "true_contrast": -0.017,
+    "upper": -0.016999999999999994,
+    "upper_population": [
+      0.1500000000000001,
+      0.10000000000000005,
+      0.6500000000000001,
+      0.09999999999999969
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 640,
+    "cohort": "near",
+    "eta": 0.3,
+    "lower": 0.015400000000000006,
+    "lower_population": [
+      0.42000000000000015,
+      0.18,
+      0.27000000000000013,
+      0.12999999999999975
+    ],
+    "max_constraint_residual": 5.551115123125783e-17,
+    "true_contrast": 0.015399999999999995,
+    "upper": 0.015400000000000006,
+    "upper_population": [
+      0.42000000000000015,
+      0.18,
+      0.27000000000000013,
+      0.12999999999999975
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 2560,
+    "cohort": "positive",
+    "eta": 0.3,
+    "lower": 0.033,
+    "lower_population": [
+      0.65,
+      0.10000000000000003,
+      0.1500000000000001,
+      0.09999999999999984
+    ],
+    "max_constraint_residual": 8.326672684688674e-17,
+    "true_contrast": 0.033,
+    "upper": 0.033,
+    "upper_population": [
+      0.65,
+      0.10000000000000003,
+      0.1500000000000001,
+      0.09999999999999984
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 2560,
+    "cohort": "negative",
+    "eta": 0.3,
+    "lower": -0.016999999999999994,
+    "lower_population": [
+      0.1500000000000001,
+      0.10000000000000005,
+      0.6500000000000001,
+      0.09999999999999969
+    ],
+    "max_constraint_residual": 8.326672684688674e-17,
+    "true_contrast": -0.017,
+    "upper": -0.016999999999999994,
+    "upper_population": [
+      0.1500000000000001,
+      0.10000000000000005,
+      0.6500000000000001,
+      0.09999999999999969
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 2560,
+    "cohort": "near",
+    "eta": 0.3,
+    "lower": 0.015400000000000006,
+    "lower_population": [
+      0.42000000000000015,
+      0.18,
+      0.27000000000000013,
+      0.12999999999999975
+    ],
+    "max_constraint_residual": 5.551115123125783e-17,
+    "true_contrast": 0.015399999999999995,
+    "upper": 0.015400000000000006,
+    "upper_population": [
+      0.42000000000000015,
+      0.18,
+      0.27000000000000013,
+      0.12999999999999975
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 40,
+    "cohort": "positive",
+    "eta": 1,
+    "lower": 0.033,
+    "lower_population": [
+      0.65,
+      0.1,
+      0.15,
+      0.1
+    ],
+    "max_constraint_residual": 0.0,
+    "true_contrast": 0.033,
+    "upper": 0.033,
+    "upper_population": [
+      0.65,
+      0.1,
+      0.15,
+      0.1
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 40,
+    "cohort": "negative",
+    "eta": 1,
+    "lower": -0.017,
+    "lower_population": [
+      0.15,
+      0.1,
+      0.65,
+      0.1
+    ],
+    "max_constraint_residual": 0.0,
+    "true_contrast": -0.017,
+    "upper": -0.017,
+    "upper_population": [
+      0.15,
+      0.1,
+      0.65,
+      0.1
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 40,
+    "cohort": "near",
+    "eta": 1,
+    "lower": 0.015399999999999995,
+    "lower_population": [
+      0.42,
+      0.18,
+      0.27,
+      0.13
+    ],
+    "max_constraint_residual": 0.0,
+    "true_contrast": 0.015399999999999995,
+    "upper": 0.015399999999999995,
+    "upper_population": [
+      0.42,
+      0.18,
+      0.27,
+      0.13
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 160,
+    "cohort": "positive",
+    "eta": 1,
+    "lower": 0.033,
+    "lower_population": [
+      0.65,
+      0.1,
+      0.15,
+      0.1
+    ],
+    "max_constraint_residual": 0.0,
+    "true_contrast": 0.033,
+    "upper": 0.033,
+    "upper_population": [
+      0.65,
+      0.1,
+      0.15,
+      0.1
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 160,
+    "cohort": "negative",
+    "eta": 1,
+    "lower": -0.017,
+    "lower_population": [
+      0.15,
+      0.1,
+      0.65,
+      0.1
+    ],
+    "max_constraint_residual": 0.0,
+    "true_contrast": -0.017,
+    "upper": -0.017,
+    "upper_population": [
+      0.15,
+      0.1,
+      0.65,
+      0.1
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 160,
+    "cohort": "near",
+    "eta": 1,
+    "lower": 0.015399999999999995,
+    "lower_population": [
+      0.42,
+      0.18,
+      0.27,
+      0.13
+    ],
+    "max_constraint_residual": 0.0,
+    "true_contrast": 0.015399999999999995,
+    "upper": 0.015399999999999995,
+    "upper_population": [
+      0.42,
+      0.18,
+      0.27,
+      0.13
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 640,
+    "cohort": "positive",
+    "eta": 1,
+    "lower": 0.033,
+    "lower_population": [
+      0.65,
+      0.1,
+      0.15,
+      0.1
+    ],
+    "max_constraint_residual": 0.0,
+    "true_contrast": 0.033,
+    "upper": 0.033,
+    "upper_population": [
+      0.65,
+      0.1,
+      0.15,
+      0.1
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 640,
+    "cohort": "negative",
+    "eta": 1,
+    "lower": -0.017,
+    "lower_population": [
+      0.15,
+      0.1,
+      0.65,
+      0.1
+    ],
+    "max_constraint_residual": 0.0,
+    "true_contrast": -0.017,
+    "upper": -0.017,
+    "upper_population": [
+      0.15,
+      0.1,
+      0.65,
+      0.1
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 640,
+    "cohort": "near",
+    "eta": 1,
+    "lower": 0.015399999999999995,
+    "lower_population": [
+      0.42,
+      0.18,
+      0.27,
+      0.13
+    ],
+    "max_constraint_residual": 0.0,
+    "true_contrast": 0.015399999999999995,
+    "upper": 0.015399999999999995,
+    "upper_population": [
+      0.42,
+      0.18,
+      0.27,
+      0.13
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 2560,
+    "cohort": "positive",
+    "eta": 1,
+    "lower": 0.033,
+    "lower_population": [
+      0.65,
+      0.1,
+      0.15,
+      0.1
+    ],
+    "max_constraint_residual": 0.0,
+    "true_contrast": 0.033,
+    "upper": 0.033,
+    "upper_population": [
+      0.65,
+      0.1,
+      0.15,
+      0.1
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 2560,
+    "cohort": "negative",
+    "eta": 1,
+    "lower": -0.017,
+    "lower_population": [
+      0.15,
+      0.1,
+      0.65,
+      0.1
+    ],
+    "max_constraint_residual": 0.0,
+    "true_contrast": -0.017,
+    "upper": -0.017,
+    "upper_population": [
+      0.15,
+      0.1,
+      0.65,
+      0.1
+    ],
+    "width": 0.0
+  },
+  {
+    "analytic_width": 0.0,
+    "calibration_per_class": 2560,
+    "cohort": "near",
+    "eta": 1,
+    "lower": 0.015399999999999995,
+    "lower_population": [
+      0.42,
+      0.18,
+      0.27,
+      0.13
+    ],
+    "max_constraint_residual": 0.0,
+    "true_contrast": 0.015399999999999995,
+    "upper": 0.015399999999999995,
+    "upper_population": [
+      0.42,
+      0.18,
+      0.27,
+      0.13
+    ],
+    "width": 0.0
+  }
+]

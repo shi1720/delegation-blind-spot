@@ -1,3 +1,3 @@
 """Research instruments for decision-specific measurement of delegated choices."""
 
-__version__ = "0.2.0"
+__version__ = "0.3.0"

@@ -1,0 +1,85 @@
+{
+  "archive_note": "replicates.csv.gz is a lossless gzip archive of replicates.csv with mtime zero; produced after simulation for repository distribution.",
+  "finished_utc": "2026-09-19T19:37:51.959274+00:00",
+  "independent_replicates": 14400,
+  "method_evaluations": 43200,
+  "numpy": "1.26.4",
+  "observations": "controlled multinomial draws, not LLM calls or people",
+  "outputs_sha256": {
+    "precision-sweep.pdf": "6c794dff6a1fc895e6540817c9052588771684db6c4bb1030b7af8d667179e4e",
+    "precision-sweep.png": "67725180a19fb875604c32a1027f8b296a73d9005f89cff2e326ee79672116e2",
+    "precision-sweep.svg": "e7e5b123bf705b3559fb5b4757d39ecc4c8978e2238da897479f2704aa6df546",
+    "replicates.csv": "0e3ca1a114c48f728b7d15990768aba26d20c70415ce37419735954987d63584",
+    "replicates.csv.gz": "64e1411c3db68b44ee46d2b3a44d07f208eb43fb1c72762de69765cee6ccd790",
+    "structural.json": "c69f63a3aac6d794c15e4cacf48e9ebb2543a133bfe83946b959d4e79238e870",
+    "summary.csv": "fade12e570c528d82e4b9c706492e56c497a0ca27e909bb0fca0b377f9762afe"
+  },
+  "plan": {
+    "alpha_channel": 0.02,
+    "alpha_field": 0.02,
+    "calibration_per_class": [
+      40,
+      160,
+      640,
+      2560
+    ],
+    "contrast": [
+      0.06,
+      0.02,
+      -0.04,
+      -0.02
+    ],
+    "decision_tolerance": 1e-08,
+    "design": "Controlled multinomial precision and identification sweep; synthetic simulation only",
+    "etas": [
+      0,
+      0.01,
+      0.03,
+      0.1,
+      0.3,
+      1
+    ],
+    "failure_policy": "Infeasible or invalid intervals retained in unconditional coverage and resolution denominators; interval width quantiles conditional on feasibility. Distinguish wrong resolutions from all unresolved or failed cases.",
+    "field_multiplier": 2,
+    "methods": [
+      "field_only",
+      "calibration_only",
+      "joint"
+    ],
+    "populations": {
+      "near": [
+        0.42,
+        0.18,
+        0.27,
+        0.13
+      ],
+      "negative": [
+        0.15,
+        0.1,
+        0.65,
+        0.1
+      ],
+      "positive": [
+        0.65,
+        0.1,
+        0.15,
+        0.1
+      ]
+    },
+    "replicates_per_cell": 200,
+    "sampling": "Independent multinomial calibration columns and independent multinomial field counts in every cell and replicate. Methods within a replicate share samples.",
+    "scope": "No API calls, model responses, human participants, or customer observations. Population names are inherited labels; near is not an assertion of zero contrast.",
+    "seed": 920260320
+  },
+  "plan_sha256": "84acfad40223d95a654b73122d655ceb9fda07359819bb6546580c40ce107b96",
+  "python": "3.9.6",
+  "scipy": "1.13.1",
+  "scope": "No API calls, model responses, human participants, or customer observations. Population names are inherited labels; near is not an assertion of zero contrast.",
+  "source_sha256": {
+    "experiments/v3/precision_sweep.py": "8c7c78d14a9cff05c4cd4d4600b13b63bb82eb66690baa210408dfdf6ea2d15a",
+    "src/delegation_blind_spot/identification.py": "34ca9dea09600858bbac25c0720b7a9bb9fbc3eac8e85fc002ffc4dc9cec4755"
+  },
+  "started_utc": "2026-09-19T19:35:44.421687+00:00",
+  "status": "complete",
+  "summary_rows": 216
+}

@@ -1,0 +1,25 @@
+{
+  "test_data_only": true,
+  "browser": "151.0.7922.34",
+  "cases": [
+    {
+      "viewport": "desktop",
+      "conditions_checked": 72,
+      "keyboard_navigation": true,
+      "reset": true,
+      "no_horizontal_overflow": true,
+      "no_evaluation_truth": true
+    },
+    {
+      "viewport": "mobile",
+      "conditions_checked": 72,
+      "keyboard_navigation": true,
+      "reset": true,
+      "no_horizontal_overflow": true,
+      "no_evaluation_truth": true
+    }
+  ],
+  "network_requests": [],
+  "page_errors": [],
+  "console_errors": []
+}

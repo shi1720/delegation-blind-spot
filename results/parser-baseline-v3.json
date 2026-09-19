@@ -1,0 +1,614 @@
+{
+  "field_observations": 720,
+  "plan": {
+    "alpha": 0.04,
+    "calibration_observations_used": 0,
+    "coverage_scope": "Each method has at least96% marginal coverage under its fixed-design iid sampling assumptions. They are reported separately, not intersected. No adjustment for choosing this follow-up after viewing earlier results or for reuse of original field draws.",
+    "design": "Exploratory offline analysis of the already selected receipt field subset.",
+    "measurement": "Deterministic argmax of the four explicitly supplied weights; check membership in the published synthetic profile taxonomy.",
+    "methods": [
+      "known_identity_channel_with_multinomial_CP",
+      "direct_bounded_contrast_Hoeffding"
+    ],
+    "models_or_human_participants": 0,
+    "resource_scope": "Same field observation count as receipts. Does not equalize privacy, elicitation burden or other costs.",
+    "selection": "Use every field task in the frozen receipt subset, with no outcome-dependent filtering.",
+    "target": "Original known finite-bank synthetic class contrasts, held fixed."
+  },
+  "reports": [
+    {
+      "api_requests": 0,
+      "calibration_observations_used": 0,
+      "class_contrasts": [
+        0.050002319335935116,
+        -0.0050474853515621474,
+        -0.037375976562498255,
+        0.0003535156249999995
+      ],
+      "class_counts": [
+        41,
+        10,
+        14,
+        15
+      ],
+      "cohort": "near",
+      "direct_bounded_contrast_Hoeffding": {
+        "alpha": 0.04,
+        "decision": "capacity",
+        "lower": 0.0048577975550576705,
+        "observation_support": [
+          -0.037375976562498255,
+          0.050002319335935116
+        ],
+        "radius_before_range_intersection": 0.013662943716914112,
+        "upper": 0.032183684988885894
+      },
+      "domain": "cloud",
+      "evaluation_only": {
+        "direct_bounded_contrast_Hoeffding": {
+          "contains_target": true,
+          "wrong_decisive": false
+        },
+        "known_identity_channel_with_multinomial_CP": {
+          "contains_target": true,
+          "wrong_decisive": false
+        },
+        "true_contrast": 0.010046870117187032,
+        "true_decision": "capacity"
+      },
+      "field_n": 80,
+      "known_channel": "Identity on four declared supplied-weight classes.",
+      "known_identity_channel_with_multinomial_CP": {
+        "alpha": 0.04,
+        "decision": "capacity",
+        "lower": 0.005564585380060104,
+        "lower_witness_population": [
+          0.3652668954785996,
+          0.2355898209098068,
+          0.3088187280643641,
+          0.09032455554722951
+        ],
+        "max_solver_constraint_violation": 0.0,
+        "upper": 0.029700130487391646,
+        "upper_witness_population": [
+          0.6582062025019997,
+          0.048084028172747074,
+          0.08144381558494143,
+          0.21226595374031185
+        ]
+      },
+      "parser_extraction_count": 80,
+      "point_contrast": 0.018520741271971782
+    },
+    {
+      "api_requests": 0,
+      "calibration_observations_used": 0,
+      "class_contrasts": [
+        0.050002319335935116,
+        -0.0050474853515621474,
+        -0.037375976562498255,
+        0.0003535156249999995
+      ],
+      "class_counts": [
+        15,
+        9,
+        44,
+        12
+      ],
+      "cohort": "negative",
+      "direct_bounded_contrast_Hoeffding": {
+        "alpha": 0.04,
+        "decision": "unresolved",
+        "lower": -0.02535911070910106,
+        "observation_support": [
+          -0.037375976562498255,
+          0.050002319335935116
+        ],
+        "radius_before_range_intersection": 0.013662943716914112,
+        "upper": 0.0019667767247271654
+      },
+      "domain": "cloud",
+      "evaluation_only": {
+        "direct_bounded_contrast_Hoeffding": {
+          "contains_target": true,
+          "wrong_decisive": false
+        },
+        "known_identity_channel_with_multinomial_CP": {
+          "contains_target": true,
+          "wrong_decisive": false
+        },
+        "true_contrast": -0.017263433837889815,
+        "true_decision": "flexibility"
+      },
+      "field_n": 80,
+      "known_channel": "Identity on four declared supplied-weight classes.",
+      "known_identity_channel_with_multinomial_CP": {
+        "alpha": 0.04,
+        "decision": "unresolved",
+        "lower": -0.022124119641288437,
+        "lower_witness_population": [
+          0.09032455554722951,
+          0.15261585644315467,
+          0.692770071628549,
+          0.06428951638106688
+        ],
+        "max_solver_constraint_violation": 0.0,
+        "upper": 0.0010542240468775724,
+        "upper_witness_population": [
+          0.3233319119318103,
+          0.04040801845891056,
+          0.401120968836242,
+          0.23513910077303712
+        ]
+      },
+      "parser_extraction_count": 80,
+      "point_contrast": -0.011696166992186946
+    },
+    {
+      "api_requests": 0,
+      "calibration_observations_used": 0,
+      "class_contrasts": [
+        0.050002319335935116,
+        -0.0050474853515621474,
+        -0.037375976562498255,
+        0.0003535156249999995
+      ],
+      "class_counts": [
+        54,
+        9,
+        7,
+        10
+      ],
+      "cohort": "positive",
+      "direct_bounded_contrast_Hoeffding": {
+        "alpha": 0.04,
+        "decision": "capacity",
+        "lower": 0.016294571236697752,
+        "observation_support": [
+          -0.037375976562498255,
+          0.050002319335935116
+        ],
+        "radius_before_range_intersection": 0.013662943716914112,
+        "upper": 0.043620458670525976
+      },
+      "domain": "cloud",
+      "evaluation_only": {
+        "direct_bounded_contrast_Hoeffding": {
+          "contains_target": true,
+          "wrong_decisive": false
+        },
+        "known_identity_channel_with_multinomial_CP": {
+          "contains_target": true,
+          "wrong_decisive": false
+        },
+        "true_contrast": 0.02642571411132687,
+        "true_decision": "capacity"
+      },
+      "field_n": 80,
+      "known_channel": "Identity on four declared supplied-weight classes.",
+      "known_identity_channel_with_multinomial_CP": {
+        "alpha": 0.04,
+        "decision": "capacity",
+        "lower": 0.017698090999831325,
+        "lower_witness_population": [
+          0.5264406042338179,
+          0.22458204621976985,
+          0.20089332137366517,
+          0.048084028172747074
+        ],
+        "max_solver_constraint_violation": 0.0,
+        "upper": 0.03897377004958168,
+        "upper_witness_population": [
+          0.8021160213724662,
+          0.04040801845891056,
+          0.026122872841241283,
+          0.13135308732738196
+        ]
+      },
+      "parser_extraction_count": 80,
+      "point_contrast": 0.029957514953611864
+    },
+    {
+      "api_requests": 0,
+      "calibration_observations_used": 0,
+      "class_contrasts": [
+        0.05029064941406013,
+        -0.004990844726562165,
+        -0.03626733398437338,
+        0.00047912597656250025
+      ],
+      "class_counts": [
+        34,
+        13,
+        25,
+        8
+      ],
+      "cohort": "near",
+      "direct_bounded_contrast_Hoeffding": {
+        "alpha": 0.04,
+        "decision": "unresolved",
+        "lower": -0.0042577907499381906,
+        "observation_support": [
+          -0.03626733398437338,
+          0.05029064941406013
+        ],
+        "radius_before_range_intersection": 0.013534675210386964,
+        "upper": 0.022811559670835736
+      },
+      "domain": "travel",
+      "evaluation_only": {
+        "direct_bounded_contrast_Hoeffding": {
+          "contains_target": true,
+          "wrong_decisive": false
+        },
+        "known_identity_channel_with_multinomial_CP": {
+          "contains_target": true,
+          "wrong_decisive": false
+        },
+        "true_contrast": 0.010493826904296379,
+        "true_decision": "capacity"
+      },
+      "field_n": 80,
+      "known_channel": "Identity on four declared supplied-weight classes.",
+      "known_identity_channel_with_multinomial_CP": {
+        "alpha": 0.04,
+        "decision": "unresolved",
+        "lower": -0.003478336309977021,
+        "lower_witness_population": [
+          0.2846233286457446,
+          0.22180851577587068,
+          0.46049872088976784,
+          0.03306943468861694
+        ],
+        "max_solver_constraint_violation": 0.0,
+        "upper": 0.02181046390369228,
+        "upper_witness_population": [
+          0.5745428549514904,
+          0.07275949283973773,
+          0.1874881191616736,
+          0.1652095330470983
+        ]
+      },
+      "parser_extraction_count": 80,
+      "point_contrast": 0.009276884460448774
+    },
+    {
+      "api_requests": 0,
+      "calibration_observations_used": 0,
+      "class_contrasts": [
+        0.05029064941406013,
+        -0.004990844726562165,
+        -0.03626733398437338,
+        0.00047912597656250025
+      ],
+      "class_counts": [
+        13,
+        8,
+        51,
+        8
+      ],
+      "cohort": "negative",
+      "direct_bounded_contrast_Hoeffding": {
+        "alpha": 0.04,
+        "decision": "flexibility",
+        "lower": -0.028934041970640187,
+        "observation_support": [
+          -0.03626733398437338,
+          0.05029064941406013
+        ],
+        "radius_before_range_intersection": 0.013534675210386964,
+        "upper": -0.00186469154986626
+      },
+      "domain": "travel",
+      "evaluation_only": {
+        "direct_bounded_contrast_Hoeffding": {
+          "contains_target": true,
+          "wrong_decisive": false
+        },
+        "known_identity_channel_with_multinomial_CP": {
+          "contains_target": true,
+          "wrong_decisive": false
+        },
+        "true_contrast": -0.016481341552733644,
+        "true_decision": "flexibility"
+      },
+      "field_n": 80,
+      "known_channel": "Identity on four declared supplied-weight classes.",
+      "known_identity_channel_with_multinomial_CP": {
+        "alpha": 0.04,
+        "decision": "flexibility",
+        "lower": -0.02488027221290002,
+        "lower_witness_population": [
+          0.07275949283973773,
+          0.12386179626888094,
+          0.7703092762027645,
+          0.03306943468861694
+        ],
+        "max_solver_constraint_violation": 0.0,
+        "upper": -0.002978405226565305,
+        "upper_witness_population": [
+          0.29412108898179623,
+          0.03306943468861694,
+          0.4878636445673735,
+          0.1849458317622133
+        ]
+      },
+      "parser_extraction_count": 80,
+      "point_contrast": -0.015399366760253224
+    },
+    {
+      "api_requests": 0,
+      "calibration_observations_used": 0,
+      "class_contrasts": [
+        0.05029064941406013,
+        -0.004990844726562165,
+        -0.03626733398437338,
+        0.00047912597656250025
+      ],
+      "class_counts": [
+        56,
+        7,
+        8,
+        9
+      ],
+      "cohort": "positive",
+      "direct_bounded_contrast_Hoeffding": {
+        "alpha": 0.04,
+        "decision": "capacity",
+        "lower": 0.01765924873980688,
+        "observation_support": [
+          -0.03626733398437338,
+          0.05029064941406013
+        ],
+        "radius_before_range_intersection": 0.013534675210386964,
+        "upper": 0.044728599160580806
+      },
+      "domain": "travel",
+      "evaluation_only": {
+        "direct_bounded_contrast_Hoeffding": {
+          "contains_target": true,
+          "wrong_decisive": false
+        },
+        "known_identity_channel_with_multinomial_CP": {
+          "contains_target": true,
+          "wrong_decisive": false
+        },
+        "true_contrast": 0.026797650146483117,
+        "true_decision": "capacity"
+      },
+      "field_n": 80,
+      "known_channel": "Identity on four declared supplied-weight classes.",
+      "known_identity_channel_with_multinomial_CP": {
+        "alpha": 0.04,
+        "decision": "capacity",
+        "lower": 0.01898979924225147,
+        "lower_witness_population": [
+          0.5526676058966326,
+          0.18974278376492962,
+          0.21718159187952726,
+          0.04040801845891056
+        ],
+        "max_solver_constraint_violation": 0.0,
+        "upper": 0.04010593374023889,
+        "upper_witness_population": [
+          0.8227992428688187,
+          0.026122872841241283,
+          0.03306943468861694,
+          0.11800844960132309
+        ]
+      },
+      "parser_extraction_count": 80,
+      "point_contrast": 0.031193923950193846
+    },
+    {
+      "api_requests": 0,
+      "calibration_observations_used": 0,
+      "class_contrasts": [
+        0.05003320312499751,
+        -0.004854125976562168,
+        -0.03764270019531078,
+        0.00041101074218749984
+      ],
+      "class_counts": [
+        37,
+        20,
+        14,
+        9
+      ],
+      "cohort": "near",
+      "direct_bounded_contrast_Hoeffding": {
+        "alpha": 0.04,
+        "decision": "capacity",
+        "lower": 0.001676111899806567,
+        "observation_support": [
+          -0.03764270019531078,
+          0.05003320312499751
+        ],
+        "radius_before_range_intersection": 0.01370947922568095,
+        "upper": 0.029095070351168466
+      },
+      "domain": "workflow",
+      "evaluation_only": {
+        "direct_bounded_contrast_Hoeffding": {
+          "contains_target": true,
+          "wrong_decisive": false
+        },
+        "known_identity_channel_with_multinomial_CP": {
+          "contains_target": true,
+          "wrong_decisive": false
+        },
+        "true_contrast": 0.010030104980468225,
+        "true_decision": "capacity"
+      },
+      "field_n": 80,
+      "known_channel": "Identity on four declared supplied-weight classes.",
+      "known_identity_channel_with_multinomial_CP": {
+        "alpha": 0.04,
+        "decision": "capacity",
+        "lower": 0.0027235537373698883,
+        "lower_witness_population": [
+          0.318664654370895,
+          0.3321085991058304,
+          0.3088187280643641,
+          0.04040801845891056
+        ],
+        "max_solver_constraint_violation": 0.0,
+        "upper": 0.026904310365924198,
+        "upper_witness_population": [
+          0.6109165906367602,
+          0.1372199031797028,
+          0.08144381558494143,
+          0.1704196905985956
+        ]
+      },
+      "parser_extraction_count": 80,
+      "point_contrast": 0.015385591125487517
+    },
+    {
+      "api_requests": 0,
+      "calibration_observations_used": 0,
+      "class_contrasts": [
+        0.05003320312499751,
+        -0.004854125976562168,
+        -0.03764270019531078,
+        0.00041101074218749984
+      ],
+      "class_counts": [
+        11,
+        5,
+        55,
+        9
+      ],
+      "cohort": "negative",
+      "direct_bounded_contrast_Hoeffding": {
+        "alpha": 0.04,
+        "decision": "flexibility",
+        "lower": -0.032966414345309,
+        "observation_support": [
+          -0.03764270019531078,
+          0.05003320312499751
+        ],
+        "radius_before_range_intersection": 0.01370947922568095,
+        "upper": -0.0055474558939471
+      },
+      "domain": "workflow",
+      "evaluation_only": {
+        "direct_bounded_contrast_Hoeffding": {
+          "contains_target": true,
+          "wrong_decisive": false
+        },
+        "known_identity_channel_with_multinomial_CP": {
+          "contains_target": true,
+          "wrong_decisive": false
+        },
+        "true_contrast": -0.017407086181639848,
+        "true_decision": "flexibility"
+      },
+      "field_n": 80,
+      "known_channel": "Identity on four declared supplied-weight classes.",
+      "known_identity_channel_with_multinomial_CP": {
+        "alpha": 0.04,
+        "decision": "flexibility",
+        "lower": -0.028205740122531867,
+        "lower_witness_population": [
+          0.05605552813655563,
+          0.09102457256620744,
+          0.8125118808383264,
+          0.04040801845891056
+        ],
+        "max_solver_constraint_violation": 0.0,
+        "upper": -0.007085760256217283,
+        "upper_witness_population": [
+          0.26410623152103946,
+          0.013727184426574475,
+          0.5395012791102323,
+          0.18266530494215386
+        ]
+      },
+      "parser_extraction_count": 80,
+      "point_contrast": -0.01925693511962805
+    },
+    {
+      "api_requests": 0,
+      "calibration_observations_used": 0,
+      "class_contrasts": [
+        0.05003320312499751,
+        -0.004854125976562168,
+        -0.03764270019531078,
+        0.00041101074218749984
+      ],
+      "class_counts": [
+        51,
+        6,
+        14,
+        9
+      ],
+      "cohort": "positive",
+      "direct_bounded_contrast_Hoeffding": {
+        "alpha": 0.04,
+        "decision": "capacity",
+        "lower": 0.011281394492579512,
+        "observation_support": [
+          -0.03764270019531078,
+          0.05003320312499751
+        ],
+        "radius_before_range_intersection": 0.01370947922568095,
+        "upper": 0.03870035294394141
+      },
+      "domain": "workflow",
+      "evaluation_only": {
+        "direct_bounded_contrast_Hoeffding": {
+          "contains_target": true,
+          "wrong_decisive": false
+        },
+        "known_identity_channel_with_multinomial_CP": {
+          "contains_target": true,
+          "wrong_decisive": false
+        },
+        "true_contrast": 0.026430865478514302,
+        "true_decision": "capacity"
+      },
+      "field_n": 80,
+      "known_channel": "Identity on four declared supplied-weight classes.",
+      "known_identity_channel_with_multinomial_CP": {
+        "alpha": 0.04,
+        "decision": "capacity",
+        "lower": 0.012010434395935575,
+        "lower_witness_population": [
+          0.4878636445673735,
+          0.1629096089093518,
+          0.3088187280643641,
+          0.04040801845891056
+        ],
+        "max_solver_constraint_violation": 0.0,
+        "upper": 0.03543279104461716,
+        "upper_witness_population": [
+          0.7703092762027645,
+          0.019641537375942524,
+          0.08144381558494143,
+          0.1286053708363516
+        ]
+      },
+      "parser_extraction_count": 80,
+      "point_contrast": 0.024990873718260462
+    }
+  ],
+  "scope": "Offline deterministic extraction of supplied synthetic preferences. Zero new API calls, zero human participants. Descriptive exploratory comparison only.",
+  "source_outcomes_sha256": "66e2eafcf924f53d97ac80be27bf2e6a5a8c50702920c457aa2ee383ffdf0b7a",
+  "source_sha256": "99bf6ac85d1adaadc2b137a0edbcedd5db8c1470cb4d11ecaabbdcf1d0f857e0",
+  "source_tasks_sha256": "17cf72e65b92a97c80396d11822aedb2a980cebf8093b3db41bc509a88e326b5",
+  "summary": {
+    "direct_bounded_contrast_Hoeffding": {
+      "conditions": 9,
+      "mean_width": 0.027271398768654684,
+      "resolved": 7,
+      "wrong_decisive": 0
+    },
+    "known_identity_channel_with_multinomial_CP": {
+      "conditions": 9,
+      "mean_width": 0.022846606965198867,
+      "resolved": 7,
+      "wrong_decisive": 0
+    }
+  }
+}

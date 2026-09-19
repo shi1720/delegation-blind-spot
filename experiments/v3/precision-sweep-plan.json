@@ -1,0 +1,21 @@
+{
+  "design": "Controlled multinomial precision and identification sweep; synthetic simulation only",
+  "seed": 920260320,
+  "etas": [0, 0.01, 0.03, 0.1, 0.3, 1],
+  "calibration_per_class": [40, 160, 640, 2560],
+  "field_multiplier": 2,
+  "replicates_per_cell": 200,
+  "contrast": [0.06, 0.02, -0.04, -0.02],
+  "populations": {
+    "positive": [0.65, 0.10, 0.15, 0.10],
+    "negative": [0.15, 0.10, 0.65, 0.10],
+    "near": [0.42, 0.18, 0.27, 0.13]
+  },
+  "alpha_channel": 0.02,
+  "alpha_field": 0.02,
+  "methods": ["field_only", "calibration_only", "joint"],
+  "decision_tolerance": 0.00000001,
+  "scope": "No API calls, model responses, human participants, or customer observations. Population names are inherited labels; near is not an assertion of zero contrast.",
+  "sampling": "Independent multinomial calibration columns and independent multinomial field counts in every cell and replicate. Methods within a replicate share samples.",
+  "failure_policy": "Infeasible or invalid intervals retained in unconditional coverage and resolution denominators; interval width quantiles conditional on feasibility. Distinguish wrong resolutions from all unresolved or failed cases."
+}

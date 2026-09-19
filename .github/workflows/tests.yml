@@ -15,4 +15,6 @@ jobs:
       - run: python -m unittest discover -s tests -v
       - run: python experiments/diagnose_channel.py
       - run: node study/test-instrument.cjs
+      - run: node inspector/test-core.cjs
       - run: python scripts/unpack_model_artifacts.py
+      - run: python scripts/reproduce_v3_results.py --verify-only

@@ -1,11 +1,11 @@
 cff-version: 1.2.0
 message: "Cite this research artifact if you use its code, proofs, or recorded model experiments with synthetic profiles. It is a technical preprint artifact, not a peer-reviewed result or human validation."
-title: "The Delegation Blind Spot: Learning What People Want When Agents Make the Choices"
+title: "The Delegation Blind Spot: Auditing Product Decisions from Agent Choices"
 authors:
   - family-names: Gupta
     given-names: Shivam
 type: software
-version: 0.2.0
-date-released: 2026-09-19
+version: 0.3.0
+date-released: 2026-09-20
 license: MIT
 repository-code: "https://github.com/shi1720/delegation-blind-spot"

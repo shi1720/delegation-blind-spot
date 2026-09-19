@@ -1,0 +1,35 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'none'; form-action 'none'; base-uri 'none'">
+<title>Decision Evidence Inspector | Research prototype</title>
+<link rel="stylesheet" href="style.css"><script src="data.js" defer></script><script src="core.js" defer></script><script src="app.js" defer></script>
+</head><body>
+<header><div><p class="eyebrow">THE DELEGATION BLIND SPOT / RESEARCH PROTOTYPE</p><h1>Decision Evidence Inspector</h1><p class="intro">What does this recorded evidence support about a future product change?</p></div><span class="offline">OFFLINE · PRECOMPUTED</span></header>
+<main>
+<div class="scope"><strong>Synthetic preferences and outcomes. Actual model responses. No human participants.</strong> This viewer displays recorded linear-program results. It runs no model, recomputes no bound, and makes no network calls.</div>
+<div class="workspace">
+<aside aria-label="Select recorded condition"><h2>Inspect a condition</h2>
+<label>Model<select id="model"><option value="mini">GPT-5.4 mini</option><option value="nano">GPT-5.4 nano</option></select></label>
+<label>Task framing<select id="domain"><option value="cloud">Cloud plans</option><option value="travel">Travel</option><option value="workflow">Workflow software</option></select></label>
+<label>Synthetic cohort<select id="cohort"><option value="A">Cohort A</option><option value="B">Cohort B</option><option value="C">Cohort C</option></select></label>
+<label>Observation schema<select id="schema"><option value="primary_action">Action / primary</option><option value="primary_context">Context / primary</option><option value="matched_action">Action / matched</option><option value="receipt">Receipt / follow-up</option></select></label>
+<p id="schema-description" class="small"></p>
+<div class="aside-note">Cohort labels do not reveal their true mixture. Evaluation-only population proportions and target values are omitted from this viewer.</div>
+<button id="reset" type="button">Reset selection</button>
+</aside>
+<div class="results">
+<section class="decision-card" aria-labelledby="decision-title"><p class="eyebrow">DECLARED TARGET</p><h2 id="decision-title">Capacity investment versus flexibility investment</h2><p class="small">Difference in best attainable utility over an independent finite bank of constructed menus. Positive favors capacity; negative favors flexibility.</p>
+<div class="status-row"><strong id="decision" aria-live="polite"></strong><span id="interval-text" class="numeric"></span></div>
+<div id="interval-chart" role="img"></div><p id="decision-detail" class="small"></p>
+<div class="sample-grid"><div><span>Calibration records</span><strong id="calibration"></strong></div><div><span>Field records</span><strong id="field"></strong></div><div><span>Retained field failures</span><strong id="failures"></strong></div></div>
+<p id="comparison-warning" class="warning"></p>
+</section>
+<section class="witness-card"><div class="section-top"><h2>Compatible endpoint populations</h2><span class="badge">WITNESSES, NOT ESTIMATES</span></div><p class="small">These mixtures attain the displayed bounds within the recorded channel and frequency uncertainty boxes. They need not share one exact channel, and neither is asserted to be the true population.</p>
+<p class="table-hint">Scroll the table sideways to compare both witness mixtures.</p><div class="table-wrap" tabindex="0" role="region" aria-label="Endpoint witness comparison table, horizontally scrollable on narrow screens"><table><thead><tr><th scope="col">Synthetic intent class</th><th scope="col">Known class contrast d</th><th scope="col">Lower witness</th><th scope="col">Upper witness</th></tr></thead><tbody id="witnesses"></tbody><tfoot><tr><th scope="row">Implied contrast</th><td></td><td id="lower-value"></td><td id="upper-value"></td></tr></tfoot></table></div>
+</section>
+<section class="evidence-card"><h2>Where the evidence comes from</h2><div class="evidence-grid"><div><span class="evidence-type">OBSERVED</span><p>Recorded provider response or failure under the selected logging scheme.</p></div><div><span class="evidence-type">SUPPLIED</span><p>Numerical preference weights and a known synthetic class-level outcome contrast.</p></div><div><span class="evidence-type">INFERRED</span><p>Compatible mixtures and bounds, conditional on the stated measurement model.</p></div><div><span class="evidence-type">CUSTOMER-CONFIRMED</span><p>Not available. No customer confirmed these preferences or outcomes.</p></div></div>
+<details><summary>Assumptions and provenance</summary><p>Finite known intent classes, stable class-conditional channels, and the declared sampling design are required. Coordinate confidence boxes account for calibration and field uncertainty. The known synthetic d is treated as fixed. The primary bound has at least 96% marginal coverage under those assumptions, not simultaneous coverage across conditions.</p><p>The receipt follow-up was selected after the primary result and reuses original field draws. Its exploratory comparisons have no selective-inference correction or guaranteed post-selection coverage. Equal counts do not equalize API cost, privacy exposure, or elicitation burden. A deterministic parser can extract the supplied leading attribute.</p><dl><dt>Model snapshot</dt><dd id="snapshot"></dd><dt>Source analysis</dt><dd id="source"></dd><dt>Source SHA-256</dt><dd id="source-hash"></dd><dt>Recorded maximum constraint violation</dt><dd id="violation"></dd></dl><p>These are stored analysis witnesses; the browser does not independently rerun the solver. The dataset builder checks their simplex sums and implied endpoint contrasts.</p></details>
+</section>
+</div></div>
+<footer>Research prototype for inspecting a fixed computational artifact. No validated commercial decision tool, live AI, human study, or privacy guarantee is implied.</footer>
+</main></body></html>
