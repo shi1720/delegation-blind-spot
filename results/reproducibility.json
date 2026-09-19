@@ -1,0 +1,21 @@
+{
+  "comparison": "Two independent invocations of the frozen pilot configuration",
+  "numerical_outputs": {
+    "replicates.csv": {
+      "sha256": "e33ca3bd43979107b629d385b2bd19ba4f900b91bf185d3a74d1f6ea17a45d30",
+      "byte_identical": true
+    },
+    "summary.csv": {
+      "sha256": "56e7e103beb04889dd146291bbc02218620202923e07ff63d2acce1c5e2a2c9d",
+      "byte_identical": true
+    },
+    "populations.csv": {
+      "sha256": "e351aadeee3c235ad214810ea25807da994feb60ba398342c292fcf227e32eb3",
+      "byte_identical": true
+    },
+    "policies.csv": {
+      "sha256": "7a3caf15927c726aa225bd901a2edc86d7564ee4e6465f544db7f384d3ee1ca8",
+      "byte_identical": true
+    }
+  }
+}

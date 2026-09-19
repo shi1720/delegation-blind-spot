@@ -1,0 +1,17 @@
+{
+  "cost_policy": "Request count and output tokens capped. Dollar cost is not estimated without verified model pricing. Usage is recorded from each response.",
+  "created_unix": 1789816047.0085618,
+  "max_calls": 216,
+  "max_output_tokens": 512,
+  "mode": "controls",
+  "model_requested": "control-only",
+  "python": "3.9.6",
+  "repetitions": 3,
+  "request_sha256": "4e8bdd1f2c5c76d578c056841368665d818f8669e128a5530da16093b6fcbf4e",
+  "scope": "constructed profiles and utilities; instrument validation only",
+  "source_sha256": {
+    "experiments/run_agent_calibration.py": "5f96afa5d6297651c657c9b39906afbade74d71b39ac26853a41df82962b0616",
+    "src/delegation_blind_spot/tasks.py": "efa801787fd2c1777bc959512f47dceb5269451254859364285a3a516d8a1868"
+  },
+  "task_count": 216
+}

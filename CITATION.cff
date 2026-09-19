@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Cite this research artifact if you use its code or constructed experiments. It is a work in progress, not a peer-reviewed result."
+title: "The Delegation Blind Spot: Learning What People Want When Agents Make the Choices"
+authors:
+  - family-names: Gupta
+    given-names: Shivam
+type: software
+version: 0.1.0
+date-released: 2026-09-19
+license: MIT
+repository-code: "https://github.com/shi1720/delegation-blind-spot"

@@ -12,6 +12,17 @@ Produce a technically correct, original research contribution with commercial re
 
 The initial pilot asks whether familiar statistical methods already address the simplest form of the problem. It does not claim a new algorithm. A substantive paper needs more than a synthetic label-shift example plus an existing inverse-probability estimator.
 
+## Completed milestone, 19 September 2026
+
+- Seven-page research note with explicit attribution and limitations, rendered and visually checked.
+- 100,000 synthetic audit estimator evaluations with 1,000 replicates per cell. Four numerical CSV outputs reproduced byte for byte.
+- Decision-specific identification bounds, uncertainty boxes, and explicit feasible witness populations.
+- 28 passing tests, including exhaustive finite examples for the audit estimator.
+- 216 prepared constructed agent tasks and 648 control decisions, with balanced option orders.
+- An actual-model experiment runner prepared using the official Responses API documentation. No API credential is loaded in the research process, and no live model calls or human study have been run.
+
+The central candidate question is whether successful delegation preserves the information needed for a specific future product decision. The general algebra and LP are existing ideas. An empirical contribution needs calibration, held-out outcomes, and evidence that ordinary alternatives do not already solve the intended task.
+
 ## Unresolved requirements
 
 - Identify a precise contribution beyond active statistical inference, robust sampling, adaptive experimentation, and delegated preference transmission.

@@ -1,0 +1,4538 @@
+[
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-second_priority-0-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "travel-revealing-second_priority-0-0",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-second_priority-0-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-second_priority-2-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-second_priority-2-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-second_priority-2-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-0-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "workspace-pooled-second_priority-0-1",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-0-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-3-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "workspace-pooled-first_priority-3-1",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-3-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-first_priority-0-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-first_priority-0-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-first_priority-0-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-second_priority-2-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "travel-revealing-second_priority-2-0",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-second_priority-2-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-first_priority-3-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "travel-revealing-first_priority-3-0",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-first_priority-3-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-first_priority-3-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "cloud-revealing-first_priority-3-2",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-first_priority-3-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-2-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "cloud-pooled-first_priority-2-0",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-2-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-4-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "workspace-pooled-second_priority-4-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-4-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-3-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "cloud-pooled-second_priority-3-2",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-3-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-4-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "cloud-pooled-second_priority-4-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-4-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-0-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "cloud-pooled-first_priority-0-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-0-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-second_priority-0-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-second_priority-0-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-second_priority-0-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-5-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "cloud-pooled-first_priority-5-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-5-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-3-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-3-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-3-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-first_priority-4-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-first_priority-4-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-first_priority-4-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-3-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "workspace-pooled-first_priority-3-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-3-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-first_priority-3-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-first_priority-3-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-first_priority-3-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-second_priority-3-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-second_priority-3-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-second_priority-3-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-3-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-3-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-3-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-5-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "workspace-pooled-second_priority-5-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-5-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-first_priority-1-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-first_priority-1-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-first_priority-1-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-second_priority-2-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "workspace-revealing-second_priority-2-0",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-second_priority-2-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-1-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "cloud-pooled-second_priority-1-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-1-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-first_priority-3-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "workspace-revealing-first_priority-3-1",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-first_priority-3-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-0-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-0-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-0-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-second_priority-0-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "cloud-revealing-second_priority-0-2",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-second_priority-0-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-0-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "travel-pooled-second_priority-0-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-0-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-5-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "travel-pooled-second_priority-5-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-5-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-4-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "workspace-pooled-first_priority-4-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-4-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-5-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "workspace-pooled-second_priority-5-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-5-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-second_priority-4-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-second_priority-4-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-second_priority-4-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-second_priority-4-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-second_priority-4-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-second_priority-4-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-first_priority-5-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-first_priority-5-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-first_priority-5-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-second_priority-0-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "travel-revealing-second_priority-0-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-second_priority-0-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-second_priority-2-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "travel-revealing-second_priority-2-1",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-second_priority-2-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-first_priority-2-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "workspace-revealing-first_priority-2-0",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-first_priority-2-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-first_priority-0-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "travel-revealing-first_priority-0-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-first_priority-0-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-3-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-3-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-3-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-1-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "travel-pooled-second_priority-1-1",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-1-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-second_priority-4-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "workspace-revealing-second_priority-4-1",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-second_priority-4-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-first_priority-5-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "workspace-revealing-first_priority-5-0",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-first_priority-5-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-0-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "cloud-pooled-first_priority-0-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-0-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-second_priority-2-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "travel-revealing-second_priority-2-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-second_priority-2-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-5-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "workspace-pooled-first_priority-5-0",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-5-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-first_priority-1-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-first_priority-1-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-first_priority-1-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-3-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-3-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-3-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-2-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "travel-pooled-first_priority-2-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-2-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-first_priority-3-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "cloud-revealing-first_priority-3-1",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-first_priority-3-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-1-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "travel-pooled-first_priority-1-1",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-1-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-4-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-4-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-4-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-2-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "workspace-pooled-second_priority-2-1",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-2-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-first_priority-4-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-first_priority-4-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-first_priority-4-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-4-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-4-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-4-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-first_priority-1-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-first_priority-1-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-first_priority-1-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-second_priority-4-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "travel-revealing-second_priority-4-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-second_priority-4-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-first_priority-0-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-first_priority-0-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-first_priority-0-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-4-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-4-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-4-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-first_priority-2-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "travel-revealing-first_priority-2-2",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-first_priority-2-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-first_priority-4-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "workspace-revealing-first_priority-4-1",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-first_priority-4-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-second_priority-1-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-second_priority-1-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-second_priority-1-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-second_priority-3-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-second_priority-3-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-second_priority-3-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-5-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "travel-pooled-first_priority-5-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-5-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-0-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "cloud-pooled-second_priority-0-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-0-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-4-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "cloud-pooled-first_priority-4-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-4-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-2-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "workspace-pooled-second_priority-2-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-2-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-second_priority-1-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-second_priority-1-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-second_priority-1-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-first_priority-5-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "cloud-revealing-first_priority-5-2",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-first_priority-5-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-1-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "cloud-pooled-first_priority-1-0",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-1-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-first_priority-4-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-first_priority-4-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-first_priority-4-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-second_priority-0-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-second_priority-0-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-second_priority-0-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-1-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-1-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-1-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-first_priority-0-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-first_priority-0-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-first_priority-0-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-3-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "travel-pooled-second_priority-3-2",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-3-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-second_priority-2-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-second_priority-2-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-second_priority-2-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-first_priority-5-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "cloud-revealing-first_priority-5-0",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-first_priority-5-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-0-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "workspace-pooled-first_priority-0-2",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-0-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-second_priority-3-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-second_priority-3-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-second_priority-3-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-second_priority-3-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "workspace-revealing-second_priority-3-0",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-second_priority-3-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-first_priority-1-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "travel-revealing-first_priority-1-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-first_priority-1-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-first_priority-1-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-first_priority-1-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-first_priority-1-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-1-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-1-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-1-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-second_priority-5-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "travel-revealing-second_priority-5-0",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-second_priority-5-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-2-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "cloud-pooled-first_priority-2-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-2-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-0-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "cloud-pooled-second_priority-0-1",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-0-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-3-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-3-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-3-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-1-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-1-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-1-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-1-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "cloud-pooled-first_priority-1-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-1-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-second_priority-5-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-second_priority-5-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-second_priority-5-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-first_priority-2-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "cloud-revealing-first_priority-2-0",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-first_priority-2-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-second_priority-4-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-second_priority-4-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-second_priority-4-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-2-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "cloud-pooled-second_priority-2-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-2-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-first_priority-2-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-first_priority-2-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-first_priority-2-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-5-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-5-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-5-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-second_priority-1-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "travel-revealing-second_priority-1-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-second_priority-1-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-second_priority-2-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-second_priority-2-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-second_priority-2-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-first_priority-4-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "travel-revealing-first_priority-4-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-first_priority-4-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-4-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "cloud-pooled-second_priority-4-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-4-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-4-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "cloud-pooled-first_priority-4-1",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-4-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-first_priority-0-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-first_priority-0-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-first_priority-0-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-first_priority-2-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "cloud-revealing-first_priority-2-2",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-first_priority-2-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-second_priority-5-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-second_priority-5-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-second_priority-5-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-3-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "travel-pooled-second_priority-3-1",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-3-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-5-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "cloud-pooled-first_priority-5-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-5-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-1-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "workspace-pooled-first_priority-1-2",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-1-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-first_priority-2-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-first_priority-2-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-first_priority-2-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-second_priority-3-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-second_priority-3-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-second_priority-3-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-first_priority-3-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-first_priority-3-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-first_priority-3-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-3-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-3-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-3-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-0-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-0-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-0-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-second_priority-5-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "cloud-revealing-second_priority-5-0",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-second_priority-5-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-first_priority-2-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "travel-revealing-first_priority-2-1",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-first_priority-2-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-5-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "cloud-pooled-second_priority-5-2",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-5-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-second_priority-5-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "travel-revealing-second_priority-5-1",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-second_priority-5-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-3-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "travel-pooled-first_priority-3-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-3-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-2-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "travel-pooled-second_priority-2-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-2-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-3-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-3-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-3-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-second_priority-3-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "travel-revealing-second_priority-3-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-second_priority-3-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-2-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "cloud-pooled-second_priority-2-0",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-2-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-first_priority-5-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-first_priority-5-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-first_priority-5-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-5-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "cloud-pooled-second_priority-5-0",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-5-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-second_priority-1-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-second_priority-1-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-second_priority-1-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-0-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "cloud-pooled-second_priority-0-2",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-0-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-first_priority-0-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "travel-revealing-first_priority-0-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-first_priority-0-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-0-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "travel-pooled-second_priority-0-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-0-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-first_priority-5-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "travel-revealing-first_priority-5-1",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-first_priority-5-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-second_priority-4-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "cloud-revealing-second_priority-4-0",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-second_priority-4-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-second_priority-0-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-second_priority-0-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-second_priority-0-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-1-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-1-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-1-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-second_priority-2-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-second_priority-2-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-second_priority-2-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-0-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-0-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-0-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-1-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-1-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-1-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-4-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "travel-pooled-second_priority-4-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-4-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-first_priority-4-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-first_priority-4-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-first_priority-4-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-2-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "travel-pooled-first_priority-2-2",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-2-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-first_priority-1-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "cloud-revealing-first_priority-1-1",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-first_priority-1-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-1-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "workspace-pooled-first_priority-1-0",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-1-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-second_priority-1-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-second_priority-1-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-second_priority-1-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-2-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "cloud-pooled-first_priority-2-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-2-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-5-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "workspace-pooled-second_priority-5-2",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-5-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-4-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "travel-pooled-first_priority-4-0",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-4-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-first_priority-0-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "workspace-revealing-first_priority-0-0",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-first_priority-0-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-first_priority-3-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "travel-revealing-first_priority-3-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-first_priority-3-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-5-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "cloud-pooled-second_priority-5-1",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-5-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-first_priority-4-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-first_priority-4-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-first_priority-4-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-second_priority-5-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-second_priority-5-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-second_priority-5-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-2-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "workspace-pooled-first_priority-2-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-2-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-2-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "workspace-pooled-first_priority-2-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-2-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-first_priority-1-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-first_priority-1-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-first_priority-1-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-3-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "travel-pooled-first_priority-3-2",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-3-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-first_priority-3-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "travel-revealing-first_priority-3-2",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-first_priority-3-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-second_priority-0-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-second_priority-0-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-second_priority-0-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-first_priority-2-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "workspace-revealing-first_priority-2-2",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-first_priority-2-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-5-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "travel-pooled-first_priority-5-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-5-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-2-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-2-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-2-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-second_priority-1-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "travel-revealing-second_priority-1-0",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-second_priority-1-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-second_priority-1-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-second_priority-1-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-second_priority-1-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-0-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "workspace-pooled-first_priority-0-1",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-0-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-5-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "workspace-pooled-first_priority-5-2",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-5-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-5-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "workspace-pooled-first_priority-5-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-5-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-first_priority-0-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-first_priority-0-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-first_priority-0-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-0-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "travel-pooled-first_priority-0-2",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-0-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-second_priority-3-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "travel-revealing-second_priority-3-2",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-second_priority-3-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-1-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-1-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-1-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-second_priority-0-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-second_priority-0-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-second_priority-0-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-0-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-0-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-0-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-first_priority-1-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-first_priority-1-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-first_priority-1-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-second_priority-4-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-second_priority-4-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-second_priority-4-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-first_priority-5-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "travel-revealing-first_priority-5-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-first_priority-5-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-1-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-1-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-1-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-0-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "travel-pooled-first_priority-0-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-0-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-1-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-1-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-1-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-4-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "workspace-pooled-second_priority-4-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-4-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-second_priority-5-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-second_priority-5-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-second_priority-5-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-first_priority-4-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-first_priority-4-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-first_priority-4-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-3-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-3-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-3-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-4-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "travel-pooled-second_priority-4-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-4-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-first_priority-2-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "travel-revealing-first_priority-2-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-first_priority-2-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-first_priority-5-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "workspace-revealing-first_priority-5-2",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-first_priority-5-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-second_priority-4-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-second_priority-4-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-second_priority-4-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-second_priority-4-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-second_priority-4-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-second_priority-4-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-first_priority-4-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-first_priority-4-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-first_priority-4-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-second_priority-3-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-second_priority-3-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-second_priority-3-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-second_priority-1-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-second_priority-1-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-second_priority-1-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-4-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "workspace-pooled-first_priority-4-2",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-4-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-second_priority-0-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "cloud-revealing-second_priority-0-1",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-second_priority-0-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-2-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-2-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-2-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-3-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "workspace-pooled-second_priority-3-1",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-3-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-3-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "travel-pooled-first_priority-3-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-3-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-0-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-0-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-0-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-2-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "cloud-pooled-second_priority-2-2",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-2-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-2-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "travel-pooled-first_priority-2-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-2-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-4-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-4-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-4-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-2-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-2-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-first_priority-2-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-3-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-3-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-3-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-1-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-1-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-1-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-second_priority-3-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-second_priority-3-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-second_priority-3-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-1-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-1-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-1-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-first_priority-0-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-first_priority-0-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-first_priority-0-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-5-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "travel-pooled-first_priority-5-1",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-5-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-4-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "travel-pooled-first_priority-4-2",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-first_priority-4-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-revealing-second_priority-5-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-second_priority-5-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "travel-revealing-second_priority-5-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-second_priority-5-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "cloud-revealing-second_priority-5-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "cloud-revealing-second_priority-5-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-first_priority-1-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-first_priority-1-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-first_priority-1-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-4-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "cloud-pooled-second_priority-4-0",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-second_priority-4-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-4-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "cloud-pooled-first_priority-4-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-4-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-first_priority-5-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-first_priority-5-1",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-first_priority-5-1",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-first_priority-3-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-first_priority-3-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-first_priority-3-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-1-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-1-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-1-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-second_priority-1-0",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "workspace-revealing-second_priority-1-0",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-second_priority-1-0",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-5-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "travel-pooled-second_priority-5-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-5-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-5-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.19999999999999996,
+    "task_id": "cloud-pooled-first_priority-5-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "C",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "cloud-pooled-first_priority-5-2",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "C",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-revealing-second_priority-2-2",
+    "utility": 0.6000000000000001
+  },
+  {
+    "choice_id": "A",
+    "control": "uniform_random",
+    "regret": 0.3000000000000001,
+    "task_id": "workspace-revealing-second_priority-2-2",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.20000000000000007,
+    "task_id": "workspace-revealing-second_priority-2-2",
+    "utility": 0.4
+  },
+  {
+    "choice_id": "B",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-2-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-2-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "travel-pooled-second_priority-2-1",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "A",
+    "control": "optimal",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-0-0",
+    "utility": 0.8
+  },
+  {
+    "choice_id": "B",
+    "control": "uniform_random",
+    "regret": 0.5,
+    "task_id": "workspace-pooled-second_priority-0-0",
+    "utility": 0.3
+  },
+  {
+    "choice_id": "A",
+    "control": "always_balanced",
+    "regret": 0.0,
+    "task_id": "workspace-pooled-second_priority-0-0",
+    "utility": 0.8
+  }
+]

@@ -9,3 +9,6 @@ __pycache__/
 .env
 .env.*
 results/**/replicates.csv
+results/pilot-v1-reproduction/
+tmp/
+results/live-*/

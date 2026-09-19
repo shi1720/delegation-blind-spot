@@ -1,0 +1,107 @@
+{
+  "scope": "constructed channel examples, no human or LLM data",
+  "examples": [
+    {
+      "name": "intent_revealing",
+      "channel_radius": 0.0,
+      "actual_contrast": 0.020000000000000018,
+      "lower": 0.01999999999999988,
+      "upper": 0.01999999999999988,
+      "decision": "variant_1",
+      "lower_population": [
+        0.6000000000000001,
+        0.3999999999999998
+      ],
+      "upper_population": [
+        0.6000000000000001,
+        0.3999999999999998
+      ],
+      "max_constraint_residual": 2.220446049250313e-16
+    },
+    {
+      "name": "intent_revealing",
+      "channel_radius": 0.05,
+      "actual_contrast": 0.020000000000000018,
+      "lower": -0.029999999999999916,
+      "upper": 0.06999999999999995,
+      "decision": "unresolved",
+      "lower_population": [
+        0.6625000000000001,
+        0.3375000000000002
+      ],
+      "upper_population": [
+        0.5375000000000001,
+        0.46249999999999997
+      ],
+      "max_constraint_residual": 2.220446049250313e-16
+    },
+    {
+      "name": "intent_revealing",
+      "channel_radius": 0.2,
+      "actual_contrast": 0.020000000000000018,
+      "lower": -0.16285714285714295,
+      "upper": 0.1799999999999999,
+      "decision": "unresolved",
+      "lower_population": [
+        0.8285714285714287,
+        0.17142857142857132
+      ],
+      "upper_population": [
+        0.4000000000000001,
+        0.5999999999999999
+      ],
+      "max_constraint_residual": 1.6653345369377348e-16
+    },
+    {
+      "name": "intent_pooling",
+      "channel_radius": 0.0,
+      "actual_contrast": 0.020000000000000018,
+      "lower": -0.3,
+      "upper": 0.5,
+      "decision": "unresolved",
+      "lower_population": [
+        1.0,
+        0.0
+      ],
+      "upper_population": [
+        -0.0,
+        1.0
+      ],
+      "max_constraint_residual": 5.551115123125783e-17
+    },
+    {
+      "name": "intent_pooling",
+      "channel_radius": 0.05,
+      "actual_contrast": 0.020000000000000018,
+      "lower": -0.3,
+      "upper": 0.5,
+      "decision": "unresolved",
+      "lower_population": [
+        1.0,
+        0.0
+      ],
+      "upper_population": [
+        -0.0,
+        1.0
+      ],
+      "max_constraint_residual": 5.551115123125783e-17
+    },
+    {
+      "name": "intent_pooling",
+      "channel_radius": 0.2,
+      "actual_contrast": 0.020000000000000018,
+      "lower": -0.3,
+      "upper": 0.5,
+      "decision": "unresolved",
+      "lower_population": [
+        1.0,
+        -0.0
+      ],
+      "upper_population": [
+        -0.0,
+        1.0
+      ],
+      "max_constraint_residual": 5.551115123125783e-17
+    }
+  ]
+}

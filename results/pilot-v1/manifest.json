@@ -1,0 +1,85 @@
+{
+  "config": {
+    "schema_version": 1,
+    "stage": "exploratory_falsification_pilot",
+    "data": "synthetic_only",
+    "population_seed": 731021,
+    "audit_seed": 918771,
+    "population_size": 4000,
+    "replicates": 1000,
+    "expected_budgets": [
+      40,
+      100,
+      250,
+      600
+    ],
+    "confidence_alpha": 0.05,
+    "probability_floor_fraction": 0.05,
+    "robust_squared_error_radius": 0.15,
+    "mixture_uniform_weight": 0.5,
+    "scenarios": [
+      {
+        "name": "aligned",
+        "shift": 0.0,
+        "target_stratum": 0,
+        "update_prediction": false
+      },
+      {
+        "name": "silent_mild",
+        "shift": 0.025,
+        "target_stratum": 0,
+        "update_prediction": false
+      },
+      {
+        "name": "silent_strong",
+        "shift": 0.12,
+        "target_stratum": 0,
+        "update_prediction": false
+      },
+      {
+        "name": "silent_uncertain_group",
+        "shift": 0.12,
+        "target_stratum": 1,
+        "update_prediction": false
+      },
+      {
+        "name": "visible_control",
+        "shift": 0.12,
+        "target_stratum": 0,
+        "update_prediction": true
+      }
+    ],
+    "methods": [
+      "uniform",
+      "historical_active",
+      "fixed_mixture",
+      "robust_path",
+      "oracle_residual"
+    ],
+    "note": "Frozen before first pilot run. Methods are existing constructions. The oracle is an unattainable reference. Bernoulli budgets match in expectation, not exactly per replicate. No hyperparameters are selected from pilot outcomes."
+  },
+  "config_sha256": "fa8f682238e1aadaf0dc86d52931732c313ad1ebe8ed1e3a72cf296da3b4ee49",
+  "source_sha256": {
+    "src/delegation_blind_spot/__init__.py": "57406fa76ebd6ccb57d2ccca0731665266d124de994bb5fe179823d5eba7267c",
+    "src/delegation_blind_spot/estimation.py": "ca25e2a884f728824d03df172ebaa45901ce8134ee8ebb73322c84237c8dd437",
+    "src/delegation_blind_spot/model.py": "443f0c0004e5669cdff8a75422b8d4e5a844ae2c2e3941399280d8a28443a07c",
+    "src/delegation_blind_spot/sampling.py": "f02fa6e344041cc087e2c80d2d18833018ff2eb66e89acb247439fe485a4bb37",
+    "experiments/plot_pilot.py": "fef601fc72d77767dbf934bb24ba912af18ba6f6858e19cb25cf2a5ad8dc0eff",
+    "experiments/run_pilot.py": "1e63b3a5a04418b18e6f77d0adfdaa858d4c7985dc59c1cc7617b443cc70cbf6"
+  },
+  "python": "3.9.6",
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "git_commit": "f6291594bf5acd85085d0b04250124c09e61a52f",
+  "git_status": "",
+  "estimand": "fixed_pool_arm1_mean_minus_arm0_mean",
+  "data": "synthetic_only",
+  "labels": "no humans or LLMs",
+  "outputs_sha256": {
+    "policies.csv": "7a3caf15927c726aa225bd901a2edc86d7564ee4e6465f544db7f384d3ee1ca8",
+    "populations.csv": "e351aadeee3c235ad214810ea25807da994feb60ba398342c292fcf227e32eb3",
+    "replicates.csv": "e33ca3bd43979107b629d385b2bd19ba4f900b91bf185d3a74d1f6ea17a45d30",
+    "summary.csv": "56e7e103beb04889dd146291bbc02218620202923e07ff63d2acce1c5e2a2c9d"
+  },
+  "elapsed_seconds": 4.772982120513916
+}
