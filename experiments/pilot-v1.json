@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "stage": "exploratory_falsification_pilot",
+  "data": "synthetic_only",
+  "population_seed": 731021,
+  "audit_seed": 918771,
+  "population_size": 4000,
+  "replicates": 1000,
+  "expected_budgets": [40, 100, 250, 600],
+  "confidence_alpha": 0.05,
+  "probability_floor_fraction": 0.05,
+  "robust_squared_error_radius": 0.15,
+  "mixture_uniform_weight": 0.5,
+  "scenarios": [
+    {"name": "aligned", "shift": 0.0, "target_stratum": 0, "update_prediction": false},
+    {"name": "silent_mild", "shift": 0.025, "target_stratum": 0, "update_prediction": false},
+    {"name": "silent_strong", "shift": 0.12, "target_stratum": 0, "update_prediction": false},
+    {"name": "silent_uncertain_group", "shift": 0.12, "target_stratum": 1, "update_prediction": false},
+    {"name": "visible_control", "shift": 0.12, "target_stratum": 0, "update_prediction": true}
+  ],
+  "methods": ["uniform", "historical_active", "fixed_mixture", "robust_path", "oracle_residual"],
+  "note": "Frozen before first pilot run. Methods are existing constructions. The oracle is an unattainable reference. Bernoulli budgets match in expectation, not exactly per replicate. No hyperparameters are selected from pilot outcomes."
+}
