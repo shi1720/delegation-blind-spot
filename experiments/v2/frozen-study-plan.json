@@ -1,0 +1,61 @@
+{
+  "frozen_at": "2026-09-19T11:28:24.322055+00:00",
+  "status": "frozen before main API execution; exploratory computational study, not externally preregistered",
+  "human_participants": 0,
+  "model_experiments": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "tasks": 2400,
+      "tasks_sha256": "b0a835006fcf53c382e0c046ca907e8a4d0c9d2891baaf3de3d1375bb6076921",
+      "requests_sha256": "f973401cb4e6f86c67f2f46d4073eeb21f98965ea48f994e2bd3616106e86ff5",
+      "outcomes_sha256": "d0773627c17c88c55651055152b6e957b039ad04f17ae0cfba950797d74a0120",
+      "truth_sha256": "5ddb4e53908555f94b8c9862c69a6ac8e9ab646be462da4c895cb053aea1e214"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "tasks": 2400,
+      "tasks_sha256": "b0a835006fcf53c382e0c046ca907e8a4d0c9d2891baaf3de3d1375bb6076921",
+      "requests_sha256": "7975979c99b2016aba0786ba5d0366ea10e2af2f99c0ccc226574255aac0c97f",
+      "outcomes_sha256": "d0773627c17c88c55651055152b6e957b039ad04f17ae0cfba950797d74a0120",
+      "truth_sha256": "5ddb4e53908555f94b8c9862c69a6ac8e9ab646be462da4c895cb053aea1e214"
+    }
+  ],
+  "shared_tasks": true,
+  "calibration_per_class_per_domain": 80,
+  "field_per_population_per_domain": 160,
+  "synthetic_outcome_samples_per_domain": 2048,
+  "domain_count": 3,
+  "populations": [
+    "positive",
+    "negative",
+    "near"
+  ],
+  "primary": "known finite-bank synthetic class contrast; action-only and action-with-regime observation schemas",
+  "secondary": "synthetic class contrast estimated with outcome uncertainty",
+  "coverage": "96% marginal per primary interval; 95% marginal secondary. No familywise claim.",
+  "failures": "retain refusals, malformed outputs, and provider failures; no automatic retries; separate infrastructure errors from semantic task success",
+  "comparisons": [
+    "constrained label-shift plug-in",
+    "fixed-calibration bootstrap",
+    "joint-mass uncertainty bounds",
+    "known optimal chooser",
+    "uniform random chooser",
+    "always essential chooser"
+  ],
+  "model_parameters": "frozen requests, no tools, store false, max output256, default reasoning as documented",
+  "prices_usd_per_million": {
+    "gpt-5.4-mini-2026-03-17": {
+      "input": 0.75,
+      "output": 4.5
+    },
+    "gpt-5.4-nano-2026-03-17": {
+      "input": 0.2,
+      "output": 1.25
+    }
+  },
+  "pricing_sources": [
+    "https://developers.openai.com/api/docs/models/gpt-5.4-mini",
+    "https://developers.openai.com/api/docs/models/gpt-5.4-nano"
+  ],
+  "selection": "All tasks retained. No model-specific prompt tuning after outcomes. API smoke is separate and excluded."
+}
