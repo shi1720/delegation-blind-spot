@@ -1,0 +1,26 @@
+{
+  "frozen_at": "2026-09-19T11:53:36.421664+00:00",
+  "design": "Exploratory follow-up after primary study; frozen before receipt calls",
+  "reason": "All primary finite-sample intervals were unresolved. Test explicit preference reporting as an additional measurement channel.",
+  "scope": "Repeated extraction from12 unique synthetic preference prompts, not human feedback or independent customer decisions",
+  "models": [
+    {
+      "model": "gpt-5.4-mini-2026-03-17",
+      "requests": 1200,
+      "manifest": "results/receipt-study-mini/manifest.json",
+      "tasks_sha256": "21feb9ccaad760a8a291dcaefdb42c2c78e06d3cb50550623ce2f0fa2f55874f",
+      "requests_sha256": "a1d23839332e332bd1f7c6801e2329798d2cfa7e42d90569a8c89c2eba911538"
+    },
+    {
+      "model": "gpt-5.4-nano-2026-03-17",
+      "requests": 1200,
+      "manifest": "results/receipt-study-nano/manifest.json",
+      "tasks_sha256": "21feb9ccaad760a8a291dcaefdb42c2c78e06d3cb50550623ce2f0fa2f55874f",
+      "requests_sha256": "7a46da565d85a53bb700530ff9277866af81614c50c1b5499345d0d1e013156e"
+    }
+  ],
+  "selection": "First40 lexical calibration IDs per domain/class and80 fieldIDs perdomain/cohort; fixed independent of correctness/outcome",
+  "primary_endpoint": "Number of known-synthetic-contrast decisions resolved by attribute-only receipt channel vs same-budget action-only channel; also report incorrect resolutions, widths, report accuracy and all failures",
+  "confidence": "96% marginal perprimary interval conditional on channel model; no simultaneous/invoice/human claim",
+  "no_adaptation": "No request replacement or prompt changes based on results; no retries"
+}
