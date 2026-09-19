@@ -1,0 +1,5755 @@
+{
+  "action_reports": [
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          4,
+          18,
+          1,
+          0
+        ],
+        [
+          12,
+          4,
+          2,
+          6
+        ],
+        [
+          13,
+          15,
+          29,
+          5
+        ],
+        [
+          11,
+          3,
+          8,
+          29
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "near",
+      "conditional_channel_bootstrap": {
+        "lower": -0.015231428564824137,
+        "replicates": 200,
+        "seed": 470797729,
+        "upper": 0.03414380042976948,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "cloud",
+      "empirical_channel_singular_values": [
+        1.0972525462800962,
+        0.6274792552774607,
+        0.37218412000350465,
+        0.19048783345795248
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 1.3004508459633937e-05,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": 0.010046870117187032,
+        "true_decision": "capacity"
+      },
+      "failure_rate": 0.012499999999999956,
+      "field_counts": [
+        9,
+        13,
+        29,
+        28,
+        1
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.050002319335935116,
+        -0.0050474853515621474,
+        -0.037375976562498255,
+        0.0003535156249999995
+      ],
+      "log_schema": "action_only",
+      "lower": -0.037375976562498255,
+      "lower_witness_population": [
+        0.0,
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "max_solver_constraint_violation": 4.211786626927283e-17,
+      "mean_synthetic_regret": 0.024300000000000013,
+      "mean_synthetic_utility": 0.6658687500000001,
+      "naive_channel_fit_residual": 0.013975424861464185,
+      "naive_point_contrast": 0.006440693685059239,
+      "naive_population": [
+        0.31193926142946715,
+        0.17517664542408326,
+        0.22407149890507613,
+        0.28881259424137357
+      ],
+      "optimal_choice_rate": 0.7375,
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "scope": "actual recorded decisions with synthetic profiles and synthetic product outcomes",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.051634277343748994,
+          -0.004920898437499897,
+          -0.03722265624999972,
+          0.0003332519531249977
+        ],
+        "lower": -0.11801833150740883,
+        "radius": 0.0807956752574091,
+        "upper": 0.13242995260115809,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.050002319335935116,
+      "upper_witness_population": [
+        1.0,
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          0,
+          3,
+          1,
+          0
+        ],
+        [
+          3,
+          1,
+          0,
+          1
+        ],
+        [
+          5,
+          5,
+          10,
+          3
+        ],
+        [
+          4,
+          0,
+          1,
+          14
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          0
+        ],
+        [
+          6,
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          4,
+          10,
+          2
+        ],
+        [
+          4,
+          2,
+          3,
+          11
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          8,
+          0,
+          0
+        ],
+        [
+          3,
+          2,
+          1,
+          2
+        ],
+        [
+          6,
+          6,
+          9,
+          0
+        ],
+        [
+          3,
+          1,
+          4,
+          4
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "near",
+      "conditional_channel_bootstrap": {
+        "lower": -0.01332929790819742,
+        "replicates": 200,
+        "seed": 3247893097,
+        "upper": 0.0313162291648211,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "cloud",
+      "empirical_channel_singular_values": [
+        0.6443747600636264,
+        0.40523051422182726,
+        0.24130182467343314,
+        0.14947517635289503
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 1.5465360035031463e-05,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": 0.010046870117187032,
+        "true_decision": "capacity"
+      },
+      "failure_rate": 0.012499999999999956,
+      "field_counts": [
+        4,
+        4,
+        8,
+        11,
+        1,
+        1,
+        6,
+        10,
+        8,
+        0,
+        4,
+        3,
+        11,
+        9,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.050002319335935116,
+        -0.0050474853515621474,
+        -0.037375976562498255,
+        0.0003535156249999995
+      ],
+      "log_schema": "context_and_action",
+      "lower": -0.037375976562498255,
+      "lower_witness_population": [
+        0.0,
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "max_solver_constraint_violation": 2.220446049250313e-16,
+      "mean_synthetic_regret": 0.024300000000000013,
+      "mean_synthetic_utility": 0.6658687500000001,
+      "naive_channel_fit_residual": 0.07924837214518729,
+      "naive_point_contrast": 0.006114267920799573,
+      "naive_population": [
+        0.34170264309557286,
+        0.12691085975007585,
+        0.2787985968387672,
+        0.25258790031558415
+      ],
+      "optimal_choice_rate": 0.7375,
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "scope": "actual recorded decisions with synthetic profiles and synthetic product outcomes",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.051634277343748994,
+          -0.004920898437499897,
+          -0.03722265624999972,
+          0.0003332519531249977
+        ],
+        "lower": -0.11801833150740883,
+        "radius": 0.0807956752574091,
+        "upper": 0.13242995260115809,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.050002319335935116,
+      "upper_witness_population": [
+        1.0,
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          4,
+          18,
+          1,
+          0
+        ],
+        [
+          12,
+          4,
+          2,
+          6
+        ],
+        [
+          13,
+          15,
+          29,
+          5
+        ],
+        [
+          11,
+          3,
+          8,
+          29
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "negative",
+      "conditional_channel_bootstrap": {
+        "lower": -0.026277515127600237,
+        "replicates": 200,
+        "seed": 3535592492,
+        "upper": 0.0008336491216481628,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "cloud",
+      "empirical_channel_singular_values": [
+        1.0972525462800962,
+        0.6274792552774607,
+        0.37218412000350465,
+        0.19048783345795248
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 1.213081695749667e-07,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": -0.017263433837889815,
+        "true_decision": "flexibility"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        7,
+        8,
+        39,
+        26,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.050002319335935116,
+        -0.0050474853515621474,
+        -0.037375976562498255,
+        0.0003535156249999995
+      ],
+      "log_schema": "action_only",
+      "lower": -0.037375976562498255,
+      "lower_witness_population": [
+        0.0,
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "max_solver_constraint_violation": 5.551115123125783e-17,
+      "mean_synthetic_regret": 0.011918750000000002,
+      "mean_synthetic_utility": 0.7036250000000001,
+      "naive_channel_fit_residual": 1.495196683404768e-07,
+      "naive_point_contrast": -0.016915140614333905,
+      "naive_population": [
+        0.0637002431205598,
+        0.15140870832509612,
+        0.5198463426799196,
+        0.2650447058744245
+      ],
+      "optimal_choice_rate": 0.7625,
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "scope": "actual recorded decisions with synthetic profiles and synthetic product outcomes",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.051634277343748994,
+          -0.004920898437499897,
+          -0.03722265624999972,
+          0.0003332519531249977
+        ],
+        "lower": -0.11801833150740883,
+        "radius": 0.0807956752574091,
+        "upper": 0.13242995260115809,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.050002319335935116,
+      "upper_witness_population": [
+        1.0,
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          0,
+          3,
+          1,
+          0
+        ],
+        [
+          3,
+          1,
+          0,
+          1
+        ],
+        [
+          5,
+          5,
+          10,
+          3
+        ],
+        [
+          4,
+          0,
+          1,
+          14
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          0
+        ],
+        [
+          6,
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          4,
+          10,
+          2
+        ],
+        [
+          4,
+          2,
+          3,
+          11
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          8,
+          0,
+          0
+        ],
+        [
+          3,
+          2,
+          1,
+          2
+        ],
+        [
+          6,
+          6,
+          9,
+          0
+        ],
+        [
+          3,
+          1,
+          4,
+          4
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "negative",
+      "conditional_channel_bootstrap": {
+        "lower": -0.025673211011771547,
+        "replicates": 200,
+        "seed": 4039325913,
+        "upper": 0.004954980651994861,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "cloud",
+      "empirical_channel_singular_values": [
+        0.6443747600636264,
+        0.40523051422182726,
+        0.24130182467343314,
+        0.14947517635289503
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 1.751719671911474e-05,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": -0.017263433837889815,
+        "true_decision": "flexibility"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        2,
+        1,
+        15,
+        9,
+        0,
+        3,
+        3,
+        11,
+        5,
+        0,
+        2,
+        4,
+        13,
+        12,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.050002319335935116,
+        -0.0050474853515621474,
+        -0.037375976562498255,
+        0.0003535156249999995
+      ],
+      "log_schema": "context_and_action",
+      "lower": -0.037375976562498255,
+      "lower_witness_population": [
+        0.0,
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "max_solver_constraint_violation": 2.220446049250313e-16,
+      "mean_synthetic_regret": 0.011918750000000002,
+      "mean_synthetic_utility": 0.7036250000000001,
+      "naive_channel_fit_residual": 0.09191941828426878,
+      "naive_point_contrast": -0.013078078808849298,
+      "naive_population": [
+        0.15451716650673514,
+        0.11805578013783286,
+        0.5424289152420698,
+        0.18499813811336216
+      ],
+      "optimal_choice_rate": 0.7625,
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "scope": "actual recorded decisions with synthetic profiles and synthetic product outcomes",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.051634277343748994,
+          -0.004920898437499897,
+          -0.03722265624999972,
+          0.0003332519531249977
+        ],
+        "lower": -0.11801833150740883,
+        "radius": 0.0807956752574091,
+        "upper": 0.13242995260115809,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.050002319335935116,
+      "upper_witness_population": [
+        1.0,
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          4,
+          18,
+          1,
+          0
+        ],
+        [
+          12,
+          4,
+          2,
+          6
+        ],
+        [
+          13,
+          15,
+          29,
+          5
+        ],
+        [
+          11,
+          3,
+          8,
+          29
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "positive",
+      "conditional_channel_bootstrap": {
+        "lower": 0.0018838016599261624,
+        "replicates": 200,
+        "seed": 2191750080,
+        "upper": 0.048546920456998745,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "cloud",
+      "empirical_channel_singular_values": [
+        1.0972525462800962,
+        0.6274792552774607,
+        0.37218412000350465,
+        0.19048783345795248
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 1.1622477196797597e-05,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": 0.02642571411132687,
+        "true_decision": "capacity"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        9,
+        19,
+        28,
+        24,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.050002319335935116,
+        -0.0050474853515621474,
+        -0.037375976562498255,
+        0.0003535156249999995
+      ],
+      "log_schema": "action_only",
+      "lower": -0.037375976562498255,
+      "lower_witness_population": [
+        0.0,
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "max_solver_constraint_violation": 5.551115123125783e-17,
+      "mean_synthetic_regret": 0.0185125,
+      "mean_synthetic_utility": 0.6677312500000001,
+      "naive_channel_fit_residual": 5.605949886801321e-07,
+      "naive_point_contrast": 0.02983488955368791,
+      "naive_population": [
+        0.6859777362577164,
+        0.09154955786343517,
+        0.10819495733291236,
+        0.11427774854593613
+      ],
+      "optimal_choice_rate": 0.7125,
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "scope": "actual recorded decisions with synthetic profiles and synthetic product outcomes",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.051634277343748994,
+          -0.004920898437499897,
+          -0.03722265624999972,
+          0.0003332519531249977
+        ],
+        "lower": -0.11801833150740883,
+        "radius": 0.0807956752574091,
+        "upper": 0.13242995260115809,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.050002319335935116,
+      "upper_witness_population": [
+        1.0,
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          0,
+          3,
+          1,
+          0
+        ],
+        [
+          3,
+          1,
+          0,
+          1
+        ],
+        [
+          5,
+          5,
+          10,
+          3
+        ],
+        [
+          4,
+          0,
+          1,
+          14
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          7,
+          0,
+          0
+        ],
+        [
+          6,
+          1,
+          1,
+          3
+        ],
+        [
+          2,
+          4,
+          10,
+          2
+        ],
+        [
+          4,
+          2,
+          3,
+          11
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          4,
+          8,
+          0,
+          0
+        ],
+        [
+          3,
+          2,
+          1,
+          2
+        ],
+        [
+          6,
+          6,
+          9,
+          0
+        ],
+        [
+          3,
+          1,
+          4,
+          4
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "positive",
+      "conditional_channel_bootstrap": {
+        "lower": 0.0021562509526303797,
+        "replicates": 200,
+        "seed": 1867275277,
+        "upper": 0.03985109477542605,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "cloud",
+      "empirical_channel_singular_values": [
+        0.6443747600636264,
+        0.40523051422182726,
+        0.24130182467343314,
+        0.14947517635289503
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 1.2214167889768684e-05,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": 0.02642571411132687,
+        "true_decision": "capacity"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        3,
+        4,
+        11,
+        11,
+        0,
+        1,
+        8,
+        6,
+        9,
+        0,
+        5,
+        7,
+        11,
+        4,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.050002319335935116,
+        -0.0050474853515621474,
+        -0.037375976562498255,
+        0.0003535156249999995
+      ],
+      "log_schema": "context_and_action",
+      "lower": -0.037375976562498255,
+      "lower_witness_population": [
+        0.0,
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "max_solver_constraint_violation": 2.220446049250313e-16,
+      "mean_synthetic_regret": 0.0185125,
+      "mean_synthetic_utility": 0.6677312500000001,
+      "naive_channel_fit_residual": 0.053441865400016046,
+      "naive_point_contrast": 0.022930836732967412,
+      "naive_population": [
+        0.5690779602693352,
+        0.10526604049448124,
+        0.1353894938412987,
+        0.19026650539488488
+      ],
+      "optimal_choice_rate": 0.7125,
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "scope": "actual recorded decisions with synthetic profiles and synthetic product outcomes",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.051634277343748994,
+          -0.004920898437499897,
+          -0.03722265624999972,
+          0.0003332519531249977
+        ],
+        "lower": -0.11801833150740883,
+        "radius": 0.0807956752574091,
+        "upper": 0.13242995260115809,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.050002319335935116,
+      "upper_witness_population": [
+        1.0,
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          3,
+          12,
+          2,
+          1
+        ],
+        [
+          14,
+          5,
+          1,
+          3
+        ],
+        [
+          12,
+          16,
+          30,
+          9
+        ],
+        [
+          11,
+          7,
+          7,
+          27
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "near",
+      "conditional_channel_bootstrap": {
+        "lower": -0.013178282966037614,
+        "replicates": 200,
+        "seed": 1914227159,
+        "upper": 0.02082047283564217,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "travel",
+      "empirical_channel_singular_values": [
+        1.1330007178385257,
+        0.5280604542182505,
+        0.30532383013134384,
+        0.20733762037345416
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 3.195676446132662e-05,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": 0.010493826904296379,
+        "true_decision": "capacity"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        6,
+        14,
+        41,
+        19,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.05029064941406013,
+        -0.004990844726562165,
+        -0.03626733398437338,
+        0.00047912597656250025
+      ],
+      "log_schema": "action_only",
+      "lower": -0.03626733398437338,
+      "lower_witness_population": [
+        0.0,
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "max_solver_constraint_violation": 4.163336342344337e-17,
+      "mean_synthetic_regret": 0.009531250000000002,
+      "mean_synthetic_utility": 0.6934125000000001,
+      "naive_channel_fit_residual": 3.5461995917884353e-08,
+      "naive_point_contrast": 0.004840795464323077,
+      "naive_population": [
+        0.43729365213558336,
+        0.060024730637061194,
+        0.4651403159592133,
+        0.03754130126814229
+      ],
+      "optimal_choice_rate": 0.7625,
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "scope": "actual recorded decisions with synthetic profiles and synthetic product outcomes",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.05012304687499894,
+          -0.005114257812499896,
+          -0.03722045898437466,
+          0.00046020507812500006
+        ],
+        "lower": -0.11801613424178377,
+        "radius": 0.0807956752574091,
+        "upper": 0.13091872213240804,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.05029064941406013,
+      "upper_witness_population": [
+        1.0,
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          1,
+          6,
+          0,
+          1
+        ],
+        [
+          5,
+          2,
+          0,
+          1
+        ],
+        [
+          5,
+          2,
+          11,
+          2
+        ],
+        [
+          3,
+          1,
+          3,
+          8
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          5,
+          4,
+          3
+        ],
+        [
+          4,
+          4,
+          2,
+          11
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          1,
+          0
+        ],
+        [
+          8,
+          2,
+          0,
+          0
+        ],
+        [
+          6,
+          9,
+          15,
+          4
+        ],
+        [
+          4,
+          2,
+          2,
+          8
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "near",
+      "conditional_channel_bootstrap": {
+        "lower": -0.01056575594152683,
+        "replicates": 200,
+        "seed": 3597400572,
+        "upper": 0.021648320875333298,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "travel",
+      "empirical_channel_singular_values": [
+        0.6871400323972519,
+        0.32598334238377197,
+        0.21656307814509637,
+        0.1928052632832659
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 2.5051674063892693e-05,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": 0.010493826904296379,
+        "true_decision": "capacity"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        4,
+        5,
+        16,
+        4,
+        0,
+        0,
+        4,
+        14,
+        7,
+        0,
+        2,
+        5,
+        11,
+        8,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.05029064941406013,
+        -0.004990844726562165,
+        -0.03626733398437338,
+        0.00047912597656250025
+      ],
+      "log_schema": "context_and_action",
+      "lower": -0.03626733398437338,
+      "lower_witness_population": [
+        0.0,
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "max_solver_constraint_violation": 8.596917868244121e-08,
+      "mean_synthetic_regret": 0.009531250000000002,
+      "mean_synthetic_utility": 0.6934125000000001,
+      "naive_channel_fit_residual": 0.15579392601520808,
+      "naive_point_contrast": 0.005488662165359938,
+      "naive_population": [
+        0.33568243539099246,
+        0.2138319163708189,
+        0.28687560658910893,
+        0.16361004164907977
+      ],
+      "optimal_choice_rate": 0.7625,
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "scope": "actual recorded decisions with synthetic profiles and synthetic product outcomes",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.05012304687499894,
+          -0.005114257812499896,
+          -0.03722045898437466,
+          0.00046020507812500006
+        ],
+        "lower": -0.11801613424178377,
+        "radius": 0.0807956752574091,
+        "upper": 0.13091872213240804,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.05029064941406013,
+      "upper_witness_population": [
+        1.0,
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          3,
+          12,
+          2,
+          1
+        ],
+        [
+          14,
+          5,
+          1,
+          3
+        ],
+        [
+          12,
+          16,
+          30,
+          9
+        ],
+        [
+          11,
+          7,
+          7,
+          27
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "negative",
+      "conditional_channel_bootstrap": {
+        "lower": -0.025318313837944445,
+        "replicates": 200,
+        "seed": 1469725268,
+        "upper": 0.009497167693738153,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "travel",
+      "empirical_channel_singular_values": [
+        1.1330007178385257,
+        0.5280604542182505,
+        0.30532383013134384,
+        0.20733762037345416
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 6.64715105752847e-05,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": -0.016481341552733644,
+        "true_decision": "flexibility"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        4,
+        9,
+        43,
+        24,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.05029064941406013,
+        -0.004990844726562165,
+        -0.03626733398437338,
+        0.00047912597656250025
+      ],
+      "log_schema": "action_only",
+      "lower": -0.03626733398437338,
+      "lower_witness_population": [
+        0.0,
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "max_solver_constraint_violation": 2.7755575615628914e-17,
+      "mean_synthetic_regret": 0.013381249999999997,
+      "mean_synthetic_utility": 0.69039375,
+      "naive_channel_fit_residual": 0.001010863379321906,
+      "naive_point_contrast": -0.008328335323416466,
+      "naive_population": [
+        0.23693934936415648,
+        0.0,
+        0.5608641288441594,
+        0.20219652179168413
+      ],
+      "optimal_choice_rate": 0.7625,
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "scope": "actual recorded decisions with synthetic profiles and synthetic product outcomes",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.05012304687499894,
+          -0.005114257812499896,
+          -0.03722045898437466,
+          0.00046020507812500006
+        ],
+        "lower": -0.11801613424178377,
+        "radius": 0.0807956752574091,
+        "upper": 0.13091872213240804,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.05029064941406013,
+      "upper_witness_population": [
+        1.0,
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          1,
+          6,
+          0,
+          1
+        ],
+        [
+          5,
+          2,
+          0,
+          1
+        ],
+        [
+          5,
+          2,
+          11,
+          2
+        ],
+        [
+          3,
+          1,
+          3,
+          8
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          5,
+          4,
+          3
+        ],
+        [
+          4,
+          4,
+          2,
+          11
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          1,
+          0
+        ],
+        [
+          8,
+          2,
+          0,
+          0
+        ],
+        [
+          6,
+          9,
+          15,
+          4
+        ],
+        [
+          4,
+          2,
+          2,
+          8
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "negative",
+      "conditional_channel_bootstrap": {
+        "lower": -0.015842248947781978,
+        "replicates": 200,
+        "seed": 598787056,
+        "upper": 0.006303531570967252,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "travel",
+      "empirical_channel_singular_values": [
+        0.6871400323972519,
+        0.32598334238377197,
+        0.21656307814509637,
+        0.1928052632832659
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": false,
+        "interval_contains_target": true,
+        "naive_squared_error": 0.00012981191797540134,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": -0.016481341552733644,
+        "true_decision": "flexibility"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        0,
+        1,
+        21,
+        13,
+        0,
+        1,
+        5,
+        12,
+        1,
+        0,
+        3,
+        3,
+        10,
+        10,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.05029064941406013,
+        -0.004990844726562165,
+        -0.03626733398437338,
+        0.00047912597656250025
+      ],
+      "log_schema": "context_and_action",
+      "lower": -0.03626733398437338,
+      "lower_witness_population": [
+        0.0,
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "max_solver_constraint_violation": 2.220446049250313e-16,
+      "mean_synthetic_regret": 0.013381249999999997,
+      "mean_synthetic_utility": 0.69039375,
+      "naive_channel_fit_residual": 0.2121253375291555,
+      "naive_point_contrast": -0.005087838229549798,
+      "naive_population": [
+        0.25374089047081944,
+        4.7488055154865094e-17,
+        0.49545410736722717,
+        0.25080500216195334
+      ],
+      "optimal_choice_rate": 0.7625,
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "scope": "actual recorded decisions with synthetic profiles and synthetic product outcomes",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.05012304687499894,
+          -0.005114257812499896,
+          -0.03722045898437466,
+          0.00046020507812500006
+        ],
+        "lower": -0.11801613424178377,
+        "radius": 0.0807956752574091,
+        "upper": 0.13091872213240804,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.05029064941406013,
+      "upper_witness_population": [
+        1.0,
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          3,
+          12,
+          2,
+          1
+        ],
+        [
+          14,
+          5,
+          1,
+          3
+        ],
+        [
+          12,
+          16,
+          30,
+          9
+        ],
+        [
+          11,
+          7,
+          7,
+          27
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "positive",
+      "conditional_channel_bootstrap": {
+        "lower": -0.006025948465642665,
+        "replicates": 200,
+        "seed": 3208105747,
+        "upper": 0.03070152794464047,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "travel",
+      "empirical_channel_singular_values": [
+        1.1330007178385257,
+        0.5280604542182505,
+        0.30532383013134384,
+        0.20733762037345416
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 0.00011280625430165416,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": 0.026797650146483117,
+        "true_decision": "capacity"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        3,
+        19,
+        39,
+        19,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.05029064941406013,
+        -0.004990844726562165,
+        -0.03626733398437338,
+        0.00047912597656250025
+      ],
+      "log_schema": "action_only",
+      "lower": -0.03626733398437338,
+      "lower_witness_population": [
+        0.0,
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "max_solver_constraint_violation": 4.163336342344337e-17,
+      "mean_synthetic_regret": 0.020024999999999998,
+      "mean_synthetic_utility": 0.6427625000000001,
+      "naive_channel_fit_residual": 0.033376197929592136,
+      "naive_point_contrast": 0.01617662127439854,
+      "naive_population": [
+        0.6058823600056401,
+        1.8323016715005025e-17,
+        0.3941176399943598,
+        0.0
+      ],
+      "optimal_choice_rate": 0.65,
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "scope": "actual recorded decisions with synthetic profiles and synthetic product outcomes",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.05012304687499894,
+          -0.005114257812499896,
+          -0.03722045898437466,
+          0.00046020507812500006
+        ],
+        "lower": -0.11801613424178377,
+        "radius": 0.0807956752574091,
+        "upper": 0.13091872213240804,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.05029064941406013,
+      "upper_witness_population": [
+        1.0,
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          1,
+          6,
+          0,
+          1
+        ],
+        [
+          5,
+          2,
+          0,
+          1
+        ],
+        [
+          5,
+          2,
+          11,
+          2
+        ],
+        [
+          3,
+          1,
+          3,
+          8
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          4,
+          1,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          2
+        ],
+        [
+          1,
+          5,
+          4,
+          3
+        ],
+        [
+          4,
+          4,
+          2,
+          11
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          2,
+          1,
+          0
+        ],
+        [
+          8,
+          2,
+          0,
+          0
+        ],
+        [
+          6,
+          9,
+          15,
+          4
+        ],
+        [
+          4,
+          2,
+          2,
+          8
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "positive",
+      "conditional_channel_bootstrap": {
+        "lower": -0.01845186053834553,
+        "replicates": 200,
+        "seed": 3572480714,
+        "upper": 0.006384933927765166,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "travel",
+      "empirical_channel_singular_values": [
+        0.6871400323972519,
+        0.32598334238377197,
+        0.21656307814509637,
+        0.1928052632832659
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": false,
+        "interval_contains_target": true,
+        "naive_squared_error": 0.0010444401185566497,
+        "naive_wrong_decision": true,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": 0.026797650146483117,
+        "true_decision": "capacity"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        1,
+        4,
+        13,
+        6,
+        0,
+        1,
+        13,
+        11,
+        6,
+        0,
+        1,
+        2,
+        15,
+        7,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.05029064941406013,
+        -0.004990844726562165,
+        -0.03626733398437338,
+        0.00047912597656250025
+      ],
+      "log_schema": "context_and_action",
+      "lower": -0.03626733398437338,
+      "lower_witness_population": [
+        0.0,
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "max_solver_constraint_violation": 2.220446049250313e-16,
+      "mean_synthetic_regret": 0.020024999999999998,
+      "mean_synthetic_utility": 0.6427625000000001,
+      "naive_channel_fit_residual": 0.1655418814367331,
+      "naive_point_contrast": -0.005520148642367736,
+      "naive_population": [
+        0.18948454751270777,
+        0.17527440886825574,
+        0.39402551245149925,
+        0.24121553116753724
+      ],
+      "optimal_choice_rate": 0.65,
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "scope": "actual recorded decisions with synthetic profiles and synthetic product outcomes",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.05012304687499894,
+          -0.005114257812499896,
+          -0.03722045898437466,
+          0.00046020507812500006
+        ],
+        "lower": -0.11801613424178377,
+        "radius": 0.0807956752574091,
+        "upper": 0.13091872213240804,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.05029064941406013,
+      "upper_witness_population": [
+        1.0,
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          5,
+          20,
+          2,
+          4
+        ],
+        [
+          14,
+          1,
+          2,
+          5
+        ],
+        [
+          13,
+          11,
+          32,
+          9
+        ],
+        [
+          8,
+          7,
+          4,
+          22
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "cohort": "near",
+      "conditional_channel_bootstrap": {
+        "lower": -0.017190432629042646,
+        "replicates": 200,
+        "seed": 1840082521,
+        "upper": 0.017692972838870884,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "workflow",
+      "empirical_channel_singular_values": [
+        1.0892315656198235,
+        0.5110193572542776,
+        0.40117710451319827,
+        0.25785799150544086
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 0.00016623429059865936,
+        "naive_wrong_decision": true,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": 0.010030104980468225,
+        "true_decision": "capacity"
+      },
+      "failure_rate": 0.012499999999999956,
+      "field_counts": [
+        8,
+        11,
+        35,
+        25,
+        1
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.05003320312499751,
+        -0.004854125976562168,
+        -0.03764270019531078,
+        0.00041101074218749984
+      ],
+      "log_schema": "action_only",
+      "lower": -0.03764270019531078,
+      "lower_witness_population": [
+        0.0,
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "max_solver_constraint_violation": 6.987344188490174e-17,
+      "mean_synthetic_regret": 0.027218750000000007,
+      "mean_synthetic_utility": 0.6563187500000001,
+      "naive_channel_fit_residual": 0.012917323882077088,
+      "naive_point_contrast": -0.002863082778913058,
+      "naive_population": [
+        0.1964163310852294,
+        0.03866933888231658,
+        0.33681611641897535,
+        0.42809821361347866
+      ],
+      "optimal_choice_rate": 0.7125,
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "scope": "actual recorded decisions with synthetic profiles and synthetic product outcomes",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.051069335937498836,
+          -0.004878662109374909,
+          -0.03795532226562459,
+          0.0003281249999999997
+        ],
+        "lower": -0.1187509975230337,
+        "radius": 0.0807956752574091,
+        "upper": 0.13186501119490796,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.05003320312499751,
+      "upper_witness_population": [
+        1.0,
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          2,
+          6,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          1,
+          1
+        ],
+        [
+          5,
+          3,
+          13,
+          5
+        ],
+        [
+          0,
+          3,
+          1,
+          8
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          7,
+          0,
+          1
+        ],
+        [
+          8,
+          0,
+          1,
+          2
+        ],
+        [
+          4,
+          5,
+          12,
+          3
+        ],
+        [
+          5,
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          7,
+          1,
+          2
+        ],
+        [
+          4,
+          0,
+          0,
+          2
+        ],
+        [
+          4,
+          3,
+          7,
+          1
+        ],
+        [
+          3,
+          4,
+          2,
+          9
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "cohort": "near",
+      "conditional_channel_bootstrap": {
+        "lower": -0.01790824586007538,
+        "replicates": 200,
+        "seed": 3854846606,
+        "upper": 0.010618440605572139,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "workflow",
+      "empirical_channel_singular_values": [
+        0.6452911136598771,
+        0.30361794692184646,
+        0.25262555767549844,
+        0.20023947799497946
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 0.00022224761352482422,
+        "naive_wrong_decision": true,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": 0.010030104980468225,
+        "true_decision": "capacity"
+      },
+      "failure_rate": 0.012499999999999956,
+      "field_counts": [
+        3,
+        1,
+        16,
+        9,
+        0,
+        3,
+        5,
+        11,
+        5,
+        1,
+        2,
+        5,
+        8,
+        11,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.05003320312499751,
+        -0.004854125976562168,
+        -0.03764270019531078,
+        0.00041101074218749984
+      ],
+      "log_schema": "context_and_action",
+      "lower": -0.03764270019531078,
+      "lower_witness_population": [
+        0.0,
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "max_solver_constraint_violation": 8.596917868244121e-08,
+      "mean_synthetic_regret": 0.027218750000000007,
+      "mean_synthetic_utility": 0.6563187500000001,
+      "naive_channel_fit_residual": 0.053677864912509234,
+      "naive_point_contrast": -0.004877866495384022,
+      "naive_population": [
+        0.1534941359741072,
+        0.042429124685110356,
+        0.33327098271750405,
+        0.47080575662327845
+      ],
+      "optimal_choice_rate": 0.7125,
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "scope": "actual recorded decisions with synthetic profiles and synthetic product outcomes",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.051069335937498836,
+          -0.004878662109374909,
+          -0.03795532226562459,
+          0.0003281249999999997
+        ],
+        "lower": -0.1187509975230337,
+        "radius": 0.0807956752574091,
+        "upper": 0.13186501119490796,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.05003320312499751,
+      "upper_witness_population": [
+        1.0,
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          5,
+          20,
+          2,
+          4
+        ],
+        [
+          14,
+          1,
+          2,
+          5
+        ],
+        [
+          13,
+          11,
+          32,
+          9
+        ],
+        [
+          8,
+          7,
+          4,
+          22
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "cohort": "negative",
+      "conditional_channel_bootstrap": {
+        "lower": -0.028620843855251293,
+        "replicates": 200,
+        "seed": 1138979046,
+        "upper": 0.010169617429986677,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "workflow",
+      "empirical_channel_singular_values": [
+        1.0892315656198235,
+        0.5110193572542776,
+        0.40117710451319827,
+        0.25785799150544086
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 7.089721532959463e-05,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": -0.017407086181639848,
+        "true_decision": "flexibility"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        3,
+        13,
+        50,
+        14,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.05003320312499751,
+        -0.004854125976562168,
+        -0.03764270019531078,
+        0.00041101074218749984
+      ],
+      "log_schema": "action_only",
+      "lower": -0.03764270019531078,
+      "lower_witness_population": [
+        0.0,
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "max_solver_constraint_violation": 1.3877787807814457e-17,
+      "mean_synthetic_regret": 0.008700000000000003,
+      "mean_synthetic_utility": 0.7031875000000001,
+      "naive_channel_fit_residual": 0.04490318071777874,
+      "naive_point_contrast": -0.008987037765532335,
+      "naive_population": [
+        0.29400787504678577,
+        0.0,
+        0.6303554437765847,
+        0.07563668117662954
+      ],
+      "optimal_choice_rate": 0.875,
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "scope": "actual recorded decisions with synthetic profiles and synthetic product outcomes",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.051069335937498836,
+          -0.004878662109374909,
+          -0.03795532226562459,
+          0.0003281249999999997
+        ],
+        "lower": -0.1187509975230337,
+        "radius": 0.0807956752574091,
+        "upper": 0.13186501119490796,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.05003320312499751,
+      "upper_witness_population": [
+        1.0,
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          2,
+          6,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          1,
+          1
+        ],
+        [
+          5,
+          3,
+          13,
+          5
+        ],
+        [
+          0,
+          3,
+          1,
+          8
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          7,
+          0,
+          1
+        ],
+        [
+          8,
+          0,
+          1,
+          2
+        ],
+        [
+          4,
+          5,
+          12,
+          3
+        ],
+        [
+          5,
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          7,
+          1,
+          2
+        ],
+        [
+          4,
+          0,
+          0,
+          2
+        ],
+        [
+          4,
+          3,
+          7,
+          1
+        ],
+        [
+          3,
+          4,
+          2,
+          9
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "cohort": "negative",
+      "conditional_channel_bootstrap": {
+        "lower": -0.02613294018788571,
+        "replicates": 200,
+        "seed": 346813117,
+        "upper": 0.005719249873663059,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "workflow",
+      "empirical_channel_singular_values": [
+        0.6452911136598771,
+        0.30361794692184646,
+        0.25262555767549844,
+        0.20023947799497946
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 3.2381234122617425e-05,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": -0.017407086181639848,
+        "true_decision": "flexibility"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        2,
+        4,
+        19,
+        4,
+        0,
+        1,
+        4,
+        17,
+        4,
+        0,
+        0,
+        5,
+        14,
+        6,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.05003320312499751,
+        -0.004854125976562168,
+        -0.03764270019531078,
+        0.00041101074218749984
+      ],
+      "log_schema": "context_and_action",
+      "lower": -0.03764270019531078,
+      "lower_witness_population": [
+        0.0,
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "max_solver_constraint_violation": 5.551115123125783e-17,
+      "mean_synthetic_regret": 0.008700000000000003,
+      "mean_synthetic_utility": 0.7031875000000001,
+      "naive_channel_fit_residual": 0.07022520036411813,
+      "naive_point_contrast": -0.011716635046394292,
+      "naive_population": [
+        0.24125581699968926,
+        0.0,
+        0.6332966683011417,
+        0.12544751469916907
+      ],
+      "optimal_choice_rate": 0.875,
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "scope": "actual recorded decisions with synthetic profiles and synthetic product outcomes",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.051069335937498836,
+          -0.004878662109374909,
+          -0.03795532226562459,
+          0.0003281249999999997
+        ],
+        "lower": -0.1187509975230337,
+        "radius": 0.0807956752574091,
+        "upper": 0.13186501119490796,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.05003320312499751,
+      "upper_witness_population": [
+        1.0,
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          5,
+          20,
+          2,
+          4
+        ],
+        [
+          14,
+          1,
+          2,
+          5
+        ],
+        [
+          13,
+          11,
+          32,
+          9
+        ],
+        [
+          8,
+          7,
+          4,
+          22
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "cohort": "positive",
+      "conditional_channel_bootstrap": {
+        "lower": -0.004106490626943126,
+        "replicates": 200,
+        "seed": 3114398592,
+        "upper": 0.038864618370578315,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "workflow",
+      "empirical_channel_singular_values": [
+        1.0892315656198235,
+        0.5110193572542776,
+        0.40117710451319827,
+        0.25785799150544086
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 9.008286286113584e-05,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": 0.026430865478514302,
+        "true_decision": "capacity"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        5,
+        19,
+        31,
+        25,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.05003320312499751,
+        -0.004854125976562168,
+        -0.03764270019531078,
+        0.00041101074218749984
+      ],
+      "log_schema": "action_only",
+      "lower": -0.03764270019531078,
+      "lower_witness_population": [
+        0.0,
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "max_solver_constraint_violation": 5.551115123125783e-17,
+      "mean_synthetic_regret": 0.023200000000000005,
+      "mean_synthetic_utility": 0.6631937499999999,
+      "naive_channel_fit_residual": 0.04699612557987192,
+      "naive_point_contrast": 0.016939666246534403,
+      "naive_population": [
+        0.4750835917724238,
+        3.9873228959048934e-17,
+        0.18516023039312826,
+        0.33975617783444795
+      ],
+      "optimal_choice_rate": 0.7,
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "scope": "actual recorded decisions with synthetic profiles and synthetic product outcomes",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.051069335937498836,
+          -0.004878662109374909,
+          -0.03795532226562459,
+          0.0003281249999999997
+        ],
+        "lower": -0.1187509975230337,
+        "radius": 0.0807956752574091,
+        "upper": 0.13186501119490796,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.05003320312499751,
+      "upper_witness_population": [
+        1.0,
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          2,
+          6,
+          1,
+          1
+        ],
+        [
+          2,
+          1,
+          1,
+          1
+        ],
+        [
+          5,
+          3,
+          13,
+          5
+        ],
+        [
+          0,
+          3,
+          1,
+          8
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          7,
+          0,
+          1
+        ],
+        [
+          8,
+          0,
+          1,
+          2
+        ],
+        [
+          4,
+          5,
+          12,
+          3
+        ],
+        [
+          5,
+          0,
+          1,
+          5
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          2,
+          7,
+          1,
+          2
+        ],
+        [
+          4,
+          0,
+          0,
+          2
+        ],
+        [
+          4,
+          3,
+          7,
+          1
+        ],
+        [
+          3,
+          4,
+          2,
+          9
+        ],
+        [
+          0,
+          1,
+          0,
+          0
+        ]
+      ],
+      "cohort": "positive",
+      "conditional_channel_bootstrap": {
+        "lower": -0.006909764896412274,
+        "replicates": 200,
+        "seed": 4025519340,
+        "upper": 0.029177665377259722,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "workflow",
+      "empirical_channel_singular_values": [
+        0.6452911136598771,
+        0.30361794692184646,
+        0.25262555767549844,
+        0.20023947799497946
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 0.0001949102141403409,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": 0.026430865478514302,
+        "true_decision": "capacity"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        0,
+        5,
+        10,
+        11,
+        0,
+        4,
+        6,
+        11,
+        9,
+        0,
+        1,
+        8,
+        10,
+        5,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.05003320312499751,
+        -0.004854125976562168,
+        -0.03764270019531078,
+        0.00041101074218749984
+      ],
+      "log_schema": "context_and_action",
+      "lower": -0.03764270019531078,
+      "lower_witness_population": [
+        0.0,
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "max_solver_constraint_violation": 1.1102230246251565e-16,
+      "mean_synthetic_regret": 0.023200000000000005,
+      "mean_synthetic_utility": 0.6631937499999999,
+      "naive_channel_fit_residual": 0.1305958559832421,
+      "naive_point_contrast": 0.012469840654371166,
+      "naive_population": [
+        0.39742097236152596,
+        0.008551886361071653,
+        0.20016558166744458,
+        0.3938615596099578
+      ],
+      "optimal_choice_rate": 0.7,
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "scope": "actual recorded decisions with synthetic profiles and synthetic product outcomes",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.051069335937498836,
+          -0.004878662109374909,
+          -0.03795532226562459,
+          0.0003281249999999997
+        ],
+        "lower": -0.1187509975230337,
+        "radius": 0.0807956752574091,
+        "upper": 0.13186501119490796,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.05003320312499751,
+      "upper_witness_population": [
+        1.0,
+        0.0,
+        0.0,
+        -0.0
+      ]
+    }
+  ],
+  "confidence_scope": "At least 96% marginal coverage per primary known-contrast condition under iid stable receipt/action channels; not simultaneous coverage across the compared conditions. Human outcome uncertainty is not represented.",
+  "design": "Exploratory follow-up, frozen before new receipt responses; original action baseline uses the same task IDs and label budgets.",
+  "model": "gpt-5.4-mini-2026-03-17",
+  "receipt_reports": [
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          40,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          40,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          40,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          40
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "near",
+      "conditional_channel_bootstrap": {
+        "lower": 0.012268111841520409,
+        "replicates": 200,
+        "seed": 470797729,
+        "upper": 0.02563506547876732,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "cloud",
+      "empirical_channel_singular_values": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": false,
+        "interval_contains_target": true,
+        "naive_squared_error": 7.180649221511694e-05,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": 0.010046870117187032,
+        "true_decision": "capacity"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        41,
+        10,
+        14,
+        15,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.050002319335935116,
+        -0.0050474853515621474,
+        -0.037375976562498255,
+        0.0003535156249999995
+      ],
+      "log_schema": "receipt_attribute",
+      "lower": -0.005485263503477314,
+      "lower_witness_population": [
+        0.21333152013073395,
+        0.2941297151949969,
+        0.3933750007564978,
+        0.09916376391777124
+      ],
+      "max_solver_constraint_violation": 1.1102230246251565e-16,
+      "naive_channel_fit_residual": 2.481818074343394e-10,
+      "naive_point_contrast": 0.01852074126413734,
+      "naive_population": [
+        0.512499999983756,
+        0.12499999987468915,
+        0.17500000020421025,
+        0.18749999993734456
+      ],
+      "operational_metric_scope": "Fraction accurately reporting the largest already supplied synthetic preference weight. Not product-choice accuracy or human preference validation.",
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "receipt_attribute_accuracy": 1.0,
+      "scope": "Actual model responses reporting explicit synthetic preferences; known finite-bank synthetic future-product contrasts.",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.051634277343748994,
+          -0.004920898437499897,
+          -0.03722265624999972,
+          0.0003332519531249977
+        ],
+        "lower": -0.08583725474923823,
+        "radius": 0.0807956752574091,
+        "upper": 0.12292148956650442,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.04080008972735339,
+      "upper_witness_population": [
+        0.8146535481064382,
+        -0.0,
+        0.0,
+        0.18534645189356186
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          12,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          9,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          12,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          18
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          12,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          14,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          14,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          16
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          16,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          17,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          14,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "near",
+      "conditional_channel_bootstrap": {
+        "lower": 0.01168872959000858,
+        "replicates": 200,
+        "seed": 3247893097,
+        "upper": 0.02690611731529428,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "cloud",
+      "empirical_channel_singular_values": [
+        0.6204836822995429,
+        0.594768862668516,
+        0.58309518948453,
+        0.5787918451395113
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": false,
+        "interval_contains_target": true,
+        "naive_squared_error": 7.900483580181773e-05,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": 0.010046870117187032,
+        "true_decision": "capacity"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        12,
+        7,
+        5,
+        4,
+        0,
+        12,
+        2,
+        5,
+        6,
+        0,
+        17,
+        1,
+        4,
+        5,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.050002319335935116,
+        -0.0050474853515621474,
+        -0.037375976562498255,
+        0.0003535156249999995
+      ],
+      "log_schema": "context_and_receipt_attribute",
+      "lower": -0.037375976562498255,
+      "lower_witness_population": [
+        0.0,
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "max_solver_constraint_violation": 2.220446049250313e-16,
+      "naive_channel_fit_residual": 0.08881266578473734,
+      "naive_point_contrast": 0.01893533656544557,
+      "naive_population": [
+        0.52913021869294,
+        0.10927003343476449,
+        0.18814708219228038,
+        0.17345266568001522
+      ],
+      "operational_metric_scope": "Fraction accurately reporting the largest already supplied synthetic preference weight. Not product-choice accuracy or human preference validation.",
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "receipt_attribute_accuracy": 1.0,
+      "scope": "Actual model responses reporting explicit synthetic preferences; known finite-bank synthetic future-product contrasts.",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.051634277343748994,
+          -0.004920898437499897,
+          -0.03722265624999972,
+          0.0003332519531249977
+        ],
+        "lower": -0.11801833150740883,
+        "radius": 0.0807956752574091,
+        "upper": 0.13242995260115809,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.050002319335935116,
+      "upper_witness_population": [
+        1.0,
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          40,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          40,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          40,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          40
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "negative",
+      "conditional_channel_bootstrap": {
+        "lower": -0.019035271989546125,
+        "replicates": 200,
+        "seed": 3535592492,
+        "upper": -0.005426462043806856,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "cloud",
+      "empirical_channel_singular_values": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 3.0994460132913266e-05,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": -0.017263433837889815,
+        "true_decision": "flexibility"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        15,
+        9,
+        44,
+        12,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.050002319335935116,
+        -0.0050474853515621474,
+        -0.037375976562498255,
+        0.0003535156249999995
+      ],
+      "log_schema": "receipt_attribute",
+      "lower": -0.03271314758810608,
+      "lower_witness_population": [
+        0.0,
+        0.14423280517387177,
+        0.8557671948261283,
+        0.0
+      ],
+      "max_solver_constraint_violation": 9.298117831235686e-16,
+      "naive_channel_fit_residual": 3.844722460948865e-12,
+      "naive_point_contrast": -0.011696166992038678,
+      "naive_population": [
+        0.18750000000063619,
+        0.11250000000139543,
+        0.5499999999967076,
+        0.15000000000126076
+      ],
+      "operational_metric_scope": "Fraction accurately reporting the largest already supplied synthetic preference weight. Not product-choice accuracy or human preference validation.",
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "receipt_attribute_accuracy": 1.0,
+      "scope": "Actual model responses reporting explicit synthetic preferences; known finite-bank synthetic future-product contrasts.",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.051634277343748994,
+          -0.004920898437499897,
+          -0.03722265624999972,
+          0.0003332519531249977
+        ],
+        "lower": -0.11335935836606496,
+        "radius": 0.0807956752574091,
+        "upper": 0.09237366572844505,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.010868347059074062,
+      "upper_witness_population": [
+        0.41108077161120843,
+        0.04251443478150462,
+        0.2561713938047719,
+        0.2902333998025151
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          12,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          9,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          12,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          18
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          12,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          14,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          14,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          16
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          16,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          17,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          14,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "negative",
+      "conditional_channel_bootstrap": {
+        "lower": -0.01689310681011142,
+        "replicates": 200,
+        "seed": 4039325913,
+        "upper": -0.0015096290428948062,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "cloud",
+      "empirical_channel_singular_values": [
+        0.6204836822995429,
+        0.594768862668516,
+        0.58309518948453,
+        0.5787918451395113
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": false,
+        "interval_contains_target": true,
+        "naive_squared_error": 4.711199907258816e-05,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": -0.017263433837889815,
+        "true_decision": "flexibility"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        2,
+        4,
+        17,
+        4,
+        0,
+        2,
+        2,
+        16,
+        2,
+        0,
+        11,
+        3,
+        11,
+        6,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.050002319335935116,
+        -0.0050474853515621474,
+        -0.037375976562498255,
+        0.0003535156249999995
+      ],
+      "log_schema": "context_and_receipt_attribute",
+      "lower": -0.037375976562498255,
+      "lower_witness_population": [
+        0.0,
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "max_solver_constraint_violation": 1.1102230246251565e-16,
+      "naive_channel_fit_residual": 0.12584899666578445,
+      "naive_point_contrast": -0.01039961572603777,
+      "naive_population": [
+        0.215205779960488,
+        0.11055114016834683,
+        0.5523730337576889,
+        0.1218700461134763
+      ],
+      "operational_metric_scope": "Fraction accurately reporting the largest already supplied synthetic preference weight. Not product-choice accuracy or human preference validation.",
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "receipt_attribute_accuracy": 1.0,
+      "scope": "Actual model responses reporting explicit synthetic preferences; known finite-bank synthetic future-product contrasts.",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.051634277343748994,
+          -0.004920898437499897,
+          -0.03722265624999972,
+          0.0003332519531249977
+        ],
+        "lower": -0.11801833150740883,
+        "radius": 0.0807956752574091,
+        "upper": 0.13242995260115809,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.050002319335935116,
+      "upper_witness_population": [
+        1.0,
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          40,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          40,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          40,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          40
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "positive",
+      "conditional_channel_bootstrap": {
+        "lower": 0.02316992347601349,
+        "replicates": 200,
+        "seed": 2191750080,
+        "upper": 0.03587224493465221,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "capacity",
+      "domain": "cloud",
+      "empirical_channel_singular_values": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 1.247361718943672e-05,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": 0.02642571411132687,
+        "true_decision": "capacity"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        54,
+        9,
+        7,
+        10,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.050002319335935116,
+        -0.0050474853515621474,
+        -0.037375976562498255,
+        0.0003535156249999995
+      ],
+      "log_schema": "receipt_attribute",
+      "lower": 0.009182153695136034,
+      "lower_witness_population": [
+        0.4067402419026142,
+        0.28116322643870256,
+        0.26098855112921826,
+        0.051107980529464955
+      ],
+      "max_solver_constraint_violation": 5.551115123125783e-17,
+      "naive_channel_fit_residual": 3.1563619986965516e-12,
+      "naive_point_contrast": 0.029957514953593705,
+      "naive_population": [
+        0.6749999999999999,
+        0.11249999999746928,
+        0.08750000000084354,
+        0.12500000000168715
+      ],
+      "operational_metric_scope": "Fraction accurately reporting the largest already supplied synthetic preference weight. Not product-choice accuracy or human preference validation.",
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "receipt_attribute_accuracy": 1.0,
+      "scope": "Actual model responses reporting explicit synthetic preferences; known finite-bank synthetic future-product contrasts.",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.051634277343748994,
+          -0.004920898437499897,
+          -0.03722265624999972,
+          0.0003332519531249977
+        ],
+        "lower": -0.07087516777134725,
+        "radius": 0.0807956752574091,
+        "upper": 0.13165878488953842,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.04925598816514699,
+      "upper_witness_population": [
+        0.984967791467174,
+        -0.0,
+        0.0,
+        0.015032208532826089
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          12,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          9,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          12,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          18
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          12,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          14,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          14,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          16
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          16,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          17,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          14,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          6
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "positive",
+      "conditional_channel_bootstrap": {
+        "lower": 0.02220889829351641,
+        "replicates": 200,
+        "seed": 1867275277,
+        "upper": 0.035491556390656036,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "cloud",
+      "empirical_channel_singular_values": [
+        0.6204836822995429,
+        0.594768862668516,
+        0.58309518948453,
+        0.5787918451395113
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 6.9425211124258775e-06,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": 0.02642571411132687,
+        "true_decision": "capacity"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        20,
+        4,
+        2,
+        3,
+        0,
+        18,
+        2,
+        0,
+        4,
+        0,
+        16,
+        3,
+        5,
+        3,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.050002319335935116,
+        -0.0050474853515621474,
+        -0.037375976562498255,
+        0.0003535156249999995
+      ],
+      "log_schema": "context_and_receipt_attribute",
+      "lower": -0.028194487281347706,
+      "lower_witness_population": [
+        0.0,
+        0.284006117738171,
+        0.7159938822618289,
+        0.0
+      ],
+      "max_solver_constraint_violation": 1.1102230246251565e-16,
+      "naive_channel_fit_residual": 0.10564529262651652,
+      "naive_point_contrast": 0.029060580542936996,
+      "naive_population": [
+        0.6663111923939307,
+        0.1130270116467841,
+        0.09976359248729641,
+        0.12089820347198893
+      ],
+      "operational_metric_scope": "Fraction accurately reporting the largest already supplied synthetic preference weight. Not product-choice accuracy or human preference validation.",
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "receipt_attribute_accuracy": 1.0,
+      "scope": "Actual model responses reporting explicit synthetic preferences; known finite-bank synthetic future-product contrasts.",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.051634277343748994,
+          -0.004920898437499897,
+          -0.03722265624999972,
+          0.0003332519531249977
+        ],
+        "lower": -0.1088444346749621,
+        "radius": 0.0807956752574091,
+        "upper": 0.13242995260115809,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.050002319335935116,
+      "upper_witness_population": [
+        1.0,
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          40,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          40,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          40,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          40
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "near",
+      "conditional_channel_bootstrap": {
+        "lower": 0.0006193767547819793,
+        "replicates": 200,
+        "seed": 1914227159,
+        "upper": 0.016923165473265334,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "travel",
+      "empirical_channel_singular_values": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 1.4809489111629953e-06,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": 0.010493826904296379,
+        "true_decision": "capacity"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        34,
+        13,
+        25,
+        8,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.05029064941406013,
+        -0.004990844726562165,
+        -0.03626733398437338,
+        0.00047912597656250025
+      ],
+      "log_schema": "receipt_attribute",
+      "lower": -0.016374484414453182,
+      "lower_witness_population": [
+        0.11740687614490042,
+        0.2707348746710155,
+        0.5774954633351224,
+        0.03436278584896177
+      ],
+      "max_solver_constraint_violation": 1.6375789613221059e-15,
+      "naive_channel_fit_residual": 3.3170979337245345e-12,
+      "naive_point_contrast": 0.009276884460643847,
+      "naive_population": [
+        0.4250000000025007,
+        0.16250000000033854,
+        0.31249999999803074,
+        0.09999999999912998
+      ],
+      "operational_metric_scope": "Fraction accurately reporting the largest already supplied synthetic preference weight. Not product-choice accuracy or human preference validation.",
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "receipt_attribute_accuracy": 1.0,
+      "scope": "Actual model responses reporting explicit synthetic preferences; known finite-bank synthetic future-product contrasts.",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.05012304687499894,
+          -0.005114257812499896,
+          -0.03722045898437466,
+          0.00046020507812500006
+        ],
+        "lower": -0.09777432512703463,
+        "radius": 0.0807956752574091,
+        "upper": 0.11620193870180756,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.03554235190999637,
+      "upper_witness_population": [
+        0.7146886592013039,
+        0.0790572260023995,
+        0.0028319531974736654,
+        0.20342216159882298
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          14,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          11,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          14,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          12
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          14,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          8,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          16
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          20,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          15,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          18,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          12
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "near",
+      "conditional_channel_bootstrap": {
+        "lower": 0.00035507996371248347,
+        "replicates": 200,
+        "seed": 3597400572,
+        "upper": 0.014792146864499402,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "travel",
+      "empirical_channel_singular_values": [
+        0.6284902544988267,
+        0.6041522986797286,
+        0.58309518948453,
+        0.5820223363411408
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 9.456887019568291e-06,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": 0.010493826904296379,
+        "true_decision": "capacity"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        19,
+        4,
+        5,
+        1,
+        0,
+        7,
+        6,
+        9,
+        3,
+        0,
+        8,
+        3,
+        11,
+        4,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.05029064941406013,
+        -0.004990844726562165,
+        -0.03626733398437338,
+        0.00047912597656250025
+      ],
+      "log_schema": "context_and_receipt_attribute",
+      "lower": -0.03626733398437338,
+      "lower_witness_population": [
+        0.0,
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "max_solver_constraint_violation": 1.1102230246251565e-16,
+      "naive_channel_fit_residual": 0.16321324495682124,
+      "naive_point_contrast": 0.007418621704709156,
+      "naive_population": [
+        0.38834658493441276,
+        0.18069196296673876,
+        0.3106764449583488,
+        0.12028500714049979
+      ],
+      "operational_metric_scope": "Fraction accurately reporting the largest already supplied synthetic preference weight. Not product-choice accuracy or human preference validation.",
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "receipt_attribute_accuracy": 1.0,
+      "scope": "Actual model responses reporting explicit synthetic preferences; known finite-bank synthetic future-product contrasts.",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.05012304687499894,
+          -0.005114257812499896,
+          -0.03722045898437466,
+          0.00046020507812500006
+        ],
+        "lower": -0.11801613424178377,
+        "radius": 0.0807956752574091,
+        "upper": 0.13091872213240804,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.05029064941406013,
+      "upper_witness_population": [
+        1.0,
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          40,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          40,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          40,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          40
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "negative",
+      "conditional_channel_bootstrap": {
+        "lower": -0.022585652923586934,
+        "replicates": 200,
+        "seed": 1469725268,
+        "upper": -0.008131957892565312,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "travel",
+      "empirical_channel_singular_values": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 1.1706694532646759e-06,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": -0.016481341552733644,
+        "true_decision": "flexibility"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        13,
+        8,
+        51,
+        8,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.05029064941406013,
+        -0.004990844726562165,
+        -0.03626733398437338,
+        0.00047912597656250025
+      ],
+      "log_schema": "receipt_attribute",
+      "lower": -0.03462657381023155,
+      "lower_witness_population": [
+        0.0,
+        0.05245985764633285,
+        0.9475401423536672,
+        0.0
+      ],
+      "max_solver_constraint_violation": 8.604228440844963e-16,
+      "naive_channel_fit_residual": 1.9208925203029605e-11,
+      "naive_point_contrast": -0.01539936675946687,
+      "naive_population": [
+        0.1625000000049726,
+        0.10000000000916313,
+        0.6374999999839771,
+        0.10000000000188716
+      ],
+      "operational_metric_scope": "Fraction accurately reporting the largest already supplied synthetic preference weight. Not product-choice accuracy or human preference validation.",
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "receipt_attribute_accuracy": 1.0,
+      "scope": "Actual model responses reporting explicit synthetic preferences; known finite-bank synthetic future-product contrasts.",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.05012304687499894,
+          -0.005114257812499896,
+          -0.03722045898437466,
+          0.00046020507812500006
+        ],
+        "lower": -0.1163318474987427,
+        "radius": 0.0807956752574091,
+        "upper": 0.08613418127191044,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.005753389483846415,
+      "upper_witness_population": [
+        0.3754229828537348,
+        0.03436278584896177,
+        0.3602568460829076,
+        0.22995738521439588
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          14,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          11,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          14,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          12
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          14,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          8,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          16
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          20,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          15,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          18,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          12
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "negative",
+      "conditional_channel_bootstrap": {
+        "lower": -0.02151146649072578,
+        "replicates": 200,
+        "seed": 598787056,
+        "upper": -0.008453500587221077,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "travel",
+      "empirical_channel_singular_values": [
+        0.6284902544988267,
+        0.6041522986797286,
+        0.58309518948453,
+        0.5820223363411408
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 8.515713038337481e-07,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": -0.016481341552733644,
+        "true_decision": "flexibility"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        8,
+        4,
+        20,
+        3,
+        0,
+        3,
+        1,
+        13,
+        2,
+        0,
+        2,
+        3,
+        18,
+        3,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.05029064941406013,
+        -0.004990844726562165,
+        -0.03626733398437338,
+        0.00047912597656250025
+      ],
+      "log_schema": "context_and_receipt_attribute",
+      "lower": -0.03626733398437338,
+      "lower_witness_population": [
+        0.0,
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "max_solver_constraint_violation": 1.1102230246251565e-16,
+      "naive_channel_fit_residual": 0.10982623457354818,
+      "naive_point_contrast": -0.015558535341314503,
+      "naive_population": [
+        0.15007986878206536,
+        0.11319276305078678,
+        0.6230316374925929,
+        0.11369573067455502
+      ],
+      "operational_metric_scope": "Fraction accurately reporting the largest already supplied synthetic preference weight. Not product-choice accuracy or human preference validation.",
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "receipt_attribute_accuracy": 1.0,
+      "scope": "Actual model responses reporting explicit synthetic preferences; known finite-bank synthetic future-product contrasts.",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.05012304687499894,
+          -0.005114257812499896,
+          -0.03722045898437466,
+          0.00046020507812500006
+        ],
+        "lower": -0.11801613424178377,
+        "radius": 0.0807956752574091,
+        "upper": 0.11111390372681065,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.030426538934423913,
+      "upper_witness_population": [
+        0.6012145562148635,
+        0.0,
+        0.0,
+        0.3987854437851365
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          40,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          40,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          40,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          40
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "positive",
+      "conditional_channel_bootstrap": {
+        "lower": 0.024372131003576873,
+        "replicates": 200,
+        "seed": 3208105747,
+        "upper": 0.03730465389251269,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "capacity",
+      "domain": "travel",
+      "empirical_channel_singular_values": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 1.9327223356972193e-05,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": 0.026797650146483117,
+        "true_decision": "capacity"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        56,
+        7,
+        8,
+        9,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.05029064941406013,
+        -0.004990844726562165,
+        -0.03626733398437338,
+        0.00047912597656250025
+      ],
+      "log_schema": "receipt_attribute",
+      "lower": 0.010687099411770819,
+      "lower_witness_population": [
+        0.43841016062787597,
+        0.238015173441898,
+        0.28106023114872236,
+        0.042514434781503796
+      ],
+      "max_solver_constraint_violation": 0.0,
+      "naive_channel_fit_residual": 9.052242130839953e-13,
+      "naive_point_contrast": 0.03119392395016871,
+      "naive_population": [
+        0.7,
+        0.08749999999963044,
+        0.10000000000073912,
+        0.11249999999963045
+      ],
+      "operational_metric_scope": "Fraction accurately reporting the largest already supplied synthetic preference weight. Not product-choice accuracy or human preference validation.",
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "receipt_attribute_accuracy": 1.0,
+      "scope": "Actual model responses reporting explicit synthetic preferences; known finite-bank synthetic future-product contrasts.",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.05012304687499894,
+          -0.005114257812499896,
+          -0.03722045898437466,
+          0.00046020507812500006
+        ],
+        "lower": -0.07048011863288084,
+        "radius": 0.0807956752574091,
+        "upper": 0.13091872213240804,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.05029064941406013,
+      "upper_witness_population": [
+        1.0,
+        -0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          14,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          11,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          14,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          12
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          6,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          14,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          8,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          16
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          20,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          15,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          18,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          12
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "positive",
+      "conditional_channel_bootstrap": {
+        "lower": 0.01849671312041694,
+        "replicates": 200,
+        "seed": 3572480714,
+        "upper": 0.03261693129222939,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "travel",
+      "empirical_channel_singular_values": [
+        0.6284902544988267,
+        0.6041522986797286,
+        0.58309518948453,
+        0.5820223363411408
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 7.256076309851903e-07,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": 0.026797650146483117,
+        "true_decision": "capacity"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        18,
+        2,
+        2,
+        2,
+        0,
+        20,
+        3,
+        4,
+        4,
+        0,
+        18,
+        2,
+        2,
+        3,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.05029064941406013,
+        -0.004990844726562165,
+        -0.03626733398437338,
+        0.00047912597656250025
+      ],
+      "log_schema": "context_and_receipt_attribute",
+      "lower": -0.027555674902537065,
+      "lower_witness_population": [
+        0.0,
+        0.2785369870008862,
+        0.7214630129991139,
+        0.0
+      ],
+      "max_solver_constraint_violation": 1.1102230246251565e-16,
+      "naive_channel_fit_residual": 0.18571952864335697,
+      "naive_point_contrast": 0.025945824089717306,
+      "naive_population": [
+        0.6104081613026965,
+        0.12320656448270696,
+        0.11605814618319586,
+        0.15032712803140072
+      ],
+      "operational_metric_scope": "Fraction accurately reporting the largest already supplied synthetic preference weight. Not product-choice accuracy or human preference validation.",
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "receipt_attribute_accuracy": 1.0,
+      "scope": "Actual model responses reporting explicit synthetic preferences; known finite-bank synthetic future-product contrasts.",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.05012304687499894,
+          -0.005114257812499896,
+          -0.03722045898437466,
+          0.00046020507812500006
+        ],
+        "lower": -0.10907336970332546,
+        "radius": 0.0807956752574091,
+        "upper": 0.13091872213240804,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.05029064941406013,
+      "upper_witness_population": [
+        1.0,
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          40,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          40,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          40,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          40
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "near",
+      "conditional_channel_bootstrap": {
+        "lower": 0.008460045739349331,
+        "replicates": 200,
+        "seed": 1840082521,
+        "upper": 0.022992989425647817,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "workflow",
+      "empirical_channel_singular_values": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 2.868123184769447e-05,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": 0.010030104980468225,
+        "true_decision": "capacity"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        37,
+        20,
+        14,
+        9,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.05003320312499751,
+        -0.004854125976562168,
+        -0.03764270019531078,
+        0.00041101074218749984
+      ],
+      "log_schema": "receipt_attribute",
+      "lower": -0.00886608341551045,
+      "lower_witness_population": [
+        0.15782155552665256,
+        0.4062890089353457,
+        0.3933750007564978,
+        0.042514434781503796
+      ],
+      "max_solver_constraint_violation": 2.220446049250313e-16,
+      "naive_channel_fit_residual": 3.196181562082114e-12,
+      "naive_point_contrast": 0.015385591125319547,
+      "naive_population": [
+        0.46249999999741725,
+        0.2499999999999701,
+        0.1750000000010501,
+        0.11250000000156246
+      ],
+      "operational_metric_scope": "Fraction accurately reporting the largest already supplied synthetic preference weight. Not product-choice accuracy or human preference validation.",
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "receipt_attribute_accuracy": 1.0,
+      "scope": "Actual model responses reporting explicit synthetic preferences; known finite-bank synthetic future-product contrasts.",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.051069335937498836,
+          -0.004878662109374909,
+          -0.03795532226562459,
+          0.0003281249999999997
+        ],
+        "lower": -0.0896347048894287,
+        "radius": 0.0807956752574091,
+        "upper": 0.11942468661960438,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.03786149946063591,
+      "upper_witness_population": [
+        0.7582239115275964,
+        0.03309393429427948,
+        0.0,
+        0.20868215417812414
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          9,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          13,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          16,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          15
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          18,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          12,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          14,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          11
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          13,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          15,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          14
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "near",
+      "conditional_channel_bootstrap": {
+        "lower": 0.005823056017439853,
+        "replicates": 200,
+        "seed": 3854846606,
+        "upper": 0.020525089713553733,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "workflow",
+      "empirical_channel_singular_values": [
+        0.5989574275355469,
+        0.5873670062235365,
+        0.5820223363411408,
+        0.5798706752371601
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 1.295731896877596e-05,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": 0.010030104980468225,
+        "true_decision": "capacity"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        12,
+        5,
+        10,
+        2,
+        0,
+        13,
+        8,
+        1,
+        3,
+        0,
+        12,
+        7,
+        3,
+        4,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.05003320312499751,
+        -0.004854125976562168,
+        -0.03764270019531078,
+        0.00041101074218749984
+      ],
+      "log_schema": "context_and_receipt_attribute",
+      "lower": -0.03566877560426039,
+      "lower_witness_population": [
+        0.0,
+        0.060201598821631425,
+        0.9397984011783685,
+        0.0
+      ],
+      "max_solver_constraint_violation": 1.1102230246251565e-16,
+      "naive_channel_fit_residual": 0.104006353283911,
+      "naive_point_contrast": 0.013629732595760669,
+      "naive_population": [
+        0.43966212323109743,
+        0.2534680217452532,
+        0.19088106367459645,
+        0.11598879134905293
+      ],
+      "operational_metric_scope": "Fraction accurately reporting the largest already supplied synthetic preference weight. Not product-choice accuracy or human preference validation.",
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "receipt_attribute_accuracy": 1.0,
+      "scope": "Actual model responses reporting explicit synthetic preferences; known finite-bank synthetic future-product contrasts.",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.051069335937498836,
+          -0.004878662109374909,
+          -0.03795532226562459,
+          0.0003281249999999997
+        ],
+        "lower": -0.11675972969794772,
+        "radius": 0.0807956752574091,
+        "upper": 0.13186501119490796,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.05003320312499751,
+      "upper_witness_population": [
+        1.0,
+        0.0,
+        0.0,
+        -0.0
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          40,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          40,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          40,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          40
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "negative",
+      "conditional_channel_bootstrap": {
+        "lower": -0.025283126983374267,
+        "replicates": 200,
+        "seed": 1138979046,
+        "upper": -0.011658800354638054,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "workflow",
+      "empirical_channel_singular_values": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 3.4219410934660592e-06,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": -0.017407086181639848,
+        "true_decision": "flexibility"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        11,
+        5,
+        55,
+        9,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.05003320312499751,
+        -0.004854125976562168,
+        -0.03764270019531078,
+        0.00041101074218749984
+      ],
+      "log_schema": "receipt_attribute",
+      "lower": -0.03754984448771133,
+      "lower_witness_population": [
+        0.0,
+        0.002831953197475778,
+        0.9971680468025242,
+        0.0
+      ],
+      "max_solver_constraint_violation": 7.979727989493313e-16,
+      "naive_channel_fit_residual": 9.68327253037424e-13,
+      "naive_point_contrast": -0.01925693511965237,
+      "naive_population": [
+        0.1374999999994819,
+        0.06249999999974251,
+        0.6874999999999991,
+        0.11250000000077648
+      ],
+      "operational_metric_scope": "Fraction accurately reporting the largest already supplied synthetic preference weight. Not product-choice accuracy or human preference validation.",
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "receipt_attribute_accuracy": 1.0,
+      "scope": "Actual model responses reporting explicit synthetic preferences; known finite-bank synthetic future-product contrasts.",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.051069335937498836,
+          -0.004878662109374909,
+          -0.03795532226562459,
+          0.0003281249999999997
+        ],
+        "lower": -0.11865732596954238,
+        "radius": 0.0807956752574091,
+        "upper": 0.0820648923330403,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.0010693842579538187,
+      "upper_witness_population": [
+        0.33869222240217767,
+        0.013373175013370184,
+        0.42250453666487653,
+        0.2254300659195757
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          9,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          13,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          16,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          15
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          18,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          12,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          14,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          11
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          13,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          15,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          14
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "negative",
+      "conditional_channel_bootstrap": {
+        "lower": -0.025332752364997015,
+        "replicates": 200,
+        "seed": 346813117,
+        "upper": -0.01423194301487803,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "workflow",
+      "empirical_channel_singular_values": [
+        0.5989574275355469,
+        0.5873670062235365,
+        0.5820223363411408,
+        0.5798706752371601
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 5.772520241188515e-06,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": -0.017407086181639848,
+        "true_decision": "flexibility"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        4,
+        3,
+        20,
+        2,
+        0,
+        2,
+        1,
+        20,
+        3,
+        0,
+        5,
+        1,
+        15,
+        4,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.05003320312499751,
+        -0.004854125976562168,
+        -0.03764270019531078,
+        0.00041101074218749984
+      ],
+      "log_schema": "context_and_receipt_attribute",
+      "lower": -0.03764270019531078,
+      "lower_witness_population": [
+        0.0,
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "max_solver_constraint_violation": 2.220446049250313e-16,
+      "naive_channel_fit_residual": 0.061945387059429986,
+      "naive_point_contrast": -0.01980969314932901,
+      "naive_population": [
+        0.1265868225700167,
+        0.06907218657811934,
+        0.6868855731665502,
+        0.11745541768531388
+      ],
+      "operational_metric_scope": "Fraction accurately reporting the largest already supplied synthetic preference weight. Not product-choice accuracy or human preference validation.",
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "receipt_attribute_accuracy": 1.0,
+      "scope": "Actual model responses reporting explicit synthetic preferences; known finite-bank synthetic future-product contrasts.",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.051069335937498836,
+          -0.004878662109374909,
+          -0.03795532226562459,
+          0.0003281249999999997
+        ],
+        "lower": -0.1187509975230337,
+        "radius": 0.0807956752574091,
+        "upper": 0.11773170718360063,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.03621158717031128,
+      "upper_witness_population": [
+        0.7214630129991139,
+        0.0,
+        0.0,
+        0.2785369870008862
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          40,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          40,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          40,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          40
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "positive",
+      "conditional_channel_bootstrap": {
+        "lower": 0.017444852865613515,
+        "replicates": 200,
+        "seed": 3114398592,
+        "upper": 0.03185911907194983,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "capacity",
+      "domain": "workflow",
+      "empirical_channel_singular_values": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 2.0735762782852062e-06,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": 0.026430865478514302,
+        "true_decision": "capacity"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        51,
+        6,
+        14,
+        9,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.05003320312499751,
+        -0.004854125976562168,
+        -0.03764270019531078,
+        0.00041101074218749984
+      ],
+      "log_schema": "receipt_attribute",
+      "lower": 0.0022450489990206344,
+      "lower_witness_population": [
+        0.36025684608290864,
+        0.2038537183790897,
+        0.3933750007564978,
+        0.042514434781503796
+      ],
+      "max_solver_constraint_violation": 1.1102230246251565e-16,
+      "naive_channel_fit_residual": 5.848848034203219e-11,
+      "naive_point_contrast": 0.024990873715244385,
+      "naive_population": [
+        0.6374999999499316,
+        0.07500000001427465,
+        0.17500000001199378,
+        0.11250000002380003
+      ],
+      "operational_metric_scope": "Fraction accurately reporting the largest already supplied synthetic preference weight. Not product-choice accuracy or human preference validation.",
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "receipt_attribute_accuracy": 1.0,
+      "scope": "Actual model responses reporting explicit synthetic preferences; known finite-bank synthetic future-product contrasts.",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.051069335937498836,
+          -0.004878662109374909,
+          -0.03795532226562459,
+          0.0003281249999999997
+        ],
+        "lower": -0.07830885564876898,
+        "radius": 0.0807956752574091,
+        "upper": 0.12920313449232423,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.04743002997649636,
+      "upper_witness_population": [
+        0.9475401423536672,
+        -0.0,
+        0.0,
+        0.05245985764633285
+      ]
+    },
+    {
+      "alpha_channel_field_outcome": [
+        0.02,
+        0.02,
+        0.01
+      ],
+      "calibration_n": 160,
+      "channel_counts": [
+        [
+          9,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          13,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          16,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          15
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          18,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          12,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          14,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          11
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          13,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          15,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          10,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          14
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      "cohort": "positive",
+      "conditional_channel_bootstrap": {
+        "lower": 0.014103731582482959,
+        "replicates": 200,
+        "seed": 4025519340,
+        "upper": 0.030213670256955944,
+        "warning": "Percentile bootstrap fixes the estimated channel, ignores its calibration error, and has no finite-sample coverage guarantee."
+      },
+      "decision": "unresolved",
+      "domain": "workflow",
+      "empirical_channel_singular_values": [
+        0.5989574275355469,
+        0.5873670062235365,
+        0.5820223363411408,
+        0.5798706752371601
+      ],
+      "evaluation_only": {
+        "certified_wrong_decision": false,
+        "conditional_bootstrap_contains_target": true,
+        "interval_contains_target": true,
+        "naive_squared_error": 1.1258220540921813e-05,
+        "naive_wrong_decision": false,
+        "note": "One target per domain is not an empirical coverage estimate.",
+        "true_contrast": 0.026430865478514302,
+        "true_decision": "capacity"
+      },
+      "failure_rate": 0.0,
+      "field_counts": [
+        17,
+        2,
+        3,
+        4,
+        0,
+        17,
+        3,
+        7,
+        3,
+        0,
+        17,
+        1,
+        4,
+        2,
+        0
+      ],
+      "field_n": 80,
+      "known_synthetic_class_contrasts": [
+        0.05003320312499751,
+        -0.004854125976562168,
+        -0.03764270019531078,
+        0.00041101074218749984
+      ],
+      "log_schema": "context_and_receipt_attribute",
+      "lower": -0.03764270019531078,
+      "lower_witness_population": [
+        0.0,
+        -0.0,
+        1.0,
+        0.0
+      ],
+      "max_solver_constraint_violation": 1.1102230246251565e-16,
+      "naive_channel_fit_residual": 0.11141586717201034,
+      "naive_point_contrast": 0.02307553829015818,
+      "naive_population": [
+        0.6057777999055565,
+        0.08590468757796822,
+        0.18245776520199766,
+        0.1258597473144777
+      ],
+      "operational_metric_scope": "Fraction accurately reporting the largest already supplied synthetic preference weight. Not product-choice accuracy or human preference validation.",
+      "outcome_n": 2048,
+      "outcome_scope": "Primary contrast is exactly enumerated over a frozen finite synthetic menu bank, not a human outcome.",
+      "receipt_attribute_accuracy": 1.0,
+      "scope": "Actual model responses reporting explicit synthetic preferences; known finite-bank synthetic future-product contrasts.",
+      "secondary_estimated_outcome": {
+        "decision": "unresolved",
+        "estimate": [
+          0.051069335937498836,
+          -0.004878662109374909,
+          -0.03795532226562459,
+          0.0003281249999999997
+        ],
+        "lower": -0.1187509975230337,
+        "radius": 0.0807956752574091,
+        "upper": 0.13186501119490796,
+        "warning": "Includes synthetic outcome sampling uncertainty. Conservative Hoeffding intervals may be wide."
+      },
+      "upper": 0.05003320312499751,
+      "upper_witness_population": [
+        1.0,
+        0.0,
+        0.0,
+        -0.0
+      ]
+    }
+  ],
+  "receipt_task_count": 1200,
+  "scope": "The model reports preference weights it was explicitly given. This is not human feedback, privacy protection, or discovery of unknown customer preferences.",
+  "source_selection_manifest": {
+    "benchmark": "delegation-explicit-receipt-extension",
+    "calibration_per_class": 40,
+    "comparison": "Same selected task IDs and calibration/field budgets from existing original action records. No original API call is rerun.",
+    "design": "Exploratory follow-up prompted by unresolved primary benchmark intervals; frozen before receipt API calls.",
+    "distinct_receipt_prompts": 12,
+    "evaluation_truth_sha256": "dd396161f9bf5ea98ba60aa2651a3d286b7299ca01dc4f0c38ce5fa6b52a0f28",
+    "field_per_cohort": 80,
+    "mode": "prepared_only",
+    "model_requested": "gpt-5.4-mini-2026-03-17",
+    "outcome_scope": "Primary outcome contrasts are exactly known in the original independent finite synthetic bank.",
+    "outcomes_sha256": "66e2eafcf924f53d97ac80be27bf2e6a5a8c50702920c457aa2ee383ffdf0b7a",
+    "prompt_diversity_scope": "Repeated extraction from four supplied weight profiles in three domain framings, not 1200 distinct customer decisions.",
+    "python": "3.9.6",
+    "scope": "Reports of already supplied synthetic preference weights. Zero human participants. No privacy or customer-validation claim.",
+    "selected_task_ids_sha256": "288a8312a6a98041abacefaff2b725a78d331004cf647efca56da22e05e43c34",
+    "selection_rule": "First lexicographic task IDs within domain/class calibration strata and domain/cohort field strata; preserve original execution order.",
+    "source_action_subset_sha256": "1b10eef10b6d606b0511f8696915e47e10e640d0cc823e26b821c14b8cbc7f2a",
+    "source_directory": "results/model-study-mini",
+    "source_sha256": {
+      "analyze.py": "d96c4848fb7fa0dbe805798ea02f7ef7fe708e9c77166a4528f6277a6dcbcb33",
+      "analyze_receipts.py": "4261c3e3735edd2537d9ad6ec161a44566b640bd8d1b8c536761f8b2e47e8210",
+      "analyze_transport.py": "ac697c9fa31f4fec7d3259d7efdbaa0db8f33f423475e292d40d66d56ef0af43",
+      "benchmark.py": "b0622d24a9f8b42a9a03394c46b0e31f49635b1fe3c470cf52df5c2923073a5f",
+      "plot_results.py": "d11b8f5b5d80e48d43fd4aaba2088ea8ece200b47352078b5809f8793dd59d57",
+      "prepare.py": "ee4105f2fcb5b61c21a68fa7e3feb06f306770c56f5edea2f46deda879b5db14",
+      "prepare_receipts.py": "500af7ab23918c567de028c9c5763c63bcdb7a7c740715e7c815b784276f8374",
+      "run_live.py": "8462d34d6caa5f0549a7e7429fd0492bfa4e861b68a09e725923a9a806e894d5"
+    },
+    "source_tasks_sha256": "99f562193ba824d144a86e6fe864a6e9f3aaaeac023bf4d0cdb9be1add9fd0f0",
+    "task_count": 1200,
+    "tasks_sha256": "17cf72e65b92a97c80396d11822aedb2a980cebf8093b3db41bc509a88e326b5",
+    "uncertainty_budget": {
+      "channel": 0.02,
+      "field": 0.02,
+      "outcome": 0.01
+    }
+  }
+}

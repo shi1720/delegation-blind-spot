@@ -12,3 +12,15 @@ results/**/replicates.csv
 results/pilot-v1-reproduction/
 tmp/
 results/live-*/
+results/model-study-*/tasks.jsonl
+results/model-study-*/requests.jsonl
+results/model-study-*/responses.jsonl
+results/model-study-*/controls.jsonl
+*.egg-info/
+build/
+paper/main.bbl
+paper/main.blg
+paper/main.fdb_latexmk
+output/pdf/main.pdf
+
+results/receipt-study-*/*.jsonl

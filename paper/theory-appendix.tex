@@ -1,0 +1,355 @@
+\section{Proofs and extensions}
+\label{app:proofs}
+\label{sec:proofs}
+
+The results below make the observation assumptions explicit and provide
+verifiable foundations for the implementation. They are applications of
+established identification, convex duality, concentration, and decision-theoretic
+arguments, not claims of new general mathematical principles. Relevant
+antecedents include partial monitoring \citep{kirschner2023}, partial
+identification under measurement error \citep{finkelstein2021}, optimal
+recovery \citep{donoho1994}, and comparison of experiments
+\citep{blackwell1953}.
+
+Let $A\in\mathbb R^{m\times K}$ be nonnegative and column-stochastic. Write
+$\mathcal S_K=\{p\in\mathbb R^K:p\geq0,\ \mathbf1^\top p=1\}$,
+$q=Ap$, and $\Delta(p)=d^\top p$ for a fixed known vector $d\in\mathbb R^K$.
+For $q\in A\mathcal S_K$, define
+\[
+ \mathcal P_q=\{p\in\mathcal S_K:Ap=q\},\qquad
+ L(q)=\min_{p\in\mathcal P_q}d^\top p,\quad
+ U(q)=\max_{p\in\mathcal P_q}d^\top p.
+\]
+These extrema are attained because $\mathcal P_q$ is nonempty and compact.
+The target is a population contrast. It is not recovery of individual private
+preferences.
+
+\begin{theorem}[Global and local identification]
+\label{thm:global-identification}
+The contrast $d^\top p$ is identified for every feasible $q$ if and only if
+$d\in\operatorname{row}(A)$. At a particular $q$, it is identified if and only if
+$d\perp\operatorname{span}(\mathcal P_q-\mathcal P_q)$.
+\end{theorem}
+\begin{proof}
+If $d=A^\top v$, then $d^\top p=v^\top q$ for every compatible population.
+Conversely, if $d\notin\operatorname{row}(A)$, there is an $h\in\ker(A)$ with
+$d^\top h\ne0$. Column normalization gives $\mathbf1^\top h=0$.
+Choose an interior $p_0\in\mathcal S_K$ and sufficiently small $t>0$ so that
+$p_0\pm th\geq0$. Both populations belong to the simplex, produce $Ap_0$, and
+have different contrasts. The local statement follows because constancy of
+$d^\top p$ on $\mathcal P_q$ is equivalent to orthogonality to every pairwise
+difference, hence to their span.
+\end{proof}
+
+The global condition need not hold at an identified boundary point. For
+example, the channel with columns $(1,0)^\top,(0,1)^\top,(0,1)^\top$ cannot
+generally separate classes two and three, but $q=(1,0)^\top$ uniquely determines
+$p=(1,0,0)^\top$. This distinction prevents a rank-only test from replacing the
+feasible-set calculation. Observation-span conditions have direct antecedents
+in partial monitoring \citep{kirschner2023}.
+
+\begin{theorem}[Magnitude of the globally hidden contrast]
+\label{thm:hidden-width}
+Define
+\[
+ W(A,d)=\max_{p,r\in\mathcal S_K:Ap=Ar}|d^\top(p-r)|.
+\]
+Then
+\begin{equation}
+\label{eq:hidden-width-dual}
+ W(A,d)
+ =\max_{Ah=0,\ \|h\|_1\leq2}d^\top h
+ =2\min_{v\in\mathbb R^m}\|d-A^\top v\|_\infty.
+\end{equation}
+\end{theorem}
+\begin{proof}
+Every $h=p-r$ in the first optimization satisfies $Ah=0$ and $\|h\|_1\leq2$.
+Conversely, $Ah=0$ implies $\mathbf1^\top h=0$. Let $h_+,h_-$ be its positive
+and negative parts, with common mass $s=\|h\|_1/2\leq1$. For any
+$u\in\mathcal S_K$, the vectors $p=h_++(1-s)u$ and $r=h_-+(1-s)u$ are
+compatible simplex points and satisfy $p-r=h$. The feasible set is symmetric,
+so maximizing the absolute contrast equals maximizing the signed contrast.
+
+For the second equality, consider
+\[
+ \min_{v,t}\ t\quad\text{subject to}\quad
+ d-A^\top v\leq t\mathbf1,\quad
+ A^\top v-d\leq t\mathbf1,\quad t\geq0.
+\]
+Assign nonnegative multipliers $a,b$ to these two inequalities. Minimizing the
+Lagrangian over unrestricted $v$ requires $A(a-b)=0$; minimizing over $t\geq0$
+requires $\mathbf1^\top(a+b)\leq1$. The dual objective is $d^\top(a-b)$.
+Writing $z=a-b$ gives precisely $Az=0,\ \|z\|_1\leq1$: the reverse direction
+uses $a=z_+,b=z_-$. Primal feasibility follows by taking $v=0$ and
+$t=\|d\|_\infty$; the primal is bounded below, so finite-dimensional LP strong
+duality applies. Rescaling $h=2z$ proves the identity.
+\end{proof}
+
+$W(A,d)$ is a worst-case width over all possible $q$; the interval at an observed
+$q$ may be narrower. The dual quantity is a standard distance to an observable
+subspace, with conceptual antecedents in optimal recovery
+\citep{donoho1994}. It is not, by itself, a measured market effect.
+
+\begin{theorem}[Irreducible estimation and decision loss]
+\label{thm:decision-loss}
+Fix $q$ and write $L=L(q)$, $U=U(q)$, and $w=U-L$. Suppose the data consist of
+any finite number of iid actions from $q$, together with independent analyst
+randomization. Every estimator has worst-case mean absolute error at least
+$w/2$ and worst-case mean squared error at least $w^2/4$ over $\mathcal P_q$.
+If $q$ is supplied exactly, the midpoint attains both bounds.
+
+If $L<0<U$, the minimax customer-value regret for choosing between variants zero
+and one, when $q$ is known exactly, is
+\begin{equation}
+\label{eq:minimax-regret}
+ R^*(q)=\frac{-LU}{U-L}.
+\end{equation}
+It is attained by choosing variant one with probability $t^*=U/(U-L)$.
+The minimax regret among deterministic decisions is $\min\{-L,U\}$. If the
+interval does not strictly straddle zero, minimax regret is zero.
+\end{theorem}
+\begin{proof}
+All compatible populations yield the same data distribution. Let $T$ have the
+common distribution of an estimator at populations attaining the endpoints.
+Pointwise,
+\[
+ |T-L|+|T-U|\geq w,\qquad
+ \frac{(T-L)^2+(T-U)^2}{2}
+ =\left(T-\frac{L+U}{2}\right)^2+\frac{w^2}{4}.
+\]
+Taking expectations bounds the larger endpoint risk from below. The constant
+midpoint attains both lower bounds over the whole interval when $q$ is known.
+
+For a randomized decision rule let $t$ be its common probability of selecting
+variant one. Its regrets at the lower and upper endpoints are $(-L)t$ and
+$U(1-t)$, respectively; intermediate contrasts give no larger regret. Minimizing
+$\max\{(-L)t,U(1-t)\}$ over $t\in[0,1]$ equates the terms and gives
+\eqref{eq:minimax-regret}. Restricting $t$ to zero or one gives the deterministic
+result. If the interval lies weakly on one side of zero, a single variant is
+weakly optimal throughout.
+\end{proof}
+
+For strict opposite-sign endpoints, the decision error probabilities are $t$
+and $1-t$, so their equally weighted average is $1/2$. These are fixed-channel
+indistinguishability statements, a standard lower-bound argument
+\citep{lattimore2020}. The attainability claims presume exact $q$; finite-sample
+uncertainty can add loss. A probe that changes the observation channel can
+break the indistinguishability.
+
+\begin{theorem}[Coarsening]
+\label{thm:coarsening}
+Let $G$ be column-stochastic and set $B=GA$. For every feasible $q$,
+\[
+ \mathcal P(A,q)\subseteq\mathcal P(B,Gq).
+\]
+The interval under $B$ at $Gq$ therefore contains the interval under $A$ at $q$,
+and $W(B,d)\geq W(A,d)$.
+\end{theorem}
+\begin{proof}
+$Ap=q$ implies $Bp=GAp=Gq$. Minimization over the enlarged set cannot increase
+the lower bound, and maximization cannot decrease the upper bound. Every pair
+with $Ap=Ar$ also has $Bp=Br$, proving the global inequality.
+\end{proof}
+
+This finite-channel implication belongs to the comparison-of-experiments
+viewpoint \citep{blackwell1953}. It does not establish that a more competent
+agent is a coarsening of another agent. That is an additional, testable
+relationship, not an assumption licensed by higher task success.
+
+\begin{theorem}[A bias-aware finite-sample certificate]
+\label{thm:linear-certificate}
+Let $Y_1,\ldots,Y_n$ be iid categorical actions from $q=Ap$. Choose
+$v\in\mathbb R^m$ independently of these data and define
+$\epsilon(v)=\|d-A^\top v\|_\infty$ and
+$\operatorname{rng}(v)=\max_a v_a-\min_a v_a$.
+With probability at least $1-\alpha$,
+\begin{equation}
+\label{eq:linear-certificate}
+ \left|\frac1n\sum_{i=1}^n v_{Y_i}-d^\top p\right|
+ \leq \epsilon(v)+\operatorname{rng}(v)
+       \sqrt{\frac{\log(2/\alpha)}{2n}}.
+\end{equation}
+If the deployed channel is $A'$ and
+$\max_k\operatorname{TV}(A'_{\cdot k},A_{\cdot k})\leq\tau$, the bound holds
+for iid data from $A'p$ after adding $\tau\operatorname{rng}(v)$.
+\end{theorem}
+\begin{proof}
+The mean of $v_{Y_i}$ under $A$ is $v^\top Ap$. Since $p$ is a probability
+vector, its difference from $d^\top p$ has absolute value at most
+$\|A^\top v-d\|_\infty$. Hoeffding's inequality for variables in
+$[\min_a v_a,\max_a v_a]$ bounds the sampling deviation by the second term
+with probability at least $1-\alpha$. The triangle inequality proves
+\eqref{eq:linear-certificate}.
+
+For distributions $r,s$, write $b=\min_a v_a$ and use
+$\sum_a(r_a-s_a)=0$ to obtain
+$|v^\top(r-s)|\leq\operatorname{rng}(v)\operatorname{TV}(r,s)$.
+Applying this bound to every channel column and averaging over $p$ bounds the
+additional drift bias by $\tau\operatorname{rng}(v)$.
+\end{proof}
+
+Minimizing the right-hand side over $v$ using only $A,d,n,\alpha,\tau$ preserves
+the guarantee. Choosing $v$ against the same field observations requires a
+separate argument. An estimated channel is not automatically a known channel;
+its uncertainty must be covered by a valid drift bound or the joint confidence
+set. Bias-aware linear estimation and concentration are established tools
+\citep{donoho1994,lattimore2020}.
+
+\begin{theorem}[Identification from logged probes]
+\label{thm:logged-probes}
+Let probe $e\in\{1,\ldots,E\}$ be assigned independently of latent class with
+probability $\rho_e>0$, where $\sum_e\rho_e=1$, and let its channel be $A_e$.
+Suppose the probe identity is recorded and all probes share the same population
+composition $p$. The joint probe/action channel is
+$B=\operatorname{vstack}(\rho_1A_1,\ldots,\rho_EA_E)$, and
+\[
+ d^\top p\text{ is globally identified}
+ \quad\Longleftrightarrow\quad
+ d\in\operatorname{row}(B)
+ =\operatorname{span}\!\left(\bigcup_e\operatorname{row}(A_e)\right).
+\]
+\end{theorem}
+\begin{proof}
+$B$ is column-stochastic and
+$\ker(B)=\bigcap_e\ker(A_e)$ because every $\rho_e$ is positive. Apply
+Theorem~\ref{thm:global-identification} and orthogonal-complement identities.
+\end{proof}
+
+If probe labels are discarded, the channel is instead $\sum_e\rho_e A_e$.
+For example, $A_1=I_2$ and $A_2$ equal to $I_2$ with its rows exchanged are each
+fully revealing. At equal assignment probabilities their unlogged average has
+identical columns $(1/2,1/2)^\top$. Logged experimental variation can therefore
+be informative when unlogged variation is not. Probe choice and its costs
+connect directly to experimental design and partial monitoring
+\citep{kirschner2023,lattimore2020}.
+
+\begin{proposition}[Continuous cost allocation for fixed weights]
+\label{prop:cost-allocation}
+Suppose independent samples from probe $e$ have size $n_e>0$, and fixed weights
+$v_e$ satisfy $\sum_e A_e^\top v_e=d$. Write
+$\sigma_e^2=\operatorname{Var}_{A_ep}(v_{e,Y})$ and assume $\sigma_e>0$.
+The estimator $\sum_e n_e^{-1}\sum_i v_{e,Y_{ei}}$ is unbiased, with variance
+$\sum_e\sigma_e^2/n_e$. Under positive costs $c_e$ and the continuous budget
+$\sum_e c_en_e=C$, its minimum variance and optimal allocation are
+\[
+ V_{\min}=\frac{(\sum_e\sigma_e\sqrt{c_e})^2}{C},\qquad
+ n_e^*=\frac{C\sigma_e/\sqrt{c_e}}{\sum_j\sigma_j\sqrt{c_j}}.
+\]
+\end{proposition}
+\begin{proof}
+The weight identity gives unbiasedness. Independence gives the variance.
+Cauchy--Schwarz yields
+\[
+ (\sum_e\sigma_e\sqrt{c_e})^2
+ \leq (\sum_e\sigma_e^2/n_e)(\sum_e c_en_e).
+\]
+Equality holds at the displayed allocation.
+\end{proof}
+This familiar calculation is not a new acquisition algorithm. Integer sample
+sizes, unknown variances, adaptive weights, or required minimum allocations
+need additional treatment. Zero variances require the corresponding limiting
+allocation or explicit minimum-count constraints.
+
+\begin{proposition}[Rectangular uncertainty and coverage]
+\label{prop:uncertainty-coverage}
+Suppose channel columns lie in coordinate boxes
+$\underline A_{ak}\leq A_{ak}\leq\overline A_{ak}$, with $0\leq\underline A\leq\overline A\leq1$ and each containing at least
+one simplex vector. Frequencies lie in
+$\underline q\leq q\leq\overline q$. Introduce $J_{ak}$ and impose
+\begin{align}
+ p&\geq0,\quad J\geq0, & \mathbf1^\top p&=1, \nonumber\\
+ \sum_a J_{ak}&=p_k, &
+ \underline A_{ak}p_k\leq J_{ak}&\leq\overline A_{ak}p_k,\label{eq:joint-lp}\\
+ \underline q_a&\leq\sum_kJ_{ak}\leq\overline q_a. &&\nonumber
+\end{align}
+Minimizing and maximizing $d^\top p$ over these constraints gives attainable
+bounds within the supplied rectangular model. If the channel and frequency
+boxes cover their true values with probabilities at least $1-\alpha_A$ and
+$1-\alpha_q$, respectively, the interval covers $d^\top p$ with probability
+at least $1-\alpha_A-\alpha_q$.
+\end{proposition}
+\begin{proof}
+Every admissible $(A,p)$ maps to $J=A\operatorname{diag}(p)$ satisfying
+\eqref{eq:joint-lp}. Conversely, if $p_k>0$, define $A_{ak}=J_{ak}/p_k$.
+The resulting column sums to one and satisfies its box constraints. If
+$p_k=0$, the constraints force the entire column of $J$ to zero; choose any
+simplex vector from that column's nonempty channel box. These choices produce
+an admissible channel with frequencies $\sum_kJ_{\cdot k}$. This establishes
+exactness, including zero-mass columns.
+
+On the intersection of the two coverage events, the true pair
+$(p,A\operatorname{diag}(p))$ is feasible. Its contrast lies between the extrema.
+The union bound gives the asserted probability without requiring independence
+of the confidence events.
+\end{proof}
+
+This confidence-set propagation is already present in the measurement-error
+literature, including the supplementary Proposition~1 of
+\citet{finkelstein2021}. An infeasible program is a failure state, not a narrow
+confidence interval. Fixed-sample intervals do not justify optional stopping.
+
+\paragraph{Uncertain outcomes.}
+If $d$ lies in an independent coordinate rectangle
+$[\underline d,\overline d]$, sharp rectangular-model endpoints are
+$\min_p\underline d^\top p$ and $\max_p\overline d^\top p$ over the same
+feasible set. This follows because $p\geq0$ makes the coordinate endpoints
+optimal for each fixed $p$. If this outcome rectangle has error probability
+$\alpha_d$, the same proof gives coverage at least
+$1-\alpha_A-\alpha_q-\alpha_d$. Parameter correlations excluded by the
+rectangle can make these bounds conservative.
+
+\paragraph{Omitted classes.}
+A separate contamination model is needed if some customers lie outside the
+calibrated taxonomy. Let their mass be $\eta\in[0,\bar\eta]$, their total action
+masses be $u_a\geq0$, and known-class masses be $z_k\geq0$. Replace the mass and
+frequency constraints by
+\[
+ \sum_k z_k=1-\eta,\quad \sum_a u_a=\eta,\quad
+ \underline q_a\leq\sum_kJ_{ak}+u_a\leq\overline q_a,
+\]
+and replace $p$ by $z$ in the channel constraints. If unknown-class contrasts
+lie in $[-D,D]$, introduce $t$ with $-D\eta\leq t\leq D\eta$ and optimize
+$d^\top z+t$. These constraints are linear. Every allowed contaminated model
+maps to these masses. Conversely, normalize nonzero known-class columns as in
+the proof above; when $\eta>0$, one unknown class with channel $u/\eta$ and
+contrast $t/\eta$ realizes the residual. At $\eta=0$, both residuals vanish.
+Thus the extension is exact for this broad contamination model. Merely widening
+an interval computed from contaminated frequencies without modifying the
+observation constraints does not establish such protection.
+
+\begin{proposition}[Calibration on a fixed heterogeneous panel]
+\label{prop:heterogeneous-panel}
+For class $k$, let $Y_{k1},\ldots,Y_{kn_k}$ be independent responses to a
+prespecified, possibly heterogeneous prompt panel. Define
+\[
+ \bar A_{ak}=\frac1{n_k}\sum_i\Pr(Y_{ki}=a),\qquad
+ \widehat A_{ak}=\frac1{n_k}\sum_i\mathbf1\{Y_{ki}=a\}.
+\]
+For $m$ categories and $K$ classes, simultaneous coordinate intervals with
+radius
+\[
+ r_k=\sqrt{\frac{\log(2mK/\alpha_A)}{2n_k}}
+\]
+cover $\bar A$ with probability at least $1-\alpha_A$. Endpoints may be clipped
+to $[0,1]$.
+\end{proposition}
+\begin{proof}
+For fixed $a,k$, the indicators are independent variables in $[0,1]$, though
+they need not have identical expectations. Hoeffding's inequality gives
+\[
+ \Pr(|\widehat A_{ak}-\bar A_{ak}|>r_k)
+ \leq 2e^{-2n_kr_k^2}=\frac{\alpha_A}{mK}.
+\]
+A union bound over all coordinates proves simultaneous coverage. Clipping to
+the probability range cannot exclude a true coordinate already covered.
+\end{proof}
+
+The result targets the fixed-panel average channel, not an arbitrary deployment
+channel. Matching prompt composition or an explicit transport bound is still
+required. Alternatively, independently sampled prompts from a prespecified
+distribution, combined with independent stable responses, support the iid
+multinomial interpretation used by the benchmark's calibration intervals.
+Refusals and errors must remain declared categories or enter a missing-data
+model. Dependence across calls or adaptive prompt selection is not covered by
+the elementary panel argument. Simulated profiles remain synthetic experimental
+inputs, irrespective of model fluency.

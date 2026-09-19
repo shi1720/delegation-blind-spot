@@ -1,0 +1,118 @@
+{
+  "design": "Exploratory follow-up to the original unresolved decision intervals.",
+  "models": {
+    "GPT-5.4 mini": {
+      "comparison": {
+        "explicit_receipt": {
+          "decisive_conditions": 3,
+          "false_decisive_conditions": 0,
+          "mean_interval_width": 0.043596980507569535,
+          "unresolved_conditions": 6
+        },
+        "field_receipt_count": 720,
+        "inference_limit": "The nominal 96% marginal interval method assumes the stated sampling design and stable channels. The exploratory follow-up selection and reuse of original field draws are not adjusted by a selective-inference procedure.",
+        "interpretation": "Counts summarize selected paired conditions, not an empirical confidence-interval coverage rate.",
+        "original_action": {
+          "decisive_conditions": 0,
+          "false_decisive_conditions": 0,
+          "mean_interval_width": 0.08720406087239173,
+          "unresolved_conditions": 9
+        },
+        "receipt_attribute_accuracy": 1.0,
+        "receipt_field_failure_rate": 0.0,
+        "resource_limit": "Equal observation counts do not equalize API cost, privacy exposure, or preference-elicitation burden.",
+        "scope": "Explicitly reporting the largest already supplied synthetic preference weight. No product-choice utility, human feedback or privacy guarantee.",
+        "selected_domain_cohort_conditions": 9
+      },
+      "execution": {
+        "attempt_events": 1200,
+        "connection_reset_failures": 0,
+        "cost": {
+          "reported_usage_estimate_usd": 0.2928,
+          "scope": "Estimate for reported token usage only; unknown billing for transport failures is excluded.",
+          "source": "https://developers.openai.com/api/docs/models/gpt-5.4-mini"
+        },
+        "distinct_supplied_preference_prompts": 12,
+        "error_types": {},
+        "failures": 0,
+        "input_sha256": {
+          "comparison.json": "61aa84c311c8357bd7a0f8aa725485c1af4934b925873c20437127522f54ff27",
+          "manifest.json": "e418aa1ee98626e595cc4f45c4e63433176428a1589ed071ef7a45c883b8f291",
+          "responses.jsonl": "26a59da160be17d6527c78163e8d397990f982e479e320e0fd7a3af42369d018",
+          "tasks.jsonl": "21feb9ccaad760a8a291dcaefdb42c2c78e06d3cb50550623ce2f0fa2f55874f"
+        },
+        "model_requested": "gpt-5.4-mini-2026-03-17",
+        "reported_usage": {
+          "cached_input_tokens": 0,
+          "input_tokens": 268000,
+          "output_tokens": 20400,
+          "total_tokens": 288400
+        },
+        "request_count": 1200,
+        "requests_without_reported_usage": 0,
+        "returned_models": {
+          "gpt-5.4-mini-2026-03-17": 1200
+        },
+        "timeout_failures": 0,
+        "valid_receipts": 1200
+      }
+    },
+    "GPT-5.4 nano": {
+      "comparison": {
+        "explicit_receipt": {
+          "decisive_conditions": 3,
+          "false_decisive_conditions": 0,
+          "mean_interval_width": 0.043596980507569535,
+          "unresolved_conditions": 6
+        },
+        "field_receipt_count": 720,
+        "inference_limit": "The nominal 96% marginal interval method assumes the stated sampling design and stable channels. The exploratory follow-up selection and reuse of original field draws are not adjusted by a selective-inference procedure.",
+        "interpretation": "Counts summarize selected paired conditions, not an empirical confidence-interval coverage rate.",
+        "original_action": {
+          "decisive_conditions": 0,
+          "false_decisive_conditions": 0,
+          "mean_interval_width": 0.08720406087239173,
+          "unresolved_conditions": 9
+        },
+        "receipt_attribute_accuracy": 1.0,
+        "receipt_field_failure_rate": 0.0,
+        "resource_limit": "Equal observation counts do not equalize API cost, privacy exposure, or preference-elicitation burden.",
+        "scope": "Explicitly reporting the largest already supplied synthetic preference weight. No product-choice utility, human feedback or privacy guarantee.",
+        "selected_domain_cohort_conditions": 9
+      },
+      "execution": {
+        "attempt_events": 1200,
+        "connection_reset_failures": 0,
+        "cost": {
+          "reported_usage_estimate_usd": 0.0791,
+          "scope": "Estimate for reported token usage only; unknown billing for transport failures is excluded.",
+          "source": "https://developers.openai.com/api/docs/models/gpt-5.4-nano"
+        },
+        "distinct_supplied_preference_prompts": 12,
+        "error_types": {},
+        "failures": 0,
+        "input_sha256": {
+          "comparison.json": "f3f546086be31aa069eb741db8ca638838cee45cb6e01e163117d85922c74042",
+          "manifest.json": "cd0ec0b40c8fcbacd1dcd74d62ec74b972de747842f5a680f59dd7bff318c46c",
+          "responses.jsonl": "b285b7ee499952ed0b585862b95c7f47994a50b9e1e347b0ebeebef4af902837",
+          "tasks.jsonl": "21feb9ccaad760a8a291dcaefdb42c2c78e06d3cb50550623ce2f0fa2f55874f"
+        },
+        "model_requested": "gpt-5.4-nano-2026-03-17",
+        "reported_usage": {
+          "cached_input_tokens": 0,
+          "input_tokens": 268000,
+          "output_tokens": 20400,
+          "total_tokens": 288400
+        },
+        "request_count": 1200,
+        "requests_without_reported_usage": 0,
+        "returned_models": {
+          "gpt-5.4-nano-2026-03-17": 1200
+        },
+        "timeout_failures": 0,
+        "valid_receipts": 1200
+      }
+    }
+  },
+  "scope": "Repeated model extraction of already supplied synthetic preference weights. No human participants, no privacy guarantee."
+}

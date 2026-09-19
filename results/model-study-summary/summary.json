@@ -1,0 +1,194 @@
+{
+  "models": {
+    "GPT-5.4 mini": {
+      "decisions": {
+        "decisive_conditions": 0,
+        "displayed_conditions": 18,
+        "false_decisive_conditions": 0,
+        "interpretation": "Descriptive counts over dependent, selected synthetic conditions. Not an estimate of confidence-interval coverage or general customer prevalence.",
+        "mean_interval_width": 0.08568743191369904,
+        "naive_wrong_sign_conditions": 2,
+        "unresolved_conditions": 18
+      },
+      "execution": {
+        "attempt_events": 2400,
+        "connection_reset_failures": 3,
+        "cost": {
+          "rate_source": "https://developers.openai.com/api/docs/models/gpt-5.4-mini",
+          "rates_usd_per_million": {
+            "cached_input_per_million": 0.075,
+            "input_per_million": 0.75,
+            "output_per_million": 4.5,
+            "source": "https://developers.openai.com/api/docs/models/gpt-5.4-mini",
+            "verified_date": "2026-09-19"
+          },
+          "reported_usage_estimate_usd": 0.890658,
+          "scope": "Estimate for reported token usage only. Transport failures may have unreported billable usage; this is not the account invoice."
+        },
+        "failure_type_limit": "Wrapped URLError causes cannot be recovered when the source record omitted the inner exception.",
+        "failure_types": {
+          "ConnectionResetError": 3,
+          "timeout": 6
+        },
+        "failures": 9,
+        "final_results": 2400,
+        "http_status_counts": {},
+        "input_sha256": {
+          "analysis.json": "09f43720420e832d7811b202b21aa51630813ab18fb9fd3df14be0d77c699287",
+          "manifest.json": "eaf6e932505a1012ac453a917a3b7d19afb3f7f2f1f71cc66e2b65aeac901411",
+          "responses.jsonl": "0aad916133cb8a83b73f3ca0363fca3b15b2fbcd1468258b1b2571736dc4094f",
+          "tasks.jsonl": "b0a835006fcf53c382e0c046ca907e8a4d0c9d2891baaf3de3d1375bb6076921"
+        },
+        "latency_seconds": {
+          "mean": 1.7877393934130668,
+          "median": 0.9638921022415161,
+          "p95": 1.4412892341613768
+        },
+        "model_requested": "gpt-5.4-mini-2026-03-17",
+        "prepared_tasks": 2400,
+        "reported_usage": {
+          "cached_input_tokens": 0,
+          "input_tokens": 857586,
+          "output_tokens": 54993,
+          "total_tokens": 912579
+        },
+        "requests_without_reported_usage": 9,
+        "returned_models": {
+          "gpt-5.4-mini-2026-03-17": 2391
+        },
+        "split_counts": {
+          "calibration": 960,
+          "field": 1440
+        },
+        "timeout_failures": 6,
+        "valid_choices": 2391
+      },
+      "performance": {
+        "all": {
+          "failure_rate": 0.003472222222222222,
+          "field_n": 1440,
+          "mean_synthetic_regret": 0.018628472222222223,
+          "mean_synthetic_utility": 0.6757149305555554,
+          "optimal_choice_rate": 0.7319444444444444
+        },
+        "cloud": {
+          "failure_rate": 0.006250000000000015,
+          "field_n": 480,
+          "mean_synthetic_regret": 0.019225000000000003,
+          "mean_synthetic_utility": 0.6755249999999999,
+          "optimal_choice_rate": 0.7375
+        },
+        "travel": {
+          "failure_rate": 0.002083333333333326,
+          "field_n": 480,
+          "mean_synthetic_regret": 0.01634270833333333,
+          "mean_synthetic_utility": 0.6801239583333333,
+          "optimal_choice_rate": 0.7395833333333334
+        },
+        "workflow": {
+          "failure_rate": 0.002083333333333326,
+          "field_n": 480,
+          "mean_synthetic_regret": 0.020317708333333337,
+          "mean_synthetic_utility": 0.6714958333333333,
+          "optimal_choice_rate": 0.71875
+        }
+      }
+    },
+    "GPT-5.4 nano": {
+      "decisions": {
+        "decisive_conditions": 0,
+        "displayed_conditions": 18,
+        "false_decisive_conditions": 0,
+        "interpretation": "Descriptive counts over dependent, selected synthetic conditions. Not an estimate of confidence-interval coverage or general customer prevalence.",
+        "mean_interval_width": 0.0869425733079254,
+        "naive_wrong_sign_conditions": 4,
+        "unresolved_conditions": 18
+      },
+      "execution": {
+        "attempt_events": 2400,
+        "connection_reset_failures": 3,
+        "cost": {
+          "rate_source": "https://developers.openai.com/api/docs/models/gpt-5.4-nano",
+          "rates_usd_per_million": {
+            "cached_input_per_million": 0.02,
+            "input_per_million": 0.2,
+            "output_per_million": 1.25,
+            "source": "https://developers.openai.com/api/docs/models/gpt-5.4-nano",
+            "verified_date": "2026-09-19"
+          },
+          "reported_usage_estimate_usd": 0.2224259,
+          "scope": "Estimate for reported token usage only. Transport failures may have unreported billable usage; this is not the account invoice."
+        },
+        "failure_type_limit": "Wrapped URLError causes cannot be recovered when the source record omitted the inner exception.",
+        "failure_types": {
+          "ConnectionResetError": 3,
+          "timeout": 5
+        },
+        "failures": 8,
+        "final_results": 2400,
+        "http_status_counts": {},
+        "input_sha256": {
+          "analysis.json": "08c78178dbfe454f5cee96b4ec638fc985bbd390527a3dfb3f51aad8240de0c7",
+          "manifest.json": "c55294f9a343f3b3770c67cd32b653e57054b886222f441cdb12a5c3a267d177",
+          "responses.jsonl": "11d06304ec6d59742ac3dc2a3cc3491bcad2bd6d1633ddd696f9217bf18bd586",
+          "tasks.jsonl": "b0a835006fcf53c382e0c046ca907e8a4d0c9d2891baaf3de3d1375bb6076921"
+        },
+        "latency_seconds": {
+          "mean": 1.6006461451450984,
+          "median": 0.9513643980026245,
+          "p95": 1.3959346652030937
+        },
+        "model_requested": "gpt-5.4-nano-2026-03-17",
+        "prepared_tasks": 2400,
+        "reported_usage": {
+          "cached_input_tokens": 0,
+          "input_tokens": 857942,
+          "output_tokens": 40670,
+          "total_tokens": 898612
+        },
+        "requests_without_reported_usage": 8,
+        "returned_models": {
+          "gpt-5.4-nano-2026-03-17": 2392
+        },
+        "split_counts": {
+          "calibration": 960,
+          "field": 1440
+        },
+        "timeout_failures": 5,
+        "valid_choices": 2392
+      },
+      "performance": {
+        "all": {
+          "failure_rate": 0.002777777777777768,
+          "field_n": 1440,
+          "mean_synthetic_regret": 0.05728125000000001,
+          "mean_synthetic_utility": 0.6370621527777778,
+          "optimal_choice_rate": 0.5569444444444445
+        },
+        "cloud": {
+          "failure_rate": 0.004166666666666652,
+          "field_n": 480,
+          "mean_synthetic_regret": 0.06189583333333334,
+          "mean_synthetic_utility": 0.6328541666666666,
+          "optimal_choice_rate": 0.5666666666666667
+        },
+        "travel": {
+          "failure_rate": 0.002083333333333326,
+          "field_n": 480,
+          "mean_synthetic_regret": 0.05947708333333333,
+          "mean_synthetic_utility": 0.6369895833333333,
+          "optimal_choice_rate": 0.5395833333333333
+        },
+        "workflow": {
+          "failure_rate": 0.002083333333333326,
+          "field_n": 480,
+          "mean_synthetic_regret": 0.05047083333333333,
+          "mean_synthetic_utility": 0.6413427083333334,
+          "optimal_choice_rate": 0.5645833333333333
+        }
+      }
+    }
+  },
+  "pricing_sha256": "002b11048454c7810693fd5c383f30177351af0dbc09c39c5381d81165748ad2",
+  "scope": "Real provider responses to synthetic profiles and synthetic utility functions. No human participants."
+}

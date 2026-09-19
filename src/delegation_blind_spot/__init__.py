@@ -1,3 +1,3 @@
-"""Reproducible pilot for learning from delegated interactions."""
+"""Research instruments for decision-specific measurement of delegated choices."""
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"

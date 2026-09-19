@@ -1,0 +1,38 @@
+{
+  "benchmark": "delegation-v2",
+  "calibration_per_class": 80,
+  "domains": [
+    "travel",
+    "cloud",
+    "workflow"
+  ],
+  "evaluation_truth_sha256": "dd396161f9bf5ea98ba60aa2651a3d286b7299ca01dc4f0c38ce5fa6b52a0f28",
+  "field_size": 160,
+  "mode": "prepared_only",
+  "model_requested": "gpt-5.4-nano-2026-03-17",
+  "outcome_audits": 2048,
+  "outcomes_sha256": "66e2eafcf924f53d97ac80be27bf2e6a5a8c50702920c457aa2ee383ffdf0b7a",
+  "policy": "direct",
+  "populations": [
+    "positive",
+    "negative",
+    "near"
+  ],
+  "python": "3.9.6",
+  "scope": "synthetic profiles and synthetic utilities; no human participants",
+  "seed": 73912,
+  "selection_policy": "all prepared records must be retained, including refusal and API failure",
+  "source_sha256": {
+    "analyze.py": "d96c4848fb7fa0dbe805798ea02f7ef7fe708e9c77166a4528f6277a6dcbcb33",
+    "benchmark.py": "b0622d24a9f8b42a9a03394c46b0e31f49635b1fe3c470cf52df5c2923073a5f",
+    "prepare.py": "ee4105f2fcb5b61c21a68fa7e3feb06f306770c56f5edea2f46deda879b5db14",
+    "run_live.py": "c5d4ccc9f953dc8f7f6bfaaad13dbbc0792db22fb437b252bae752573a92a277"
+  },
+  "task_count": 2400,
+  "tasks_sha256": "99f562193ba824d144a86e6fe864a6e9f3aaaeac023bf4d0cdb9be1add9fd0f0",
+  "uncertainty_budget": {
+    "channel": 0.02,
+    "field": 0.02,
+    "outcome": 0.01
+  }
+}

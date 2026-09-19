@@ -1,0 +1,44 @@
+{
+  "test_data_only": true,
+  "browser": "151.0.7922.34",
+  "cases": [
+    {
+      "viewport": "desktop",
+      "arm": "unaided",
+      "trial": 0,
+      "keyboard_checks_passed": true,
+      "full_export_checks_passed": true,
+      "action_export_checks_passed": true,
+      "horizontal_overflow": false
+    },
+    {
+      "viewport": "desktop",
+      "arm": "reference_aided",
+      "trial": 1,
+      "keyboard_checks_passed": true,
+      "full_export_checks_passed": true,
+      "action_export_checks_passed": true,
+      "horizontal_overflow": false
+    },
+    {
+      "viewport": "mobile",
+      "arm": "reference_aided",
+      "trial": 0,
+      "keyboard_checks_passed": true,
+      "full_export_checks_passed": true,
+      "action_export_checks_passed": true,
+      "horizontal_overflow": false
+    },
+    {
+      "viewport": "mobile",
+      "arm": "unaided",
+      "trial": 1,
+      "keyboard_checks_passed": true,
+      "full_export_checks_passed": true,
+      "action_export_checks_passed": true,
+      "horizontal_overflow": false
+    }
+  ],
+  "network_requests": [],
+  "page_errors": []
+}

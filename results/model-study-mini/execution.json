@@ -1,0 +1,12 @@
+{
+  "scope": "Real API responses to synthetic profiles; zero human participants",
+  "model_requested": "gpt-5.4-mini-2026-03-17",
+  "started_unix": 1789817318.7829618,
+  "request_sha256": "f973401cb4e6f86c67f2f46d4073eeb21f98965ea48f994e2bd3616106e86ff5",
+  "runner_sha256": "8462d34d6caa5f0549a7e7429fd0492bfa4e861b68a09e725923a9a806e894d5",
+  "workers": 12,
+  "global_requests_per_second": 8.0,
+  "automatic_retries": 0,
+  "max_total_requests": 4800,
+  "endpoint": "https://api.openai.com/v1/responses"
+}

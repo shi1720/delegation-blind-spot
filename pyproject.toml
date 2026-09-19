@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "delegation-blind-spot"
+version = "0.2.0"
+description = "Research instruments for decision-specific measurement of delegated choices"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Shivam Gupta"}]
+dependencies = ["numpy==1.26.4", "scipy==1.13.1", "matplotlib==3.9.4"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.urls]
+Repository = "https://github.com/shi1720/delegation-blind-spot"

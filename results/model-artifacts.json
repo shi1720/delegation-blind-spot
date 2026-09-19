@@ -1,0 +1,133 @@
+{
+  "scope": "Real API records with synthetic input profiles; no human participants",
+  "archives": [
+    {
+      "archive": "results/model-study-mini/tasks.jsonl.gz",
+      "uncompressed_path": "results/model-study-mini/tasks.jsonl",
+      "archive_sha256": "f8b7a79efa7110ed40b350aaab96823763c9ea3c01438d05fcaa18e6ea765d8f",
+      "uncompressed_sha256": "b0a835006fcf53c382e0c046ca907e8a4d0c9d2891baaf3de3d1375bb6076921",
+      "uncompressed_bytes": 3286837,
+      "archive_bytes": 209373
+    },
+    {
+      "archive": "results/model-study-mini/requests.jsonl.gz",
+      "uncompressed_path": "results/model-study-mini/requests.jsonl",
+      "archive_sha256": "83b53128b3824fdbe222088e4213d3b19650679e36018e4483ee63de330303e2",
+      "uncompressed_sha256": "f973401cb4e6f86c67f2f46d4073eeb21f98965ea48f994e2bd3616106e86ff5",
+      "uncompressed_bytes": 3630789,
+      "archive_bytes": 119054
+    },
+    {
+      "archive": "results/model-study-mini/controls.jsonl.gz",
+      "uncompressed_path": "results/model-study-mini/controls.jsonl",
+      "archive_sha256": "15b4b465f5356fe2bd2aa38631c8e99dcd6a77bbb64bec18cc78ee9ca3978577",
+      "uncompressed_sha256": "78b6944f8fbcc07c2eab3f216374045564499f8ad056d36c518c050319504b69",
+      "uncompressed_bytes": 861600,
+      "archive_bytes": 30727
+    },
+    {
+      "archive": "results/model-study-mini/responses.jsonl.gz",
+      "uncompressed_path": "results/model-study-mini/responses.jsonl",
+      "archive_sha256": "2f6237d35f4694577aa6243f7283a3f56a6db9c3ba1a7c43dcfb438d444073b3",
+      "uncompressed_sha256": "0aad916133cb8a83b73f3ca0363fca3b15b2fbcd1468258b1b2571736dc4094f",
+      "uncompressed_bytes": 6004103,
+      "archive_bytes": 289500
+    },
+    {
+      "archive": "results/model-study-nano/tasks.jsonl.gz",
+      "uncompressed_path": "results/model-study-nano/tasks.jsonl",
+      "archive_sha256": "f8b7a79efa7110ed40b350aaab96823763c9ea3c01438d05fcaa18e6ea765d8f",
+      "uncompressed_sha256": "b0a835006fcf53c382e0c046ca907e8a4d0c9d2891baaf3de3d1375bb6076921",
+      "uncompressed_bytes": 3286837,
+      "archive_bytes": 209373
+    },
+    {
+      "archive": "results/model-study-nano/requests.jsonl.gz",
+      "uncompressed_path": "results/model-study-nano/requests.jsonl",
+      "archive_sha256": "fd0215d24bfdccb509ce3d234eef5b1ac3e3b41ded9a6c78ff5258b49d8e96a6",
+      "uncompressed_sha256": "7975979c99b2016aba0786ba5d0366ea10e2af2f99c0ccc226574255aac0c97f",
+      "uncompressed_bytes": 3630789,
+      "archive_bytes": 119056
+    },
+    {
+      "archive": "results/model-study-nano/controls.jsonl.gz",
+      "uncompressed_path": "results/model-study-nano/controls.jsonl",
+      "archive_sha256": "15b4b465f5356fe2bd2aa38631c8e99dcd6a77bbb64bec18cc78ee9ca3978577",
+      "uncompressed_sha256": "78b6944f8fbcc07c2eab3f216374045564499f8ad056d36c518c050319504b69",
+      "uncompressed_bytes": 861600,
+      "archive_bytes": 30727
+    },
+    {
+      "archive": "results/model-study-nano/responses.jsonl.gz",
+      "uncompressed_path": "results/model-study-nano/responses.jsonl",
+      "archive_sha256": "246b233c678a81936456eadf7ea06733a9d2ccd5c749ca98b71e6937755872f4",
+      "uncompressed_sha256": "11d06304ec6d59742ac3dc2a3cc3491bcad2bd6d1633ddd696f9217bf18bd586",
+      "uncompressed_bytes": 6006295,
+      "archive_bytes": 289647
+    },
+    {
+      "archive": "results/receipt-study-mini/tasks.jsonl.gz",
+      "uncompressed_path": "results/receipt-study-mini/tasks.jsonl",
+      "archive_sha256": "db64308d463e68a1d6f7a7e1336909801a7cfe8462b64db753b0003d29854e8f",
+      "uncompressed_sha256": "21feb9ccaad760a8a291dcaefdb42c2c78e06d3cb50550623ce2f0fa2f55874f",
+      "uncompressed_bytes": 1543282,
+      "archive_bytes": 67026
+    },
+    {
+      "archive": "results/receipt-study-mini/requests.jsonl.gz",
+      "uncompressed_path": "results/receipt-study-mini/requests.jsonl",
+      "archive_sha256": "7c5fe09fc43e6064cba0022f296f795f6bedf316f338395e36583680716e6461",
+      "uncompressed_sha256": "a1d23839332e332bd1f7c6801e2329798d2cfa7e42d90569a8c89c2eba911538",
+      "uncompressed_bytes": 1552722,
+      "archive_bytes": 15643
+    },
+    {
+      "archive": "results/receipt-study-mini/responses.jsonl.gz",
+      "uncompressed_path": "results/receipt-study-mini/responses.jsonl",
+      "archive_sha256": "66003cc0b33b9956b4e5111be2afc8f4395ac520539c7f4412eaa5144ab98157",
+      "uncompressed_sha256": "26a59da160be17d6527c78163e8d397990f982e479e320e0fd7a3af42369d018",
+      "uncompressed_bytes": 3021416,
+      "archive_bytes": 143897
+    },
+    {
+      "archive": "results/receipt-study-mini/source-action-tasks.jsonl.gz",
+      "uncompressed_path": "results/receipt-study-mini/source-action-tasks.jsonl",
+      "archive_sha256": "1a80a030d9b81e01d154d463f5adeef25aecbc1c89844a7a7102a3f549254532",
+      "uncompressed_sha256": "854d4be9f4ab610f23d6e59434aea88c3f17590a32f1bb8941ba7785b1eac027",
+      "uncompressed_bytes": 1643662,
+      "archive_bytes": 105207
+    },
+    {
+      "archive": "results/receipt-study-nano/tasks.jsonl.gz",
+      "uncompressed_path": "results/receipt-study-nano/tasks.jsonl",
+      "archive_sha256": "db64308d463e68a1d6f7a7e1336909801a7cfe8462b64db753b0003d29854e8f",
+      "uncompressed_sha256": "21feb9ccaad760a8a291dcaefdb42c2c78e06d3cb50550623ce2f0fa2f55874f",
+      "uncompressed_bytes": 1543282,
+      "archive_bytes": 67026
+    },
+    {
+      "archive": "results/receipt-study-nano/requests.jsonl.gz",
+      "uncompressed_path": "results/receipt-study-nano/requests.jsonl",
+      "archive_sha256": "33fb91d25aea2b21cfaa7c28f0bc5c343413b5e38400cd15a8beb3c954f7e2e4",
+      "uncompressed_sha256": "7a46da565d85a53bb700530ff9277866af81614c50c1b5499345d0d1e013156e",
+      "uncompressed_bytes": 1552722,
+      "archive_bytes": 15643
+    },
+    {
+      "archive": "results/receipt-study-nano/responses.jsonl.gz",
+      "uncompressed_path": "results/receipt-study-nano/responses.jsonl",
+      "archive_sha256": "cbdc8a21cdc3250d3d78cde53158381a5af7300375feb551a801cd77179a5f99",
+      "uncompressed_sha256": "b285b7ee499952ed0b585862b95c7f47994a50b9e1e347b0ebeebef4af902837",
+      "uncompressed_bytes": 3021452,
+      "archive_bytes": 143792
+    },
+    {
+      "archive": "results/receipt-study-nano/source-action-tasks.jsonl.gz",
+      "uncompressed_path": "results/receipt-study-nano/source-action-tasks.jsonl",
+      "archive_sha256": "1a80a030d9b81e01d154d463f5adeef25aecbc1c89844a7a7102a3f549254532",
+      "uncompressed_sha256": "854d4be9f4ab610f23d6e59434aea88c3f17590a32f1bb8941ba7785b1eac027",
+      "uncompressed_bytes": 1643662,
+      "archive_bytes": 105207
+    }
+  ]
+}
