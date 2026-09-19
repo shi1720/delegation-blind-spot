@@ -17,4 +17,4 @@ jobs:
       - run: node study/test-instrument.cjs
       - run: node inspector/test-core.cjs
       - run: python scripts/unpack_model_artifacts.py
-      - run: python scripts/reproduce_v3_results.py --verify-only
+      - run: python scripts/reproduce_v3_results.py --verify-only --parser-atol 1e-12

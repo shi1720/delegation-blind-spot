@@ -88,3 +88,9 @@ The inspector example also matches the recorded cloud/positive/action-only inter
 - This audit does not claim that a submission was made, that a venue will accept it, or that every typesetting and upload requirement is met. Final PDF visual QA, final source snapshot, metadata, and the submission-system checks belong to the release step.
 
 No blocking numerical correction is requested for the audited drafts. Preserve the explicit synthetic scope, exploratory labels, failed-request accounting, and marginal-versus-simultaneous distinctions in the final release.
+
+## Cross-platform release-check addendum
+
+The first Linux CI run exposed a last-digit floating-point difference in the deterministic-parser summary, while source/artifact hashes and the existing tests passed. The release helper now offers an explicit `--parser-atol` option; CI uses `1e-12` absolute tolerance for finite float leaves only. The default remains exact. Counts, decisions, types, keys, list lengths and provenance remain exact, and the sweep comparison remains byte-for-byte. Every unequal float is counted and the maximum difference is printed, so tolerant equivalence is not presented as exact reproduction.
+
+The internal empirical reviewer inspected the helper and CI invocation and independently ran all six new regression tests. The review found no integrity blocker. The frozen parser and simulation source and all recorded outputs remain unchanged. This adjustment concerns portability of verification, not the experimental result or a change to its data.

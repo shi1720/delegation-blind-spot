@@ -150,7 +150,7 @@ python3 scripts/reproduce_v3_results.py --verify-only
 python3 scripts/reproduce_v3_results.py
 ```
 
-The first command verifies source, plan, archive and output hashes and reruns the deterministic parser. The second also reruns all 14,400 controlled datasets in a temporary directory and compares numerical CSV/JSON files exactly. No API is called. Figure timestamps can differ; numeric reproducibility assumes the pinned dependency and solver versions. The design was fixed before the simulation ran, but was not externally preregistered.
+The first command verifies source, plan, archive and output hashes and reruns the deterministic parser. The second also reruns all 14,400 controlled datasets in a temporary directory and compares numerical CSV/JSON files exactly. No API is called. Figure timestamps can differ. Exact numerical reproduction was verified on the recorded macOS environment. Linux can differ in the last floating-point digits even with pinned dependencies. For that platform check, use `python3 scripts/reproduce_v3_results.py --verify-only --parser-atol 1e-12`: it reports the number and maximum size of unequal float leaves while requiring exact counts, decisions, types, schema and provenance. This explicit tolerance applies only to the parser; the default remains exact and the sweep comparison remains byte-for-byte. The design was fixed before the simulation ran, but was not externally preregistered.
 
 ## Build both manuscripts
 

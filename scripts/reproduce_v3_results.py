@@ -3,12 +3,15 @@
 
 --verify-only checks stored hashes and reruns the quick parser baseline.
 The default additionally reruns all 14,400 controlled multinomial datasets.
-Numerical CSV/JSON are compared exactly; figure timestamps are not compared.
+--parser-atol explicitly permits cross-platform rounding in parser float leaves;
+it never relaxes source hashes, discrete values, or sweep byte comparisons.
+Numerical CSV/JSON are compared exactly by default; figure timestamps are not compared.
 """
 import argparse
 import gzip
 import hashlib
 import json
+import math
 from pathlib import Path
 import subprocess
 import sys
@@ -47,10 +50,42 @@ def verify():
     print('All v0.3 source, plan, output, and compressed-data hashes verified.')
 
 
+def compare_parser(actual, expected, atol=0.0, path='$'):
+    """Return absolute float differences; all non-float structure remains exact."""
+    if not math.isfinite(atol) or atol < 0:
+        raise ValueError('Parser absolute tolerance must be finite and nonnegative')
+    if type(actual) is not type(expected):
+        raise ValueError('Parser value type differs at ' + path)
+    if isinstance(expected, dict):
+        if actual.keys() != expected.keys():
+            raise ValueError('Parser keys differ at ' + path)
+        return [d for key in expected for d in compare_parser(actual[key], expected[key], atol, path + '.' + key)]
+    if isinstance(expected, list):
+        if len(actual) != len(expected):
+            raise ValueError('Parser list length differs at ' + path)
+        return [d for i, (a, e) in enumerate(zip(actual, expected))
+                for d in compare_parser(a, e, atol, path + '[' + str(i) + ']')]
+    if isinstance(expected, float):
+        if not math.isfinite(actual) or not math.isfinite(expected):
+            raise ValueError('Nonfinite parser value at ' + path)
+        difference = abs(actual - expected)
+        if difference > atol:
+            raise ValueError('Parser numerical result differs at ' + path +
+                             ': absolute difference ' + str(difference) + ' exceeds ' + str(atol))
+        return [difference] if difference else []
+    if actual != expected:
+        raise ValueError('Parser exact value differs at ' + path)
+    return []
+
+
 def main():
     cli = argparse.ArgumentParser(description=__doc__)
     cli.add_argument('--verify-only', action='store_true')
+    cli.add_argument('--parser-atol', type=float, default=0.0,
+                     help='Explicit absolute tolerance for parser float leaves only; default exact. Counts, decisions, types, keys and hashes remain exact.')
     args = cli.parse_args()
+    if not math.isfinite(args.parser_atol) or args.parser_atol < 0:
+        cli.error('--parser-atol must be finite and nonnegative')
     verify()
     with tempfile.TemporaryDirectory(prefix='delegation-v03-reproduction-') as temp:
         directory = Path(temp)
@@ -59,9 +94,14 @@ def main():
                         '--output', str(parser_output)], check=True)
         actual = json.loads(parser_output.read_text())
         expected = json.loads((ROOT / 'results/parser-baseline-v3.json').read_text())
-        if actual != expected:
-            raise ValueError('Parser result differs; check dependencies and source data')
-        print('Parser: complete exact JSON reproduction passed.')
+        differences = compare_parser(actual, expected, args.parser_atol)
+        if differences:
+            print('Parser: cross-platform numerical equivalence passed at absolute tolerance ' +
+                  str(args.parser_atol) + '; ' + str(len(differences)) +
+                  ' float leaves differ; maximum absolute difference ' + str(max(differences)) +
+                  '. Non-float values and provenance match exactly. This is not byte-exact reproduction.')
+        else:
+            print('Parser: complete exact JSON reproduction passed.')
         if args.verify_only:
             print('Full sweep not rerun (--verify-only).')
             return
