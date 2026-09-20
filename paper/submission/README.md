@@ -47,3 +47,15 @@ This package is scoped to a computational work-in-progress contribution. Interna
 See [venue-plan.md](venue-plan.md) for ranked targets, account status, overlap rules, CHI discussion points, and the arXiv source package. `chi-poster.tex` is the anonymous CHI manuscript; `build_visual_poster.py` builds the anonymous A0 poster; `web-short.tex` is the anonymous WWW alternative draft. No version is submitted merely by building it.
 
 For the visual poster, install the optional pinned build dependencies with `python3 -m pip install -r paper/submission/requirements.txt` in addition to the root numerical requirements. The builder uses system Arial when present, otherwise Matplotlib's bundled DejaVu fonts. `make arxiv-package` locally compiles the self-contained source ZIP.
+
+## MM4SciReal non-archival poster submission
+
+Submitted on 20 September 2026. The Google Form displayed: "Thank you for your submission to the MM4SciReal @ ACCV 2026 Non-archival Poster Track." No numeric submission ID was displayed. This is a workshop poster application awaiting screening, not acceptance or an archival publication. See `submission-record.json` for the artifact hashes and disclosures.
+
+Build with `make submission-mm4scireal`. The output is `output/pdf/mm4scireal.pdf`, five pages total with the body ending on page four and references continuing to page five. The published call requires the official ACCV format for work not yet accepted, although the form says no template is required. This package follows the stricter published call. The named manuscript includes author affiliation, contact information, an explicit IUI overlap statement, synthetic-data limitations and extensive AI-assistance disclosure. The full technical report was uploaded as optional supplementary material.
+
+The unmodified official ACCV template files and their upstream license notices are in `accv-template/`; provenance and hashes are recorded there. No font or margin reductions were applied. Every page was rendered and visually inspected. The build has no overfull-box or unresolved-reference warnings; a legacy byte warning from the bundled `lineno.sty` does not appear as a replacement character in the rendered PDF. Selectable text was checked for missing glyphs and em dashes. Formal PDF/UA certification was not performed.
+
+The non-archival track uses screening rather than archival peer review. The paper is submitted under the measurement/decision-making connection, with "Other" selected and no claim to evaluate multimodal models. The organizers determine relevance and available poster capacity. If accepted, presentation is in person in Osaka on 15 December 2026. Notification is scheduled for 30 October 2026. No registration fees or travel have been purchased.
+
+CPAL 2027 Recent Spotlight currently has no active submission link on its official OpenReview information page. The AI Scientists evaluation workshop currently states "Submission portal: coming soon" and would also require a stronger direct fit. Neither is submitted. No private form edit URLs or account tokens are stored here.

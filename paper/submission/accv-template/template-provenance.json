@@ -1,0 +1,15 @@
+{
+  "source": "https://accv2026.org/wp-content/uploads/2026/04/ACCV_2026_template.zip",
+  "retrieved": "2026-09-20",
+  "modifications": "None to vendored template files. mm4scireal.tex is project-authored. Optional axessibility package is not loaded because it uses a pdfTeX-only primitive incompatible with the Tectonic XeTeX engine.",
+  "license": "Upstream notices retained in each file and the supplied LICENSE/readme. Do not interpret the project MIT license as replacing upstream terms.",
+  "files_sha256": {
+    "accv.sty": "fbc48841198fabad300ebc34f0242d6126f00b0d6b5c9c7ea91fd1d8dac73632",
+    "accvabbrv.sty": "2ecc8254bdf415b2abf1376ce047cf7c2fb3c00579ca3ecc601765cb06ce5764",
+    "llncs.cls": "8152fe7afa929cbd3f3679d6f7c1d562525414ed9c5940a69e86cd923416cb2b",
+    "splncs04.bst": "564cb6156e2400e3755a58bed9caabccb3067dd37a48efcb66851a56d4475c4c",
+    "LICENSE": "21feb54a2e730422ca8054a4f91c3c54795bb6197b8a80397ca31f47ac29bb95",
+    "lncs_readme.txt": "7dbe59c722450e662ff2ffa248fb4338ea3bbcdaabc3ad6d648be7054aa062d1",
+    "lncs_history.txt": "d4779d25219ce1d022e45df45ba19e4d31a43314af4cf6099003e9794120ba00"
+  }
+}

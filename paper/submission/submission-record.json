@@ -43,5 +43,43 @@
     "portal_checked": true,
     "portal_details": "Short Papers form requires author profiles, track, abstract, PDF, acknowledgments of submission guidance and reviewer participation, and CC BY 4.0. No new submission was saved."
   },
-  "security": "No passwords, account-setup tokens, endorsement codes, or signed attachment URLs are included in this record."
+  "security": "No passwords, account-setup tokens, endorsement codes, or signed attachment URLs are included in this record.",
+  "mm4scireal": {
+    "track": "MM4SciReal @ ACCV 2026 Non-archival Poster Track",
+    "status": "Submitted; confirmation displayed",
+    "submitted_date_utc": "2026-09-20",
+    "confirmation_text": "Thank you for your submission to the MM4SciReal @ ACCV 2026 Non-archival Poster Track.",
+    "submission_id": "No submission number displayed by Google Forms",
+    "call_url": "https://mm4scireal.github.io/call-for-papers/",
+    "acceptance_status": "No decision received",
+    "notification_date": "2026-10-30",
+    "presentation": "In person, Osaka, Japan, 2026-12-15 if accepted. No registration or travel booked.",
+    "review_type": "Non-archival screening, not archival peer review; no workshop proceedings publication.",
+    "disclosure": "Abstract and manuscript disclose the substantially overlapping IUI 2027 Posters submission 5609, zero human participants, synthetic tasks and extensive AI assistance. No exclusivity or acceptance claimed.",
+    "topic": "Other: decision-specific measurement from agent observations; calibrated uncertainty and synthetic choice experiments. The paper does not evaluate multimodal models.",
+    "submitted_artifacts": [
+      {
+        "role": "Main paper",
+        "local_path": "output/pdf/mm4scireal.pdf",
+        "sha256": "2db1d1ae0a4f11260b1c2dfbe2aa3f214c356e524ad48bec9ea3299b1b8f4071"
+      },
+      {
+        "role": "Supplementary technical report",
+        "local_path": "output/pdf/delegation-blind-spot-paper.pdf",
+        "sha256": "e742e065afe3fca6496e1030939bb72e97706efb7b2395c2246abb47a7aedc65"
+      }
+    ]
+  },
+  "cpal_recent_spotlight": {
+    "status": "Not submitted; no active submission link found",
+    "checked_date": "2026-09-20",
+    "url": "https://cpal.cc/openreview/",
+    "notes": "Official OpenReview page describes the track but supplies no submission portal. Recheck availability, relevance and current policies before submitting."
+  },
+  "ai_scientists_evaluation": {
+    "status": "Not submitted; portal coming soon",
+    "checked_date": "2026-09-20",
+    "url": "https://eval-ai-scientists.github.io/aaai27/",
+    "notes": "Workshop site explicitly says Submission portal: coming soon. Direct autonomous scientific discovery evaluation is required; current paper has a weaker fit and would need substantive adaptation. Workshop affiliation has not been independently verified through an AAAI listing."
+  }
 }

@@ -1,4 +1,4 @@
-.PHONY: test paper submission submission-alternatives arxiv-package reproduce reproduce-v3
+.PHONY: test paper submission submission-alternatives submission-mm4scireal arxiv-package reproduce reproduce-v3
 
 test:
 	python3 -m unittest discover -s tests -v
@@ -29,3 +29,6 @@ submission-alternatives:
 
 arxiv-package:
 	python3 scripts/package_arxiv.py
+
+submission-mm4scireal:
+	tectonic paper/submission/accv-template/mm4scireal.tex --outdir output/pdf
