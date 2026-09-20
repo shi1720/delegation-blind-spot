@@ -1,12 +1,12 @@
 # Submission plan and live status
 
-Checked 20 September 2026. **No paper has been submitted.** Prepared files are not evidence of submission, acceptance, or peer review. The following are the three most suitable options among the verified calls, ranked by fit for the current computational scope rather than prestige alone.
+Checked 20 September 2026. **IUI 2027 Posters submission 5609 is complete in PCS.** arXiv is blocked by endorsement; CHI and WWW have not been submitted. Submission is not acceptance or completed peer review. The following are the three most suitable options among the verified calls, ranked by fit for the current computational scope rather than prestige alone.
 
 | Rank | Venue and track | Deadline (AoE) | Fit and package |
 | --- | --- | --- | --- |
 | 1 | [ACM IUI 2027 Posters](https://iui.acm.org/2027/call-for-posters-demos/) | 10 November 2026 | Best fit: an inspectable decision-support workflow with a bounded computational study. Official single-column ACM manuscript and figure description prepared. |
 | 2 | [ACM CHI 2027 Posters](https://chi2027.acm.org/authors/posters/) | 21 January 2027 | Good fit for the measurement and interface-design questions. Anonymous single-column manuscript, anonymous A0 visual poster, and discussion points prepared. No human usability claim. |
-| 3 | [The Web Conference 2027 Short Papers](https://www2027.thewebconf.org/research-track-papers/) | Abstract 9 November; paper 16 November 2026 | A more demanding alternative, focused on agentic Web users and platform measurement. Anonymous two-column draft prepared. Its short-track form and precise length requirement still require verification after login. |
+| 3 | [The Web Conference 2027 Short Papers](https://www2027.thewebconf.org/research-track-papers/) | Abstract 9 November; paper 16 November 2026 | A more demanding alternative, focused on agentic Web users and platform measurement. Anonymous two-column draft prepared. The short-track form has been inspected. No conflicting submission was saved; its exact short-paper length rule still needs clarification from the shared call. |
 
 ## Concurrent review
 
@@ -16,14 +16,15 @@ Recommended route: arXiv plus IUI as the first conference target. Reassess CHI u
 
 ## Account and portal status
 
-- PCS: one login attempt using the author's supplied credentials failed. Registration is filled with name and email; CAPTCHA completion awaits the browser-required action-time confirmation. No account or submission confirmation has been received.
-- arXiv: one supplied-credential login attempt failed. First registration page is filled, with CAPTCHA and privacy-policy acceptance awaiting action-time confirmation. No account, endorsement, upload, or article identifier exists from this workflow.
-- OpenReview: the WWW Short Papers portal is visibly open, with a submission button and November deadlines. Login explicitly accepts its Terms of Use. Action-time confirmation is pending; no login attempt or submission has been made here.
-- Credentials are not stored in this repository.
+- PCS: account setup and contact information are complete. Terms acceptance is confirmed. IUI submission 5609 contains the manuscript and visual poster and is marked complete.
+- arXiv: the registered author is signed in. The submission agreement and non-exclusive license were approved by the author and accepted. A draft was started in cs.HC, but arXiv requires an endorsement before upload. Its endorsement request was generated and emailed to the author. There is no completed submission or public article identifier.
+- OpenReview: the account is active and its institutional and Gmail addresses are confirmed. Two spelling errors in Artificial Intelligence were corrected. The WWW Short Papers form was inspected without submitting a conflicting manuscript.
+- CHI: the current PCS menu lists CHI 2027 AC Volunteering and Workshops, but not Posters. The prepared poster package cannot be submitted to that track yet.
+- Credentials, private endorsement codes and signed file URLs are not stored in this repository.
 
 ## Format and author checks
 
-The IUI and CHI paper limits are four body pages excluding references. Their templates are unmodified official `acmart`; the anonymous CHI PDF omits identifying artifact links and author metadata. The A0 poster contains no identifying name, email, or repository URL. The WWW draft uses the official `sigconf,review,anonymous` class and states Web relevance on page one. Its shared call lists an eight-page body/twelve-page total limit without clearly separating the short-paper specification; verify the short-track form before calling the draft submission-ready.
+The IUI and CHI paper limits are four body pages excluding references. Their templates are unmodified official `acmart`; the anonymous CHI PDF omits identifying artifact links and author metadata. The A0 poster contains no identifying name, email, or repository URL. The WWW draft uses the official `sigconf,review,anonymous` class and states Web relevance on page one. Its shared call lists an eight-page body/twelve-page total limit without clearly separating the short-paper specification; the inspected short-track form links back to the shared call without resolving this ambiguity. Obtain clarification before an eligible future submission.
 
 CHI requires four review-responsibility slots assigned to actual authors. Do not invent coauthors; the portal must determine whether a sole author can cover the slots. IUI and CHI require registration and presentation if accepted. WWW requires conference registration and may require an APC for an unaffiliated corresponding author. No fees have been paid or committed.
 

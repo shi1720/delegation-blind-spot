@@ -2,10 +2,10 @@
   "title": "The Delegation Blind Spot: Auditing Product Decisions from Agent Choices",
   "author_name": "Shivam Gupta",
   "contact_email": "shivam1720406@gmail.com",
-  "affiliation": null,
-  "affiliation_note": "Author must confirm institution or independent-research status; no affiliation inferred.",
+  "affiliation": "Independent Researcher",
+  "affiliation_note": "Matches the author-completed arXiv profile and saved PCS contact information.",
   "target": "IUI 2027 Posters",
-  "submission_status": "Prepared, not submitted",
+  "submission_status": "Submitted; PCS status complete",
   "abstract": "An agent's successful choice need not tell a product team which future improvement its customer would value. We present a decision-specific audit that reports compatible product-value intervals and the population mixtures attaining their endpoints. In 4,800 API requests across two pinned models and one synthetic task family, the conservative audit resolves none of 36 comparisons, despite different execution accuracy. An exploratory follow-up records supplied preferences instead of actions: it resolves three of nine comparisons per model at matched observation counts. This is extraction of known input, not discovery of human preferences. We introduce a source-labeled decision receipt and an offline diagnostic viewer, and distinguish structural ambiguity from finite-sample uncertainty through controlled channels. The contribution is a reproducible measurement workflow and interface-design question, not a new general inference method or human validation.",
   "keywords": [
     "AI delegates",
@@ -15,5 +15,8 @@
     "agent telemetry"
   ],
   "human_participants": 0,
-  "ai_disclosure": "See AI-assisted research methods paragraph; includes research design, formulation, proofs, code, analysis and writing, plus internal AI critique."
+  "ai_disclosure": "See AI-assisted research methods paragraph; includes research design, formulation, proofs, code, analysis and writing, plus internal AI critique.",
+  "submission_id": "5609",
+  "submission_date": "2026-09-20",
+  "submission_url": "https://new.precisionconference.com/iui27d/author/subs/5609"
 }

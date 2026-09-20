@@ -1,6 +1,6 @@
 # IUI 2027 Posters submission package
 
-Prepared 20 September 2026. No submission has been made.
+Submitted 20 September 2026 to IUI 2027 Posters as **submission 5609**. PCS displays **complete**. This records a completed submission, not acceptance or completed peer review. See `submission-record.json` for the saved artifacts and verification.
 
 ## Target and official requirements
 
@@ -30,7 +30,7 @@ From an extracted archive, run `tectonic paper/submission/iui-poster.tex --outdi
 
 The call's prose says submissions need not be anonymized, while its sample class includes `anonymous`. We follow that sample and retain the named public repository link, which is permitted by the non-anonymity wording. This is not a double-blind-ready package for a different venue. Confirm the actual IUI portal instructions before upload. If the portal instead requires anonymity, remove identifying links and use a genuinely anonymous artifact. Do not simply reuse this PDF for CHI or WWW.
 
-Author and contact metadata are in `submission-metadata.json` for portal entry. Affiliation is not invented; confirm the appropriate institution or independent-research status directly. The review template's stock manuscript footer is not evidence that anything was submitted. No fabricated DOI, ISBN, acceptance or external reviewer endorsement appears in the paper.
+Author and contact metadata are in `submission-metadata.json` for portal entry. The affiliation is Independent Researcher, matching the author-completed arXiv profile and saved PCS information. The review template's stock manuscript footer is not evidence that anything was submitted. No fabricated DOI, ISBN, acceptance or external reviewer endorsement appears in the paper.
 
 ## Author checks before upload
 
