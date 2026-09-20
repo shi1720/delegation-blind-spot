@@ -1,6 +1,6 @@
 # Submission plan and live status
 
-Checked 20 September 2026. **IUI 2027 Posters submission 5609 is complete in PCS.** arXiv is blocked by endorsement; CHI and WWW have not been submitted. Submission is not acceptance or completed peer review. The following are the three most suitable options among the verified calls, ranked by fit for the current computational scope rather than prestige alone.
+Checked 20 September 2026. **IUI 2027 Posters submission 5609 is complete in PCS.** arXiv has been skipped at the author's request; CHI and WWW have not been submitted. Submission is not acceptance or completed peer review. The following are the three most suitable options among the verified calls, ranked by fit for the current computational scope rather than prestige alone.
 
 | Rank | Venue and track | Deadline (AoE) | Fit and package |
 | --- | --- | --- | --- |
@@ -12,12 +12,12 @@ Checked 20 September 2026. **IUI 2027 Posters submission 5609 is complete in PCS
 
 The [ACM simultaneous-submission policy](https://www.acm.org/publications/policies/simultaneous-submissions), read on the live publisher site, normally prohibits overlapping review and requires explicit published exceptions and notification of all affected chairs. The Web Conference call explicitly excludes work under review at a peer-reviewed conference or journal with proceedings. CHI describes its poster content as non-archival and reusable, but that does not itself establish permission from every other venue for concurrent review. Do not tick an exclusivity declaration that is untrue or silently submit these versions simultaneously. Formatting changes and title changes do not make them independent studies.
 
-Recommended route: arXiv plus IUI as the first conference target. Reassess CHI using the IUI decision and the applicable overlap rules. WWW is an alternative archival target, not an additional simultaneous archival submission. No chair has granted an exception. No letters have been sent.
+Current route: retain the completed IUI submission. The author requested skipping arXiv on 20 September 2026. Reassess CHI using the IUI decision and the applicable overlap rules. WWW is an alternative archival target, not an additional simultaneous archival submission. No chair has granted an exception. No letters have been sent.
 
 ## Account and portal status
 
 - PCS: account setup and contact information are complete. Terms acceptance is confirmed. IUI submission 5609 contains the manuscript and visual poster and is marked complete.
-- arXiv: the registered author is signed in. The submission agreement and non-exclusive license were approved by the author and accepted. A draft was started in cs.HC, but arXiv requires an endorsement before upload. Its endorsement request was generated and emailed to the author. There is no completed submission or public article identifier.
+- arXiv: skipped at the author's request on 20 September 2026; no further action planned. The registered author is signed in. The submission agreement and non-exclusive license were approved by the author and accepted. A draft was started in cs.HC, but arXiv requires an endorsement before upload. Its endorsement request was generated and emailed to the author. There is no completed submission or public article identifier.
 - OpenReview: the account is active and its institutional and Gmail addresses are confirmed. Two spelling errors in Artificial Intelligence were corrected. The WWW Short Papers form was inspected without submitting a conflicting manuscript.
 - CHI: the current PCS menu lists CHI 2027 AC Volunteering and Workshops, but not Posters. The prepared poster package cannot be submitted to that track yet.
 - Credentials, private endorsement codes and signed file URLs are not stored in this repository.
