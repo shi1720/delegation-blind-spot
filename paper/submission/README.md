@@ -6,7 +6,7 @@ Prepared 20 September 2026. No submission has been made.
 
 Target: [IUI 2027 Posters and Demos](https://iui.acm.org/2027/call-for-posters-demos/), poster track. Deadline: **10 November 2026, 23:59 Anywhere on Earth**. The call permits research results and work in progress, with a maximum of **four pages excluding references**, using the ACM single-column template and CCS concepts. A draft visual poster is recommended rather than required. A demo video is a demo-track requirement, not a requirement of this poster package. Check the live call and PCS fields before uploading; accepted work requires the venue's presentation and registration arrangements.
 
-The current poster manuscript is four pages total including references. It is self-contained within its computational scope. The longer technical report is an accompanying public research artifact, not extra pages needed to understand the submitted claims.
+The current poster manuscript remains within four body pages, excluding references. It is self-contained within its computational scope. The longer technical report is an accompanying public research artifact, not extra pages needed to understand the submitted claims.
 
 ## Build and contents
 
@@ -41,3 +41,9 @@ Author and contact metadata are in `submission-metadata.json` for portal entry. 
 5. Verify the uploaded PDF preview, reference links, final title and abstract. If accepted, follow the separate camera-ready, accessibility, registration and poster instructions.
 
 This package is scoped to a computational work-in-progress contribution. Internal AI reviews are recorded for transparency and are not peer review, an acceptance prediction, or a substitute for author scrutiny.
+
+## Additional prepared materials
+
+See [venue-plan.md](venue-plan.md) for ranked targets, account status, overlap rules, CHI discussion points, and the arXiv source package. `chi-poster.tex` is the anonymous CHI manuscript; `build_visual_poster.py` builds the anonymous A0 poster; `web-short.tex` is the anonymous WWW alternative draft. No version is submitted merely by building it.
+
+For the visual poster, install the optional pinned build dependencies with `python3 -m pip install -r paper/submission/requirements.txt` in addition to the root numerical requirements. The builder uses system Arial when present, otherwise Matplotlib's bundled DejaVu fonts. `make arxiv-package` locally compiles the self-contained source ZIP.

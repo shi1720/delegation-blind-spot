@@ -26,3 +26,5 @@ output/pdf/main.pdf
 results/receipt-study-*/*.jsonl
 
 output/pdf/*.blg
+
+output/submission/arxiv-compiled-preview.pdf

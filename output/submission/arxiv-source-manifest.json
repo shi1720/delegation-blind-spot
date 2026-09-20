@@ -1,0 +1,23 @@
+{
+  "status": "Prepared, not submitted",
+  "top_level_tex": "main.tex",
+  "recommended_arxiv_processor": "pdflatex",
+  "local_validation_processor": "Tectonic (XeTeX)",
+  "note": "Preview is locally compiled. Inspect arXiv server compilation before submitting.",
+  "archive_sha256": "930f466cc71f676d52f6cc3a372cea1f961f48f9535936daa180443b3e395cc8",
+  "files": {
+    "figures/decision-intervals.pdf": "5801e9b06aa64ddf3e4e933f8e82a07c47264c050c52b5de841a26dd379d9731",
+    "figures/pilot-overview.pdf": "cdcd2cbb3c34909c59dc3824e8963b9ac9b9a81464a1ff482a37dc0428feb6bc",
+    "figures/precision-sweep.pdf": "6c794dff6a1fc895e6540817c9052588771684db6c4bb1030b7af8d667179e4e",
+    "figures/receipt-comparison.pdf": "9c54ef58572c8187a79d00c5e6a98f8663c81b76b5e698672230ce1539ccc472",
+    "figures/task-performance.pdf": "bbc88e4117ed087101ee4d084188072a22a7cc7b5525e31dae535f44f60993cc",
+    "generated/control-results.tex": "a64942c7af45800b708518e568ddc0eb7d43840669229ad0701216d25b9ac10c",
+    "generated/model-results.tex": "151ba75c4517b1b9f2e13dc802ea38b795dd1090b75ca58503c63fb076b4d455",
+    "generated/receipt-results.tex": "8593d26986e3ddcaeedab4f8bfbe5c08872a6ef55fcd8796b6e8815b86832ff1",
+    "generated/results-macros.tex": "574261c9a1212d078fa4772038db64e55af8358043cb41a1cd4abc1235bcac7e",
+    "main.bbl": "daf54546eec1241a7fd0ec11bc21d3ff40fdfb0ff045e6ed705ebcc9b0ad4a6c",
+    "main.tex": "534cff40c7e5eee7e7d5afac8359719c1f561ebd7ff7da958e6b18904f2e8d16",
+    "references.bib": "b98c45d72b0405c0732d02f1bbfe628504201de45678e1f626f4e02610ba1b87",
+    "theory-appendix.tex": "b33d7e0f8fd2eb1bfef7227f015b4af8218e0fe06c24e528057e243e3843fe91"
+  }
+}

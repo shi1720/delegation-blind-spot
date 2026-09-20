@@ -1,4 +1,4 @@
-.PHONY: test paper submission reproduce reproduce-v3
+.PHONY: test paper submission submission-alternatives arxiv-package reproduce reproduce-v3
 
 test:
 	python3 -m unittest discover -s tests -v
@@ -21,3 +21,11 @@ reproduce:
 reproduce-v3:
 	python3 scripts/unpack_model_artifacts.py
 	python3 scripts/reproduce_v3_results.py
+
+submission-alternatives:
+	tectonic paper/submission/chi-poster.tex --outdir output/pdf
+	tectonic paper/submission/web-short.tex --outdir output/pdf
+	python3 paper/submission/build_visual_poster.py
+
+arxiv-package:
+	python3 scripts/package_arxiv.py
