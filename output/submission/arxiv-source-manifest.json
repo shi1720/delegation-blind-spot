@@ -1,9 +1,9 @@
 {
-  "status": "Prepared, not submitted",
+  "status": "Submitted to arXiv on 2026-09-22, submission 8103747",
   "top_level_tex": "main.tex",
   "recommended_arxiv_processor": "pdflatex",
   "local_validation_processor": "Tectonic (XeTeX)",
-  "note": "Preview is locally compiled. Inspect arXiv server compilation before submitting.",
+  "note": "arXiv server compilation succeeded. All 15 server-generated PDF pages were inspected before submission.",
   "archive_sha256": "930f466cc71f676d52f6cc3a372cea1f961f48f9535936daa180443b3e395cc8",
   "files": {
     "figures/decision-intervals.pdf": "5801e9b06aa64ddf3e4e933f8e82a07c47264c050c52b5de841a26dd379d9731",
@@ -19,5 +19,6 @@
     "main.tex": "534cff40c7e5eee7e7d5afac8359719c1f561ebd7ff7da958e6b18904f2e8d16",
     "references.bib": "b98c45d72b0405c0732d02f1bbfe628504201de45678e1f626f4e02610ba1b87",
     "theory-appendix.tex": "b33d7e0f8fd2eb1bfef7227f015b4af8218e0fe06c24e528057e243e3843fe91"
-  }
+  },
+  "server_validation_processor": "pdflatex, TeX Live 2025"
 }
